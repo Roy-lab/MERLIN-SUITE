@@ -80,9 +80,7 @@ The overview of the study is as follows: <br><br>
 
 The **MERLIN-SUITE** pipeline consists of:
 
-1. **Install dependencies**
-   * 
-3. **Input Preparation**
+1. **Input Preparation**
    * **Expression matrix file (_expression.txt_)**: Normalized and tab-separated matrix of genename (x-axis) x cellname (y-axis) (no header; without cellname header).  The current study uses a matrix of 2100 genes x 4633 cells.
      ```text    
      Sept11	2.184866	3.061474	2.237097	1.874197 …
@@ -139,21 +137,37 @@ The **MERLIN-SUITE** pipeline consists of:
      Zscan4f	Vasp	0.00539084
      Zscan4f	Cgn	0.00269542
      ```
-4. **TFA estimation ([EstimateNCA](https://github.com/Roy-lab/EstimateNCA))**
-   * Network component Analysis (NCA(unregularized)/NCA-LASSO(regularized))
-     **  
-5. **Augmented expression construction**
+2. **TFA estimation ([EstimateNCA](https://github.com/Roy-lab/EstimateNCA))**
+
+   <img width="363" height="213" alt="image" src="https://github.com/user-attachments/assets/1b486c56-5d9d-4adb-9836-4a8bb61c4875" /> ©[Siahpirani _et al_. 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12259028/)<br>
+   
+   **Network component Analysis (NCA(unregularized)/NCA-LASSO(regularized)):** We used four different regularization parameter `λ (lambda)` that controls model regularization to infer **_P_** matrix (TFA). When `λ = 0.000`, **unregularized NCA** is applied; for positive `λ values (e.g., 0.005, 0.020, 0.100)`, **regularized NCA (NCA-LASSO)** is used.
+
+   **Usage:**
+   ```text
+   #Unregularized NCA run (λ=0.000)
+   ./NCALearner -d expression.txt -r regulators.txt -g targets.txt  -p prior.txt -l 0.000 -o results
+   #Regularized NCA run (λ=0.005)
+   ./NCALearner -d expression.txt -r regulators.txt -g targets.txt  -p prior.txt -l 0.005 -o results
+   #Regularized NCA run (λ=0.020)
+   ./NCALearner -d expression.txt -r regulators.txt -g targets.txt  -p prior.txt -l 0.020 -o results
+   #Regularized NCA run (λ=0.100)
+   ./NCALearner -d expression.txt -r regulators.txt -g targets.txt  -p prior.txt -l 0.100 -o results
+   ```   
+
+ 
+4. **Augmented expression construction**
    * Combine expression + inferred TFA
-6. **Duplication of Prior networks with TFA regulator**
+5. **Duplication of Prior networks with TFA regulator**
    * Combine Prior network with regulators + prior network with TFA regulators
-7. **GRN inference (MERLIN-P)**
+6. **GRN inference (MERLIN-P)**
     * Subsampling + aggregation
-8. **Consensus network generation**
+7. **Consensus network generation**
     * Subsampling + aggregation
     * Filtering consensus network with confidence score threshold ≥0.8
     * AUPR and F-score comparison with Gold standard networks
     * Co-clustering matrix generation to detect biologically meaningful modules
-9. **Downstream visualization analysis for regulator prioritization**
+8. **Downstream visualization analysis for regulator prioritization**
     * Zeromean expression based module visualization and regulator inference
     * MERLIN-VIZ-based cell-cluster-specific module network visualiztion and regulator inference
     * Cytoscape-based condition-specific module network visualization and regulator inference
