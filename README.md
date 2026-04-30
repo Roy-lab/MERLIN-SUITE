@@ -27,6 +27,51 @@ Traditional GRN inference relies on mRNA levels, which often poorly reflect TF a
 
 This page is associated with a bookchapter that describes the whole MERLIN-SUITE thorugh the analysis of a publicly available [single-cell multi-omics dataset (Tran _et al_. 2019)](https://www.sciencedirect.com/science/article/pii/S2211124719305297?via%3Dihub) of mouse cellular reprogramming.
 
+## Installation of MERLIN-P-TFA
+
+### Requirements
+
+* Linux/Unix environment
+* GNU Compiler Collection (GCC) ≥ 6.3.1
+* GNU Scientific Library (GSL) ≥ 2.6
+
+### Install dependencies
+
+In MERLIN-SUITE, **[MERLIN-P-TFA](https://github.com/Roy-lab/MERLIN-P-TFA)** integrates two core components:<br> 
+1. **[EstimateNCA](https://github.com/Roy-lab/EstimateNCA)**: for transcription factor activity (TFA) estimation.
+2. **[MERLIN-P](https://github.com/Roy-lab/merlin-p)**: for probabilistic GRN inference.
+
+#### Install EstimateNCA
+
+```text
+git clone https://github.com/Roy-lab/EstimateNCA.git
+cd EstimateNCA
+make
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:gsl_lib
+```
+
+#### Install MERLIN-P
+
+```text
+git clone https://github.com/Roy-lab/merlin-p.git
+cd merlin-p
+make
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:gsl_lib
+```
+
+#### Verify Installation
+
+```text
+# EstimateNCA
+./NCALearner
+
+# MERLIN-P
+./merlin
+```
+
+
+## Study Overview
+
 The overview of the study is as follows: <br><br>
 <img width="600" height="800" alt="Figure1" src="https://github.com/user-attachments/assets/4b5bb1ba-b15e-44a5-bd58-6f045258ffa5" />
 
@@ -35,7 +80,9 @@ The overview of the study is as follows: <br><br>
 
 The **MERLIN-SUITE** pipeline consists of:
 
-1. **Input Preparation**
+1. **Install dependencies**
+   * 
+3. **Input Preparation**
    * **Expression matrix file (_expression.txt_)**: Normalized and tab-separated matrix of genename (x-axis) x cellname (y-axis) (no header; without cellname header).  The current study uses a matrix of 2100 genes x 4633 cells.
      ```text    
      Sept11	2.184866	3.061474	2.237097	1.874197 …
@@ -78,7 +125,7 @@ The **MERLIN-SUITE** pipeline consists of:
      Zwint
      Zyx
      ```
-   * **Prior network (_prior.txt_):** Three-columns tab-separated file. The first column is the regulator name, the second column is the target name, and the third column is the confidence score. The prior regulatory network should be cell-type agnostic and can be derived from bulk or single-cell ATAC-seq, ChIP-seq, perturbation assays, or sequence-specific motif information. We used a previously reported mouse prior regulatory network file ([McCalla _et al_. 2023](https://academic.oup.com/g3journal/article/13/3/jkad004/6982776)) comprising 4,435,063 edges.
+   * **Prior network file (_prior.txt_):** Three-columns tab-separated file. The first column is the regulator name, the second column is the target name, and the third column is the confidence score. The prior regulatory network should be cell-type agnostic and can be derived from bulk or single-cell ATAC-seq, ChIP-seq, perturbation assays, or sequence-specific motif information. We used a previously reported mouse prior regulatory network file ([McCalla _et al_. 2023](https://academic.oup.com/g3journal/article/13/3/jkad004/6982776)) comprising 4,435,063 edges.
      ```text
      9430076C15Rik	1110020A21Rik	0.945914
      9430076C15Rik	1110032A03Rik	0.945914
@@ -92,20 +139,21 @@ The **MERLIN-SUITE** pipeline consists of:
      Zscan4f	Vasp	0.00539084
      Zscan4f	Cgn	0.00269542
      ```
-2. **TFA estimation ([EstimateNCA](https://github.com/Roy-lab/EstimateNCA))**
+4. **TFA estimation ([EstimateNCA](https://github.com/Roy-lab/EstimateNCA))**
    * Network component Analysis (NCA(unregularized)/NCA-LASSO(regularized))
-3. **Augmented expression construction**
+     **  
+5. **Augmented expression construction**
    * Combine expression + inferred TFA
-4. **Duplication of Prior networks with TFA regulator**
+6. **Duplication of Prior networks with TFA regulator**
    * Combine Prior network with regulators + prior network with TFA regulators
-5. **GRN inference (MERLIN-P)**
+7. **GRN inference (MERLIN-P)**
     * Subsampling + aggregation
-6. **Consensus network generation**
+8. **Consensus network generation**
     * Subsampling + aggregation
     * Filtering consensus network with confidence score threshold ≥0.8
     * AUPR and F-score comparison with Gold standard networks
     * Co-clustering matrix generation to detect biologically meaningful modules
-7. **Downstream visualization analysis for regulator prioritization**
+9. **Downstream visualization analysis for regulator prioritization**
     * Zeromean expression based module visualization and regulator inference
     * MERLIN-VIZ-based cell-cluster-specific module network visualiztion and regulator inference
     * Cytoscape-based condition-specific module network visualization and regulator inference
