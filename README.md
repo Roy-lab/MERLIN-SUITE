@@ -36,16 +36,62 @@ The overview of the study is as follows: <br><br>
 The **MERLIN-SUITE** pipeline consists of:
 
 1. **Input Preparation**
-   * Expression matrix (genename (x-axis) x cellname (y-axis) without cellname header)
-     ```text
-     Sept11    2.184866    3.061474
-     Sep15     2.983654    4.238418
-     Marc2     1.077569    1.325657
-     Sept7     2.711823    2.964259
-     Aars      2.094418    2.209428
+   * **Expression matrix file (_expression.txt_)**: Normalized and tab-separated matrix of genename (x-axis) x cellname (y-axis) (no header; without cellname header).  The current study uses a matrix of 2100 genes x 4633 cells.
+     ```text    
+     Sept11	2.184866	3.061474	2.237097	1.874197 …
+     Sep15	2.983654	4.238418	3.770023	3.214221 …
+     Marc2	1.077569	1.325657	0.894839	0.909119 …
+     Sept7	2.711823	2.964259	2.324860	2.874887 …
+     Aars	2.094418	2.209428	1.095949	1.113439 …
+     …
+     Zic3	0.000000	0.000000	0.000000	0.000000 …
+     Zscan10	0.000000	0.000000	0.000000	0.000000 …
+     Zwilch	0.718379	1.325657	1.000460	0.000000 …
+     Zwint	1.015942	2.072627	1.095949	1.437443 …
+     Zyx	2.983654	4.592210	2.899609	4.430498 …
      ```
-   * Regulator list
-   * Prior network
+   * **Regulator list file (_regulators.txt_):** One-column list of transcription factor (TF) regulator names. In the present study, we used an _in-house_ mouse regulator list of 2683 TF regulators. 
+     ```text
+     0610010K14Rik
+     100041979
+     1700024P04Rik
+     1700054O13Rik
+     1810007M14Rik
+     …
+     Zscan21
+     Zscan22
+     Zscan4c
+     Zswim4
+     Zzz3
+     ```
+   * **Target list file (_targets.txt_):** One-column list of target gene names. Basically, it is the first column (all gene names) of _expression.txt_ file.
+     ```text
+     Sept11
+     Sep15
+     Marc2
+     Sept7
+     Aars
+     …
+     Zic3
+     Zscan10
+     Zwilch
+     Zwint
+     Zyx
+     ```
+   * **Prior network (_prior.txt_):** Three-columns tab-separated file. The first column is the regulator name, the second column is the target name, and the third column is the confidence score. The prior regulatory network should be cell-type agnostic and can be derived from bulk or single-cell ATAC-seq, ChIP-seq, perturbation assays, or sequence-specific motif information. We used a previously reported mouse prior regulatory network file ([McCalla _et al_. 2023](https://academic.oup.com/g3journal/article/13/3/jkad004/6982776)) comprising 4,435,063 edges.
+     ```text
+     9430076C15Rik	1110020A21Rik	0.945914
+     9430076C15Rik	1110032A03Rik	0.945914
+     9430076C15Rik	1200011I18Rik	0.945914
+     9430076C15Rik	1300002E11Rik	0.945914
+     9430076C15Rik	1500002F19Rik	0.945914
+     …
+     Zscan4f	Mcm6	0.0134771
+     Zscan4f	2610002I17Rik	0.0107817
+     Zscan4f	1700058P15Rik	0.00539084
+     Zscan4f	Vasp	0.00539084
+     Zscan4f	Cgn	0.00269542
+     ```
 2. **TFA estimation ([EstimateNCA](https://github.com/Roy-lab/EstimateNCA))**
    * Network component Analysis (NCA(unregularized)/NCA-LASSO(regularized))
 3. **Augmented expression construction**
