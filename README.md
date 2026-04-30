@@ -36,7 +36,14 @@ The overview of the study is as follows: <br><br>
 The **MERLIN-SUITE** pipeline consists of:
 
 1. **Input Preparation**
-   * Expression matrix
+   * Expression matrix (genename (x-axis) x cellname (y-axis) without cellname header)
+     ```text
+     Sept11    2.184866    3.061474
+     Sep15     2.983654    4.238418
+     Marc2     1.077569    1.325657
+     Sept7     2.711823    2.964259
+     Aars      2.094418    2.209428
+     ```
    * Regulator list
    * Prior network
 2. **TFA estimation ([EstimateNCA](https://github.com/Roy-lab/EstimateNCA))**
@@ -56,4 +63,7 @@ The **MERLIN-SUITE** pipeline consists of:
     * Zeromean expression based module visualization and regulator inference
     * MERLIN-VIZ-based cell-cluster-specific module network visualiztion and regulator inference
     * Cytoscape-based condition-specific module network visualization and regulator inference
-    * Pseudobulk-based cell-cluster-specific module network visualization and functional and regulator inference 
+    * Pseudobulk-based cell-cluster-specific module network visualization and functional and regulator inference
+  
+
+
