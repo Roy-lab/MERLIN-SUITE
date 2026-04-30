@@ -30,3 +30,30 @@ This page is associated with a bookchapter that describes the whole MERLIN-SUITE
 The overview of the study is as follows: <br><br>
 <img width="600" height="800" alt="Figure1" src="https://github.com/user-attachments/assets/4b5bb1ba-b15e-44a5-bd58-6f045258ffa5" />
 
+
+## Key Idea
+
+The **MERLIN-SUITE** pipeline consists of:
+
+1. **Input Preparation**
+   * Expression matrix
+   * Regulator list
+   * Prior network
+2. **TFA estimation ([EstimateNCA](https://github.com/Roy-lab/EstimateNCA))**
+   * Network component Analysis (NCA(unregularized)/NCA-LASSO(regularized))
+3. **Augmented expression construction**
+   * Combine expression + inferred TFA
+4. **Duplication of Prior networks with TFA regulator**
+   * Combine Prior network with regulators + prior network with TFA regulators
+5. **GRN inference (MERLIN-P)**
+    * Subsampling + aggregation
+6. **Consensus network generation**
+    * Subsampling + aggregation
+    * Filtering consensus network with confidence score threshold ≥0.8
+    * AUPR and F-score comparison with Gold standard networks
+    * Co-clustering matrix generation to detect biologically meaningful modules
+7. **Downstream visualization analysis for regulator prioritization**
+    * Zeromean expression based module visualization and regulator inference
+    * MERLIN-VIZ-based cell-cluster-specific module network visualiztion and regulator inference
+    * Cytoscape-based condition-specific module network visualization and regulator inference
+    * Pseudobulk-based cell-cluster-specific module network visualization and functional and regulator inference 
