@@ -25,4 +25,8 @@ Traditional GRN inference relies on mRNA levels, which often poorly reflect TF a
 * Prior biological knowledge
 * Activity-based regulation (TFA)
 
-This page is associated with a bookchapter that describes the whole MERLIN-SUITE thorugh the analysis of a publicly available multi-omics dataset 
+This page is associated with a bookchapter that describes the whole MERLIN-SUITE thorugh the analysis of a publicly available [single-cell multi-omics dataset (Tran _et al_. 2019)](https://www.sciencedirect.com/science/article/pii/S2211124719305297?via%3Dihub) of mouse cellular reprogramming.
+
+The overview of the study is as follows: <br><br>
+<img width="600" height="800" alt="Figure1" src="https://github.com/user-attachments/assets/4b5bb1ba-b15e-44a5-bd58-6f045258ffa5" />
+
