@@ -123,7 +123,7 @@ The **MERLIN-SUITE** pipeline consists of:
      Zwint
      Zyx
      ```
-   * **Prior network file (_prior.txt_):** Three-columns tab-separated file. The first column is the regulator name, the second column is the target name, and the third column is the confidence score. The prior regulatory network should be cell-type agnostic and can be derived from bulk or single-cell ATAC-seq, ChIP-seq, perturbation assays, or sequence-specific motif information. We used a previously reported mouse prior regulatory network file ([McCalla _et al_. 2023](https://academic.oup.com/g3journal/article/13/3/jkad004/6982776)) comprising 4,435,063 edges.
+   * **Prior network file (_[prior.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/prior.txt.gz)_):** Three-columns tab-separated file. The first column is the regulator name, the second column is the target name, and the third column is the confidence score. The prior regulatory network should be cell-type agnostic and can be derived from bulk or single-cell ATAC-seq, ChIP-seq, perturbation assays, or sequence-specific motif information. We used a previously reported mouse prior regulatory network file ([McCalla _et al_. 2023](https://academic.oup.com/g3journal/article/13/3/jkad004/6982776)) comprising 4,435,063 edges.
      ```text
      9430076C15Rik	1110020A21Rik	0.945914
      9430076C15Rik	1110032A03Rik	0.945914
@@ -141,16 +141,17 @@ The **MERLIN-SUITE** pipeline consists of:
 
    <img width="363" height="213" alt="image" src="https://github.com/user-attachments/assets/1b486c56-5d9d-4adb-9836-4a8bb61c4875" /> ©[Siahpirani _et al_. 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12259028/)<br>
    
-   **Network component Analysis (NCA(unregularized)/NCA-LASSO(regularized)):** We used four different regularization parameter `λ (lambda)` that controls model regularization to infer **_P_** matrix (TFA). When `λ = 0.000`, **unregularized NCA** is applied; for positive `λ values (e.g., 0.005, 0.020, 0.100)`, **regularized NCA (NCA-LASSO)** is used.
+   **Network component Analysis (NCA(unregularized)/NCA-LASSO(regularized)):** We used four different regularization parameter `λ (lambda)` that controls model regularization to infer **_P_** matrix (TFA). When `λ = 0.000`, **unregularized NCA** is applied; for positive `λ values (e.g., 0.005, 0.020, 0.100)`, **regularized NCA (NCA-LASSO)** is used. For, every `λ values`, **EstimateNCA** was run 100 times with different random initializations (rand0–rand99) to ensure robustness of the inferred TFA profiles.
 
    **Usage:**
    ```text
    #Unregularized NCA run (λ=0.000)
-   ./NCALearner -d expression.txt -r regulators.txt -g targets.txt  -p prior.txt -l 0.000 -o results
+   ./NCALearner -d expression.txt -r regulators.txt -g targets.txt  -p prior.txt -l 0.000 -o results/Nca/Lambda_0000/RandInits/Rand_init_0
    #Regularized NCA run (λ=0.005)
-   ./NCALearner -d expression.txt -r regulators.txt -g targets.txt  -p prior.txt -l 0.005 -o results
+   ./NCALearner -d expression.txt -r regulators.txt -g targets.txt  -p prior.txt -l 0.005 -o results/Nca/Lambda_0005/RandInits/Rand_init_25
    #Regularized NCA run (λ=0.020)
-   ./NCALearner -d expression.txt -r regulators.txt -g targets.txt  -p prior.txt -l 0.020 -o results
+   ./NCALearner -d expression.txt -r regulators.txt -g targets.txt  -p prior.txt -l 0.020 -o results/Nca/Lambda_0020/RandInits/Rand_init_40
+
    #Regularized NCA run (λ=0.100)
    ./NCALearner -d expression.txt -r regulators.txt -g targets.txt  -p prior.txt -l 0.100 -o results
    ```
@@ -171,7 +172,7 @@ The **MERLIN-SUITE** pipeline consists of:
    Zfx	-0.580297	-0.35849 …
    Zic3	0.55224	0.356394 …
    ```
-   These TFA profiles of the 131 regulators were averaged across 100 random initializations (rand0 to rand99) and appended with the suffix `_nca` to distinguish TFA profiles from gene expression profiles of the same regulators. The resulting `tfa_avg_0_99.txt` (a matrix dimension of 131 TFA by 4633 cells) file looks like following:
+   These TFA profiles of the 131 regulators were averaged across 100 (rand0 to rand99) random initializations: `tfa_avg_0_99.txt` and appended with the suffix `_nca`: `tfa_avg_0_99_with_suffix.txt` to distinguish TFA profiles from gene expression profiles of the same regulators. The resulting `tfa_avg_0_99_with_suffix.txt` (a matrix dimension of 131 TFA by 4633 cells) file looks like following:
    ```text
    Alx1_nca	0.673105	-0.38819525 …
    Ar_nca	0.13416709	-0.55654479 …
@@ -189,7 +190,7 @@ The **MERLIN-SUITE** pipeline consists of:
    Notably, the `_nca` suffix can alternatively be replaced with `_TFA`, if desired.
  
 3. **Augmented expression and regulator list construction**
-   * **Combine expression + inferred TFA:** The averaged TFA profiles (`tfa_avg_0_99.txt`) were appended to the gene expression matrix to construct an augmented input for subsequent **MERLIN-P-TFA** analysis. For the analysis, the combined expression matrix of 2,231 genes (2,100 + 131) by 4,633 cells, without cell metadata, generated separately for each λ (lambda) setting. The combined gene-by-cell matrix (`net1_expression_gene_by_cell.txt`) was used as input to the **MERLIN-P** application for four different λ values. An example of the merged `gene-by-cell` expression matrix (`net1_expression_gene_by_cell.txt`) for `λ = 0.100` is shown below:
+   * **Combine expression + inferred TFA:** The averaged TFA profiles (`tfa_avg_0_99_with_suffix.txt`) were appended to the gene expression matrix to construct an augmented input for subsequent **MERLIN-P-TFA** analysis. For the analysis, the combined expression matrix of 2,231 genes (2,100 + 131) by 4,633 cells, without cell metadata, generated separately for each λ (lambda) setting. The combined gene-by-cell matrix (`net1_expression_gene_by_cell.txt`) was used as input to the **MERLIN-P** application for four different λ values. An example of the merged `gene-by-cell` expression matrix (`net1_expression_gene_by_cell.txt`) for `λ = 0.100` is shown below:
      
       ```text
       Sept11	2.184866	3.061474 …
@@ -251,7 +252,7 @@ The **MERLIN-SUITE** pipeline consists of:
    Zscan4f_nca	Cgn	0.00269542
    ```
 5. **Initial cluster assignment file**
-<br><br>**MERLIN-P** requires an initial cluster (module) assignment file (`clusterassign.txt`) corresponding to the genes in the original expression matrix (`expression.txt`; 2,100 target genes). This file provides the starting point for iterative reassignment and refinement of gene module memberships until convergence.
+<br><br>**MERLIN-P** requires an initial cluster (module) assignment file ([clusterassign.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/clusterassign.txt)) corresponding to the genes in the original expression matrix (`expression.txt`; 2,100 target genes). This file provides the starting point for iterative reassignment and refinement of gene module memberships until convergence.
 The file is formatted as a two-column table: the first column contains target gene names, and the second column contains their corresponding initial module IDs. The input cluster assignment file is shown below.
    ```text
    Sept11	1
