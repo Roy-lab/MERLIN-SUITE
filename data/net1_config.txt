@@ -1,0 +1,1 @@
+net1	/mnt/dv/wid/projects7/Roy-singlecell2/bookchapter_MERLIN_2025/marina_work/results/Nca/Lambda_0100/Merlinp_inputs/net1_net.txt	5
