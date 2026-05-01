@@ -250,6 +250,25 @@ The **MERLIN-SUITE** pipeline consists of:
    Zscan4f	Cgn	0.00269542
    Zscan4f_nca	Cgn	0.00269542
    ```
+5. **Initial cluster assignment file**
+<br><br>**MERLIN-P** requires an initial cluster (module) assignment file (`clusterassign.txt`) corresponding to the genes in the original expression matrix (`expression.txt`; 2,100 target genes). This file provides the starting point for iterative reassignment and refinement of gene module memberships until convergence.
+The file is formatted as a two-column table: the first column contains target gene names, and the second column contains their corresponding initial module IDs. The input cluster assignment file is shown below.
+   ```text
+   Sept11	1
+   Sep15	2
+   Marc2	3
+   Sept7	4
+   Aars	5
+   …
+   Zic3	2096
+   Zscan10	2097
+   Zwilch	2098
+   Zwint	2099
+   Zyx	2100
+   ```
+
+
+
 
 7. **GRN inference (MERLIN-P)**
     * Subsampling + aggregation
