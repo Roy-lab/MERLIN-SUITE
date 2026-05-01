@@ -303,12 +303,12 @@ The file is formatted as a two-column table: the first column contains target ge
    * **Output Inferred GRN**
    <br><br>**MERLIN-P** outputs regulatory edges between regulators and target genes, which are available in the [result folder](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/results/out.0). The output result folder includes a subfolder named [fold0](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/results/out.0/fold0). Inside the [fold0](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/results/out.0/fold0) subfolder, there are five files: [iter.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/out.0/fold0/iter.txt) (number of iteration performed), [last.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/out.0/fold0/last.txt), [modules.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/out.0/fold0/modules.txt) (final module assignment of genes), [pll.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/out.0/fold0/pll.txt), and the most important file is **[prediction_k300.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/out.0/fold0/prediction_k300.txt)**, which contains the inferred regulatory network. The format of the regulatory network file is similar to the input prior network, with the first column specifying the regulator, the second column the target gene, and the third column represents the regression coefficient.
 
-Example lines from the inferred regulatory network file `prediction_k300.txt` are as follows:
+   <br><br>Example lines from the inferred regulatory network file `prediction_k300.txt` are as follows:
       ```text
       Atf2_nca	1110038B12Rik	0.123109
       Id3	1110038B12Rik	0.0377104
       ```      
-Example lines from the inferred module file `modules.txt` are as follows:
+   <br><br>Example lines from the inferred module file `modules.txt` are as follows:
       ```text
       1500015O10Rik	0
       1810058I24Rik	1
