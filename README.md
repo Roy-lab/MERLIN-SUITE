@@ -151,9 +151,8 @@ The **MERLIN-SUITE** pipeline consists of:
    ./NCALearner -d expression.txt -r regulators.txt -g targets.txt  -p prior.txt -l 0.005 -o results/Nca/Lambda_0005/RandInits/Rand_init_25
    #Regularized NCA run (λ=0.020)
    ./NCALearner -d expression.txt -r regulators.txt -g targets.txt  -p prior.txt -l 0.020 -o results/Nca/Lambda_0020/RandInits/Rand_init_40
-
    #Regularized NCA run (λ=0.100)
-   ./NCALearner -d expression.txt -r regulators.txt -g targets.txt  -p prior.txt -l 0.100 -o results
+   ./NCALearner -d expression.txt -r regulators.txt -g targets.txt  -p prior.txt -l 0.100 -o results/Nca/Lambda_0100/RandInits/Rand_init_99
    ```
    
    **Output:**
