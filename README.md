@@ -157,10 +157,10 @@ The **MERLIN-SUITE** pipeline consists of:
    The description of each argument in the **EstimateNCA** run is as follows:
    <br>-**_d_** expression file (tab-separated) with no header (no cell metadata), rows for each gene.
    <br>-**_r_** list of the regulators to be used for a given target.
-   <br>-**g**__ list of the target genes. Same rows (i.e., number of genes) as expression file.
-   <br>-**p**__ prior network file (tab-separated).
-   <br>-**l**__ the regularization parameter λ (lambda) controls model regularization. When λ = 0.000, unregularized NCA is applied; for positive λ values (e.g., 0.005, 0.020, 0.100), regularized NCA (NCA-LASSO) is used.
-   <br>-**o**__ specifies the output folder for storing EstimateNCA results for each of the 100 random initializations (Rand_init = 0-99).
+   <br>-**_g_** list of the target genes. Same rows (i.e., number of genes) as expression file.
+   <br>-**_p_** prior network file (tab-separated).
+   <br>-**_l_** the regularization parameter λ (lambda) controls model regularization. When λ = 0.000, unregularized NCA is applied; for positive λ values (e.g., 0.005, 0.020, 0.100), regularized NCA (NCA-LASSO) is used.
+   <br>-**_o_** specifies the output folder for storing EstimateNCA results for each of the 100 random initializations (Rand_init = 0-99).
 
 
 
