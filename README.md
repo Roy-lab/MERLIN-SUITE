@@ -154,7 +154,17 @@ The **MERLIN-SUITE** pipeline consists of:
    #Regularized NCA run (λ=0.100)
    ./NCALearner -d expression.txt -r regulators.txt -g targets.txt  -p prior.txt -l 0.100 -o results/Nca/Lambda_0100/RandInits/Rand_init_99
    ```
-   
+   The description of each argument in the **EstimateNCA** run is as follows:
+   -d expression file (tab-separated) with no header (no cell metadata), rows for each gene.
+   -r list of the regulators to be used for a given target.
+   -g list of the target genes. Same rows (i.e., number of genes) as expression file.
+   -p prior network file (tab-separated).
+   -l the regularization parameter λ (lambda) controls model regularization. When λ = 0.000, unregularized NCA is applied; for positive λ values (e.g., 0.005, 0.020, 0.100), regularized NCA (NCA-LASSO) is used.
+   -o specifies the output folder for storing EstimateNCA results for each of the 100 random initializations (Rand_init = 0-99).
+
+
+
+
    **Output:**
 
    EstimateNCA minimizes this following objective using expression profile (**_E_** matrix of genes x cells): <img width="169" height="60" alt="image" src="https://github.com/user-attachments/assets/214fcc67-c547-4087-8d27-d368924fb754" /> and outputs two files: [adj.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Nca/Lambda_0100/RandInits/Rand_init_99/adj.txt) (**_A_** matrix of regulators x target genes) and [tfa.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Nca/Lambda_0100/RandInits/Rand_init_99/tfa.txt) (**_P_** matrix of regulators x cells). The `adj.txt` file contains the updated regulatory edges with regularized regression coefficients , while `tfa.txt` contains the inferred latent TFA profiles for a subset of regulators. In this study, 131 TFA profiles were identified and saved in `tfa.txt`. The `tfa.txt` (a matrix dimension of 131 TFA by 4633 cells without cellnames) file is as follows:
@@ -188,7 +198,7 @@ The **MERLIN-SUITE** pipeline consists of:
 
    Notably, the `_nca` suffix can alternatively be replaced with `_TFA`, if desired.
  
-3. **Augmented expression and regulator list construction**
+2. **Augmented expression and regulator list construction**
    * **Combine expression + inferred TFA:** The averaged TFA profiles (`tfa_avg_0_99_with_suffix.txt`) were appended to the gene expression matrix to construct an augmented input for subsequent **MERLIN-P-TFA** analysis. For the analysis, the combined expression matrix of 2,231 genes (2,100 + 131) by 4,633 cells, without cell metadata, generated separately for each `λ (lambda)` setting. The combined gene-by-cell matrix (`net1_expression_gene_by_cell.txt`) was used as input to the **MERLIN-P** application for four different `λ` values. An example of the merged `gene-by-cell` expression matrix ([net1_expression_gene_by_cell.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/net1_expression_with_header_gene_by_cell.txt.gz)) for `λ = 0.100` is shown below:
      
       ```text
@@ -237,7 +247,7 @@ The **MERLIN-SUITE** pipeline consists of:
       These augmented datasets (expression matrix and regulator list) were then used to infer gene regulatory networks (GRNs) using **MERLIN-P**.
    
    
-4. **Duplication of Prior networks with TFA regulator**
+3. **Duplication of Prior networks with TFA regulator**
 <br><br>Because TFA profiles were incorporated into both the input expression matrix and the regulator list, a corresponding update was also applied to the prior network file. To incorporate TFA regulators, each regulatory interaction was duplicated by appending the suffix `_nca` to the corresponding TF regulator names in the original prior network file ([prior.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/prior.txt.gz); containing 4,435,063 edges), used for the **EstimateNCA** application. This expansion resulted in a final prior network file (`net1_net.txt`) containing 8,870,126 edges, which was used as input for the **MERLIN-P** run.
    ```text
    9430076C15Rik	1110020A21Rik	0.945914
@@ -250,7 +260,7 @@ The **MERLIN-SUITE** pipeline consists of:
    Zscan4f	Cgn	0.00269542
    Zscan4f_nca	Cgn	0.00269542
    ```
-5. **Initial cluster assignment file**
+4. **Initial cluster assignment file**
 <br><br>**MERLIN-P** requires an initial cluster (module) assignment file ([clusterassign.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/clusterassign.txt)) corresponding to the genes in the original expression matrix (`expression.txt`; 2,100 target genes). This file provides the starting point for iterative reassignment and refinement of gene module memberships until convergence.
 The file is formatted as a two-column table: the first column contains target gene names, and the second column contains their corresponding initial module IDs. The input cluster assignment file is shown below.
    ```text
@@ -267,14 +277,18 @@ The file is formatted as a two-column table: the first column contains target ge
    Zyx	2100
    ```
 
-7. **GRN inference (MERLIN-P)**
+5. **MERLIN-P configuration file**
+   MERLIN-P requires a configuration file ([net1_config.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/net1_config.txt)) which is a three-column, tab-delimited file in which each row corresponds to a prior network. The first column specifies the network name, the second column provides the file path to the prior network, and the third column indicates the network confidence, where higher values confer greater influence of the prior during model inference.
+6. **GRN inference (MERLIN-P)**
     * Subsampling + aggregation
-8. **Consensus network generation**
+      To reduce computational burden and enable consensus confidence-based GRN inference, we subsampled the expression matrix ([net1_expression.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/net1_expression.txt.gz)) by randomly partitioning the full dataset (4,633 cells) into half-sized (50%) subsets of 2,317 cells. This subsampling procedure was repeated 50 times using independent random partitions. Each subsample directory (Subsamples_n2317) contains 50 index files (`dataindices0.txt–dataindices49.txt`) specifying the selected cells, along with the corresponding subsampled expression matrices of 2,231 genes and TFAs (`dataset0.txt–dataset49.txt`). A summary of all subsampled datasets is provided in subsample_n2317_list.txt.
+
+7. **Consensus network generation**
     * Subsampling + aggregation
     * Filtering consensus network with confidence score threshold ≥0.8
     * AUPR and F-score comparison with Gold standard networks
     * Co-clustering matrix generation to detect biologically meaningful modules
-9. **Downstream visualization analysis for regulator prioritization**
+10. **Downstream visualization analysis for regulator prioritization**
     * Zeromean expression based module visualization and regulator inference
     * MERLIN-VIZ-based cell-cluster-specific module network visualiztion and regulator inference
     * Cytoscape-based condition-specific module network visualization and regulator inference
