@@ -280,11 +280,54 @@ The file is formatted as a two-column table: the first column contains target ge
 5. **MERLIN-P configuration file**
 <br><br>**MERLIN-P** requires a configuration file ([net1_config.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/net1_config.txt)) which is a three-column, tab-delimited file in which each row corresponds to a prior network. The first column specifies the network name, the second column provides the file path to the prior network, and the third column indicates the network confidence, where higher values confer greater influence of the prior during model inference.
 6. **GRN inference (MERLIN-P)**
-   * **Subsampling + aggregation**
-   To reduce computational burden and enable consensus confidence-based GRN inference, we subsampled the expression matrix ([net1_expression.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/net1_expression.txt.gz)) by randomly partitioning the full dataset (4,633 cells) into half-sized (50%) subsets of 2,317 cells. This subsampling procedure was repeated 50 times using independent random partitions. Each subsample directory ([Subsamples_n2317](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/data/Subsamples_n2317)) contains 50 index files ([dataindices0.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/Subsamples_n2317/dataindices0.txt)–dataindices49.txt) specifying the selected cells, along with the corresponding subsampled expression matrices of 2,231 genes and TFAs ([dataset0.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/Subsamples_n2317/dataset0.txt.gz)–dataset49.txt). A summary of all subsampled datasets is provided in [subsample_n2317_list.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/subsample_n2317_list.txt).
+   * **Subsampling**
+   <br><br>To reduce computational burden and enable consensus confidence-based GRN inference, we subsampled the expression matrix ([net1_expression.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/net1_expression.txt.gz)) by randomly partitioning the full dataset (4,633 cells) into half-sized (50%) subsets of 2,317 cells. This subsampling procedure was repeated 50 times using independent random partitions. Each subsample directory ([Subsamples_n2317](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/data/Subsamples_n2317)) contains 50 index files ([dataindices0.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/Subsamples_n2317/dataindices0.txt)–dataindices49.txt) specifying the selected cells, along with the corresponding subsampled expression matrices of 2,231 genes and TFAs ([dataset0.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/Subsamples_n2317/dataset0.txt.gz)–dataset49.txt). A summary of all subsampled datasets is provided in [subsample_n2317_list.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/subsample_n2317_list.txt).
+
+   * **MERLIN-P run**
+   <br><br>Based on the generated subsamples, MERLIN-P was executed independently for each subsample. In this study, a total of 20 subsamples were analyzed. An example command for one such run (for dataset0 subsample setting) is shown below:
+      ```text
+      ./merlin -d Subsamples_n2317/dataset0.txt -l net1_transcription_factors.tsv -q net1_config.txt -c clusterassign.txt -o results/out.0/
+      ```
+      The description of each argument in the **MERLIN-P** run is as follows:
+   <br>-**_d_** expression file, subsampled or original.
+   <br>-**_l_** list of regulators including TFA regulators.
+   <br>-**_q_** configuration file containing prior network information.
+   <br>-**_c_** initial cluster (module) assignment file.
+   <br>-**_o_** output folder location.
+
+      **MERLIN-P** can also be run on the original dataset without subsampling; however, this approach is computationally more expensive and time-intensive. An example command for running **MERLIN-P** on the full dataset is provided below:
+      ```text
+      ./merlin -d net1_expression.txt -l net1_transcription_factors.tsv -q net1_config.txt -c clusterassign.txt -o out_dir/
+      ```
+
+   * **Output Inferred GRN**
+   <br><br>**MERLIN-P** outputs regulatory edges between regulators and target genes, which are available in the [result folder](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/results/out.0). The output result folder includes a subfolder named [fold0](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/results/out.0/fold0). Inside the [fold0](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/results/out.0/fold0) subfolder, there are five files: [iter.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/out.0/fold0/iter.txt) (number of iteration performed), [last.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/out.0/fold0/last.txt), [modules.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/out.0/fold0/modules.txt) (final module assignment of genes), [pll.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/out.0/fold0/pll.txt), and the most important file is **[prediction_k300.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/out.0/fold0/prediction_k300.txt)**, which contains the inferred regulatory network. The format of the regulatory network file is similar to the input prior network, with the first column specifying the regulator, the second column the target gene, and the third column represents the regression coefficient.
+
+Example lines from the inferred regulatory network file `prediction_k300.txt` are as follows:
+      ```text
+      Atf2_nca	1110038B12Rik	0.123109
+      Id3	1110038B12Rik	0.0377104
+      ```      
+Example lines from the inferred module file `modules.txt` are as follows:
+      ```text
+      1500015O10Rik	0
+      1810058I24Rik	1
+      2310022B05Rik	2
+      2410015M20Rik	3
+      2810004N23Rik	4
+      9530068E07Rik	5
+      Aatf	6
+      …
+      Tk1	1132
+      Top2a	1132
+      Tpx2	1132
+      Ube2c	1132
+      Klf6	1133
+      Vasp	1133
+      ```    
+
 
 7. **Consensus network generation**
-    * Subsampling + aggregation
     * Filtering consensus network with confidence score threshold ≥0.8
     * AUPR and F-score comparison with Gold standard networks
     * Co-clustering matrix generation to detect biologically meaningful modules
