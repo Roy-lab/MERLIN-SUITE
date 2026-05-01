@@ -154,13 +154,13 @@ The **MERLIN-SUITE** pipeline consists of:
    #Regularized NCA run (λ=0.100)
    ./NCALearner -d expression.txt -r regulators.txt -g targets.txt  -p prior.txt -l 0.100 -o results/Nca/Lambda_0100/RandInits/Rand_init_99
    ```
-   The description of each argument in the **EstimateNCA** run is as follows:<br>
-   <br>   -**_d_** expression file (tab-separated) with no header (no cell metadata), rows for each gene.
-   <br>   -**_r_** list of the regulators to be used for a given target.
-   <br>   -**_g_** list of the target genes. Same rows (i.e., number of genes) as expression file.
-   <br>   -**_p_** prior network file (tab-separated).
-   <br>   -**_l_** the regularization parameter λ (lambda) controls model regularization. When λ = 0.000, unregularized NCA is applied; for positive λ values (e.g., 0.005, 0.020, 0.100), regularized NCA (NCA-LASSO) is used.
-   <br>   -**_o_** specifies the output folder for storing EstimateNCA results for each of the 100 random initializations (Rand_init = 0-99).
+   The description of each argument in the **EstimateNCA** run is as follows:
+   <br>-**_d_** expression file (tab-separated) with no header (no cell metadata), rows for each gene.
+   <br>-**_r_** list of the regulators to be used for a given target.
+   <br>-**_g_** list of the target genes. Same rows (i.e., number of genes) as expression file.
+   <br>-**_p_** prior network file (tab-separated).
+   <br>-**_l_** the regularization parameter `λ (lambda)` controls model regularization. When `λ = 0.000`, **unregularized NCA** is applied; for positive `λ values (e.g., 0.005, 0.020, 0.100)`, **regularized NCA (NCA-LASSO)** is used.
+   <br>-**_o_** specifies the output folder for storing EstimateNCA results for each of the 100 random initializations (Rand_init = 0-99).
 
 
 
@@ -281,7 +281,7 @@ The file is formatted as a two-column table: the first column contains target ge
    MERLIN-P requires a configuration file ([net1_config.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/net1_config.txt)) which is a three-column, tab-delimited file in which each row corresponds to a prior network. The first column specifies the network name, the second column provides the file path to the prior network, and the third column indicates the network confidence, where higher values confer greater influence of the prior during model inference.
 6. **GRN inference (MERLIN-P)**
     * Subsampling + aggregation
-      To reduce computational burden and enable consensus confidence-based GRN inference, we subsampled the expression matrix ([net1_expression.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/net1_expression.txt.gz)) by randomly partitioning the full dataset (4,633 cells) into half-sized (50%) subsets of 2,317 cells. This subsampling procedure was repeated 50 times using independent random partitions. Each subsample directory (Subsamples_n2317) contains 50 index files (`dataindices0.txt–dataindices49.txt`) specifying the selected cells, along with the corresponding subsampled expression matrices of 2,231 genes and TFAs (`dataset0.txt–dataset49.txt`). A summary of all subsampled datasets is provided in subsample_n2317_list.txt.
+      To reduce computational burden and enable consensus confidence-based GRN inference, we subsampled the expression matrix ([net1_expression.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/net1_expression.txt.gz)) by randomly partitioning the full dataset (4,633 cells) into half-sized (50%) subsets of 2,317 cells. This subsampling procedure was repeated 50 times using independent random partitions. Each subsample directory ([Subsamples_n2317](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/data/Subsamples_n2317)) contains 50 index files ([dataindices0.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/Subsamples_n2317/dataindices0.txt)–dataindices49.txt) specifying the selected cells, along with the corresponding subsampled expression matrices of 2,231 genes and TFAs ([dataset0.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/Subsamples_n2317/dataset0.txt.gz)–dataset49.txt). A summary of all subsampled datasets is provided in [subsample_n2317_list.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/subsample_n2317_list.txt).
 
 7. **Consensus network generation**
     * Subsampling + aggregation
