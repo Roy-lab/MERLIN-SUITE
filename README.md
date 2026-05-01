@@ -157,7 +157,7 @@ The **MERLIN-SUITE** pipeline consists of:
    
    **Output:**
 
-   EstimateNCA minimizes this following objective using expression profile (**_E_** matrix of genes x cells): <img width="169" height="60" alt="image" src="https://github.com/user-attachments/assets/214fcc67-c547-4087-8d27-d368924fb754" /> and outputs two files: `adj.txt` (**_A_** matrix of regulators x target genes) and `tfa.txt` (**_P_** matrix of regulators x cells). The `adj.txt` file contains the updated regulatory edges with regularized regression coefficients , while `tfa.txt` contains the inferred latent TFA profiles for a subset of regulators. In this study, 131 TFA profiles were identified and saved in `tfa.txt`. The `tfa.txt` (a matrix dimension of 131 TFA by 4633 cells without cellnames) file is as follows:
+   EstimateNCA minimizes this following objective using expression profile (**_E_** matrix of genes x cells): <img width="169" height="60" alt="image" src="https://github.com/user-attachments/assets/214fcc67-c547-4087-8d27-d368924fb754" /> and outputs two files: [adj.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Nca/Lambda_0100/RandInits/Rand_init_99/adj.txt) (**_A_** matrix of regulators x target genes) and [tfa.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Nca/Lambda_0100/RandInits/Rand_init_99/tfa.txt) (**_P_** matrix of regulators x cells). The `adj.txt` file contains the updated regulatory edges with regularized regression coefficients , while `tfa.txt` contains the inferred latent TFA profiles for a subset of regulators. In this study, 131 TFA profiles were identified and saved in `tfa.txt`. The `tfa.txt` (a matrix dimension of 131 TFA by 4633 cells without cellnames) file is as follows:
    ```text
    Alx1	0.570941	-0.83527 …
    Ar	0.837172	0.159607 …
@@ -171,7 +171,7 @@ The **MERLIN-SUITE** pipeline consists of:
    Zfx	-0.580297	-0.35849 …
    Zic3	0.55224	0.356394 …
    ```
-   These TFA profiles of the 131 regulators were averaged across 100 (rand0 to rand99) random initializations: `tfa_avg_0_99.txt` and appended with the suffix `_nca`: `tfa_avg_0_99_with_suffix.txt` to distinguish TFA profiles from gene expression profiles of the same regulators. The resulting `tfa_avg_0_99_with_suffix.txt` (a matrix dimension of 131 TFA by 4633 cells) file looks like following:
+   These TFA profiles of the 131 regulators were averaged across 100 (rand0 to rand99) random initializations: [tfa_avg_0_99.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Nca/Lambda_0100/Tfa_files_avg/tfa_avg_0_99.txt) and appended with the suffix `_nca`: [tfa_avg_0_99_with_suffix.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Nca/Lambda_0100/Tfa_files_avg/tfa_avg_0_99_with_suffix.txt) to distinguish TFA profiles from gene expression profiles of the same regulators. The resulting `tfa_avg_0_99_with_suffix.txt` (a matrix dimension of 131 TFA by 4633 cells) file looks like following:
    ```text
    Alx1_nca	0.673105	-0.38819525 …
    Ar_nca	0.13416709	-0.55654479 …
@@ -189,7 +189,7 @@ The **MERLIN-SUITE** pipeline consists of:
    Notably, the `_nca` suffix can alternatively be replaced with `_TFA`, if desired.
  
 3. **Augmented expression and regulator list construction**
-   * **Combine expression + inferred TFA:** The averaged TFA profiles (`tfa_avg_0_99_with_suffix.txt`) were appended to the gene expression matrix to construct an augmented input for subsequent **MERLIN-P-TFA** analysis. For the analysis, the combined expression matrix of 2,231 genes (2,100 + 131) by 4,633 cells, without cell metadata, generated separately for each λ (lambda) setting. The combined gene-by-cell matrix (`net1_expression_gene_by_cell.txt`) was used as input to the **MERLIN-P** application for four different λ values. An example of the merged `gene-by-cell` expression matrix (`net1_expression_gene_by_cell.txt`) for `λ = 0.100` is shown below:
+   * **Combine expression + inferred TFA:** The averaged TFA profiles (`tfa_avg_0_99_with_suffix.txt`) were appended to the gene expression matrix to construct an augmented input for subsequent **MERLIN-P-TFA** analysis. For the analysis, the combined expression matrix of 2,231 genes (2,100 + 131) by 4,633 cells, without cell metadata, generated separately for each `λ (lambda)` setting. The combined gene-by-cell matrix (`net1_expression_gene_by_cell.txt`) was used as input to the **MERLIN-P** application for four different `λ` values. An example of the merged `gene-by-cell` expression matrix ([net1_expression_gene_by_cell.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/net1_expression_with_header_gene_by_cell.txt.gz)) for `λ = 0.100` is shown below:
      
       ```text
       Sept11	2.184866	3.061474 …
@@ -204,7 +204,7 @@ The **MERLIN-SUITE** pipeline consists of:
       Zfx_nca	-0.3895989	-0.380896417 …
       Zic3_nca	0.50783874	-0.148036293 …
       ```
-      Since, **MERLIN-P** considers the input to be in the `cell-by-gene` format without cell meta information, therefore, the final version of input expression matrix  (`net1_expression.txt`) looks like as follows:
+      Since, **MERLIN-P** considers the input to be in the `cell-by-gene` format without cell meta information, therefore, the final version of input expression matrix  ([net1_expression.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/net1_expression.txt.gz)) looks like as follows:
       ```text
       Sept11	Sep15	Marc2 …
       2.184866	2.983654	1.077569 …
@@ -219,7 +219,7 @@ The **MERLIN-SUITE** pipeline consists of:
       0.000000	2.188965	0.000000 …
       ```
    
-   * **Combine regulator list + inferred TFA:** In parallel, the list of candidate regulators (2683 TF regulators) was updated to include transcription factors corresponding to the inferred TFA profiles (131 TFA genes). The updated regulators (2683 + 131 = 2814 entries) list file (`net1_transcription_factors.tsv`) looks like,
+   * **Combine regulator list + inferred TFA:** In parallel, the list of candidate regulators (2683 TF regulators) was updated to include transcription factors corresponding to the inferred TFA profiles (131 TFA genes). The updated regulators (2683 + 131 = 2814 entries) list file ([net1_transcription_factors.tsv](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/net1_transcription_factors.tsv)) looks like,
       ```text
       0610010K14Rik
       100041979
@@ -238,7 +238,7 @@ The **MERLIN-SUITE** pipeline consists of:
    
    
 4. **Duplication of Prior networks with TFA regulator**
-<br><br>Because TFA profiles were incorporated into both the input expression matrix and the regulator list, a corresponding update was also applied to the prior network file. To incorporate TFA regulators, each regulatory interaction was duplicated by appending the suffix `_nca` to the corresponding TF regulator names in the original prior network file (`prior.txt`; containing 4,435,063 edges), used for the **EstimateNCA** application. This expansion resulted in a final prior network file (`net1_net.txt`) containing 8,870,126 edges, which was used as input for the **MERLIN-P** run.
+<br><br>Because TFA profiles were incorporated into both the input expression matrix and the regulator list, a corresponding update was also applied to the prior network file. To incorporate TFA regulators, each regulatory interaction was duplicated by appending the suffix `_nca` to the corresponding TF regulator names in the original prior network file ([prior.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/prior.txt.gz); containing 4,435,063 edges), used for the **EstimateNCA** application. This expansion resulted in a final prior network file (`net1_net.txt`) containing 8,870,126 edges, which was used as input for the **MERLIN-P** run.
    ```text
    9430076C15Rik	1110020A21Rik	0.945914
    9430076C15Rik_nca	1110020A21Rik	0.945914
@@ -266,9 +266,6 @@ The file is formatted as a two-column table: the first column contains target ge
    Zwint	2099
    Zyx	2100
    ```
-
-
-
 
 7. **GRN inference (MERLIN-P)**
     * Subsampling + aggregation
