@@ -81,7 +81,7 @@ The overview of the study is as follows: <br><br>
 The **MERLIN-SUITE** pipeline consists of:
 
 1. **Input Preparation**
-   * **Expression matrix file (_expression.txt_)**: Normalized and tab-separated matrix of genename (x-axis) x cellname (y-axis) (no header; without cellname header).  The current study uses a matrix of 2100 genes x 4633 cells.
+   * **Expression matrix file (_[expression.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/expression.txt.gz)_)**: Normalized and tab-separated matrix of genename (x-axis) x cellname (y-axis) (no header; without cellname header).  The current study uses a matrix of 2100 genes x 4633 cells.
      ```text    
      Sept11	2.184866	3.061474	2.237097	1.874197 …
      Sep15	2.983654	4.238418	3.770023	3.214221 …
@@ -95,7 +95,7 @@ The **MERLIN-SUITE** pipeline consists of:
      Zwint	1.015942	2.072627	1.095949	1.437443 …
      Zyx	2.983654	4.592210	2.899609	4.430498 …
      ```
-   * **Regulator list file (_regulators.txt_):** One-column list of transcription factor (TF) regulator names. In the present study, we used an _in-house_ mouse regulator list of 2683 TF regulators. 
+   * **Regulator list file (_[regulators.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/regulators.txt)_):** One-column list of transcription factor (TF) regulator names. In the present study, we used an _in-house_ mouse regulator list of 2683 TF regulators. 
      ```text
      0610010K14Rik
      100041979
@@ -109,7 +109,7 @@ The **MERLIN-SUITE** pipeline consists of:
      Zswim4
      Zzz3
      ```
-   * **Target list file (_targets.txt_):** One-column list of target gene names. Basically, it is the first column (all gene names) of _expression.txt_ file.
+   * **Target list file (_[targets.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/targets.txt)_):** One-column list of target gene names. Basically, it is the first column (all gene names) of _expression.txt_ file.
      ```text
      Sept11
      Sep15
