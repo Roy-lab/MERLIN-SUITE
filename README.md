@@ -234,7 +234,7 @@ The **MERLIN-SUITE** pipeline consists of:
       Zic3_nca
       ```
 
-   This augmented datasets (expression matrix and regulator list) were then used to infer gene regulatory networks (GRNs) using **MERLIN-P**.
+      This augmented datasets (expression matrix and regulator list) were then used to infer gene regulatory networks (GRNs) using **MERLIN-P**.
    
    
 6. **Duplication of Prior networks with TFA regulator**
