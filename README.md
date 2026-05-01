@@ -234,11 +234,23 @@ The **MERLIN-SUITE** pipeline consists of:
       Zic3_nca
       ```
 
-      This augmented datasets (expression matrix and regulator list) were then used to infer gene regulatory networks (GRNs) using **MERLIN-P**.
+      These augmented datasets (expression matrix and regulator list) were then used to infer gene regulatory networks (GRNs) using **MERLIN-P**.
    
    
-6. **Duplication of Prior networks with TFA regulator**
-   * Combine Prior network with regulators + prior network with TFA regulators
+4. **Duplication of Prior networks with TFA regulator**
+<br><br>Because TFA profiles were incorporated into both the input expression matrix and the regulator list, a corresponding update was also applied to the prior network file. To incorporate TFA regulators, each regulatory interaction was duplicated by appending the suffix `_nca` to the corresponding TF regulator names in the original prior network file (`prior.txt`; containing 4,435,063 edges), used for the **EstimateNCA** application. This expansion resulted in a final prior network file (`net1_net.txt`) containing 8,870,126 edges, which was used as input for the **MERLIN-P** run.
+   ```text
+   9430076C15Rik	1110020A21Rik	0.945914
+   9430076C15Rik_nca	1110020A21Rik	0.945914
+   9430076C15Rik	1110032A03Rik	0.945914
+   9430076C15Rik_nca	1110032A03Rik	0.945914
+   …
+   Zscan4f	Vasp	0.00539084
+   Zscan4f_nca	Vasp	0.00539084
+   Zscan4f	Cgn	0.00269542
+   Zscan4f_nca	Cgn	0.00269542
+   ```
+
 7. **GRN inference (MERLIN-P)**
     * Subsampling + aggregation
 8. **Consensus network generation**
