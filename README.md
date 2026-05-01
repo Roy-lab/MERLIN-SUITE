@@ -188,9 +188,9 @@ The **MERLIN-SUITE** pipeline consists of:
 
    Notably, the `_nca` suffix can alternatively be replaced with `_TFA`, if desired.
  
-4. **Augmented expression and regulator list construction**
-   <br>
+3. **Augmented expression and regulator list construction**
    * **Combine expression + inferred TFA:** The averaged TFA profiles (`tfa_avg_0_99.txt`) were appended to the gene expression matrix to construct an augmented input for subsequent **MERLIN-P-TFA** analysis. For the analysis, the combined expression matrix of 2,231 genes (2,100 + 131) by 4,633 cells, without cell metadata, generated separately for each λ (lambda) setting. The combined gene-by-cell matrix (`net1_expression_gene_by_cell.txt`) was used as input to the **MERLIN-P** application for four different λ values. An example of the merged `gene-by-cell` expression matrix (`net1_expression_gene_by_cell.txt`) for `λ = 0.100` is shown below:
+     
    ```text
    Sept11	2.184866	3.061474 …
    Sep15	2.983654	4.238418 …
@@ -217,7 +217,8 @@ The **MERLIN-SUITE** pipeline consists of:
    2.965649	0.000000	0.000000 …
    0.000000	2.157659	0.000000 …
    0.000000	2.188965	0.000000 …
-   ```   
+   ```
+   
    * **Combine regulator list + inferred TFA:** In parallel, the list of candidate regulators (2683 TF regulators) was updated to include transcription factors corresponding to the inferred TFA profiles (131 TFA genes). The updated regulators (2683 + 131 = 2814 entries) list file (`net1_transcription_factors.tsv`) looks like,
    ```text
    0610010K14Rik
