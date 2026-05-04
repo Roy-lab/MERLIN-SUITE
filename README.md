@@ -329,8 +329,40 @@ The file is formatted as a two-column table: the first column contains target ge
 
 7. **Consensus network generation**
     * Filtering consensus network with confidence score threshold ≥0.8
-    * AUPR and F-score comparison with Gold standard networks
+      <br><br>Since **MERLIN-P** was run on 20 subsamples, we generated consensus networks across all subsamples and filtered edges using an **80% confidence threshold**, retaining only those edges that appeared in at least 16 out of 20 subsamples.
+      For this [estimateedgeconf package from merlin-auxillary tool](https://github.com/Roy-lab/merlin-auxillary) was used, which is as follows:
+      ```text
+      ## Syntax: estimateEdgeConf <filenamelist> <confidence> <outputfile> <filterededges|alledges>
+      e.g., for λ = 0.100, estimateEdgeConf results/network_files.txt 0 n20_subsamples_lambda_0100_ alledges
+      ```
+      **Output files:**
+      <br>λ = 0.000: [n20_subsamples_lambda_0000_alledge.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/n20_subsamples_lambda_0000_alledge.txt)
+      <br>λ = 0.005: [n20_subsamples_lambda_0005_alledge.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/n20_subsamples_lambda_0005_alledge.txt)
+      <br>λ = 0.020: [n20_subsamples_lambda_0020_alledge.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/n20_subsamples_lambda_0020_alledge.txt)
+      <br>λ = 0.100: [n20_subsamples_lambda_0100_alledge.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/n20_subsamples_lambda_0100_alledge.txt)
+
+      Now, selecting the edges with confidence >= 0.8 from the consensus network
+      ```text
+      awk -F "\t" '{if ($3 >= 0.8) { print $0; }}' OFS="\t" n20_subsamples_lambda_0100_alledge.txt > n20_subsamples_lambda_0100_0_8.txt
+      ## Sort the aforementioned edges in descending order of their confidence values:
+      ## -k3 = sort by column 3 as key.
+      ## -g = compare acc. to general numeric value.
+      ## -r = reverse order i.e. desc (by default, asc).
+      sort -gr -k3 n20_subsamples_lambda_0100_0_8.txt > n20_subsamples_lambda_0100_0_8_sorted.txt
+      ```
+
+      **Output files for consensus networks with confidence score threshold ≥0.8:**
+      <br>λ = 0.000: [n20_subsamples_lambda_0000_alledge.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/n20_subsamples_lambda_0000_alledge.txt)
+      <br>λ = 0.005: [n20_subsamples_lambda_0005_alledge.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/n20_subsamples_lambda_0005_alledge.txt)
+      <br>λ = 0.020: [n20_subsamples_lambda_0020_alledge.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/n20_subsamples_lambda_0020_alledge.txt)
+      <br>λ = 0.100: [n20_subsamples_lambda_0100_alledge.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/n20_subsamples_lambda_0100_alledge.txt)
+
     * Co-clustering matrix generation to detect biologically meaningful modules
+  
+
+
+    * AUPR and F-score comparison with Gold standard networks
+      
 10. **Downstream visualization analysis for regulator prioritization**
     * Zeromean expression based module visualization and regulator inference
     * MERLIN-VIZ-based cell-cluster-specific module network visualiztion and regulator inference
