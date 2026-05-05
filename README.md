@@ -372,33 +372,36 @@ The file is formatted as a two-column table: the first column contains target ge
 
 
     * _**GO functional enrichment and regulator enrichment analysis**_
-    <br><br>For the enrichment (both GO function and regulator) analyses, we selected Modules containing at least five genes. We used a Python script [makeGroup.py](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/scripts/makeGroup.py) to generate the information of modules with ≥5 genes in the input format enrichment analysis.
+    <br><br>For both Gene Ontology (GO) and regulator enrichment analyses, we considered modules containing at least five genes. A Python script ([makeGroup.py](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/scripts/makeGroup.py)) was used to extract and format such modules for downstream enrichment analysis.
       ```text
-      ## Syntax: python makeGroup.py <consensus_module_file> <output_file_name> <threshold_of_gene_number>
-      ## e.g., for λ = 0.100 and co-clustering score cut-off: 0.1,
+      ## Syntax: python makeGroup.py <consensus_module_file> <output_file_name> <min_gene_threshold>
+      ## Example (λ = 0.100, threshold = 0.1):
       python scripts/makeGroup.py consensus_module_0_1_geneset.txt consensus_module_0_1_geneset_enrichAnalyzer.txt 5
       ```
       **Output (λ = 0.100, threshold = 0.1):**
-      [consensus_module_0_1_geneset_enrichAnalyzer.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/consensus_module_0_1_geneset_enrichAnalyzer.txt)<br>
-      Next, for the enrichment studies, we used the enrichment terms per gene from our _in-house_ [GO list file](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/mousegotermap_regnet.txt.gz), and we prepared the regulator list file with the following bash script:
+      [consensus_module_0_1_geneset_enrichAnalyzer.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/consensus_module_0_1_geneset_enrichAnalyzer.txt)<br><br>
+      
+      For enrichment analysis, GO term annotations per gene were obtained from an _in-house_ [GO annotation file](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/mousegotermap_regnet.txt.gz). Regulator–target relationships were formatted to match the enrichment tool's input requirements, i.e., filenames containing the keyword _regnet and edge format: <target>\t<regulator>. The network file was reformatted using:
       ```text
-      ## Convert the consensus network into the EnrichAnalyzer input format.
-      ## EnrichAnalyzer expects specific keywords, such as "_regnet", in the file name.
-      ## Moreover, it expects the edges in the "<target>\t<regulator>" format i.e. first target and then regulator, unlike most network formats where regulator precedes target.
       cat n20_subsamples_lambda_0100_0_8_sorted.txt | awk '{printf("%s\t%s\n", $2, $1)}' > n20_subsamples_lambda_0100_0_8_sorted_regnet.txt
       ```
-      **Output (λ = 0.100, threshold = 0.1) regulator list file for enrichAnalyzer program:**
-      [n20_subsamples_lambda_0100_0_8_sorted_regnet.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/n20_subsamples_lambda_0100_0_8_sorted.txt)<br>
-      We used the [enrichAnalyzer program](https://github.com/Roy-lab/enrichAnalyzer_Nongraph/) to get the GO functional enrichment and regulator enrichment for each module from each threshold and lambda configuration using the script file: [run_enrichAnalyzer.sh](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/scripts/run_enrichAnalyzer.sh) using the following commands:
+      **Output regulator file**
+      [n20_subsamples_lambda_0100_0_8_sorted_regnet.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/n20_subsamples_lambda_0100_0_8_sorted.txt)<br><br>
+      
+      GO functional and regulator enrichment analyses were performed using the [enrichAnalyzer program](https://github.com/Roy-lab/enrichAnalyzer_Nongraph/) via the script: [run_enrichAnalyzer.sh](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/scripts/run_enrichAnalyzer.sh):
       ```text
       chmod 775 run_enrichAnalyzer.sh
       bash run_enrichAnalyzer.sh
       ```
-      **Output (λ = 0.100, threshold = 0.1) enrichment result files:**
-      1. GO: [go_enrichAnalysis_0_1_details.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/go_enrichAnalysis_0_1_details.txt)
-      2. Regulator: [regulator_enrichAnalysis_0_1_details.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/regulator_enrichAnalysis_0_1_details.txt)<br>
+      **Outputs (λ = 0.100, threshold = 0.1):**
+      1. GO enrichment: [go_enrichAnalysis_0_1_details.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/go_enrichAnalysis_0_1_details.txt)
+      2. Regulator enrichment: [regulator_enrichAnalysis_0_1_details.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/regulator_enrichAnalysis_0_1_details.txt)<br>
       
-      NOTE: For each co-clustering threshold, we computed the proportion of enriched modules as: (Number of enriched modules with ≥5 genes) / (Total number of modules with ≥5 genes). The threshold yielding the highest proportion of enriched modules (GO) was selected as optimal for each `λ`.   
+      For each co-clustering threshold, we computed the proportion of enriched modules as:
+      ```text
+      (Number of enriched modules with ≥5 genes) / (Total number of modules with ≥5 genes)
+      ```
+      The threshold that maximized the proportion of GO-enriched modules was selected as optimal for each `λ`.   
 
 
     * AUPR and F-score comparison with Gold standard networks
