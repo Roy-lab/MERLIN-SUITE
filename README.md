@@ -280,10 +280,10 @@ The file is formatted as a two-column table: the first column contains target ge
 5. **MERLIN-P configuration file**
 <br><br>**MERLIN-P** requires a configuration file ([net1_config.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/net1_config.txt)) which is a three-column, tab-delimited file in which each row corresponds to a prior network. The first column specifies the network name, the second column provides the file path to the prior network, and the third column indicates the network confidence, where higher values confer greater influence of the prior during model inference.
 6. **GRN inference (MERLIN-P)**
-   * **Subsampling**
+   * _**Subsampling**_
    <br><br>To reduce computational burden and enable consensus confidence-based GRN inference, we subsampled the expression matrix ([net1_expression.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/net1_expression.txt.gz)) by randomly partitioning the full dataset (4,633 cells) into half-sized (50%) subsets of 2,317 cells. This subsampling procedure was repeated 50 times using independent random partitions. Each subsample directory ([Subsamples_n2317](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/data/Subsamples_n2317)) contains 50 index files ([dataindices0.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/Subsamples_n2317/dataindices0.txt)–dataindices49.txt) specifying the selected cells, along with the corresponding subsampled expression matrices of 2,231 genes and TFAs ([dataset0.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/Subsamples_n2317/dataset0.txt.gz)–dataset49.txt). A summary of all subsampled datasets is provided in [subsample_n2317_list.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/subsample_n2317_list.txt).
 
-   * **MERLIN-P run**
+   * _**MERLIN-P run**_
    <br><br>Based on the generated subsamples, MERLIN-P was executed independently for each subsample. In this study, a total of 20 subsamples were analyzed. An example command for one such run (for dataset0 subsample setting) is shown below:
       ```text
       ./merlin -d Subsamples_n2317/dataset0.txt -l net1_transcription_factors.tsv -q net1_config.txt -c clusterassign.txt -o results/out.0/
@@ -300,7 +300,7 @@ The file is formatted as a two-column table: the first column contains target ge
       ./merlin -d net1_expression.txt -l net1_transcription_factors.tsv -q net1_config.txt -c clusterassign.txt -o out_dir/
       ```
 
-   * **Output Inferred GRN**
+   * _**Output Inferred GRN**_
    <br><br>**MERLIN-P** outputs regulatory edges between regulators and target genes, which are available in the [result folder](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/results/Merlinp/Lambda_0100/out.0). The output result folder includes a subfolder named [fold0](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/results/Merlinp/Lambda_0100/out.0/fold0) subfolder, there are five files: [iter.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/out.0/fold0/iter.txt) (number of iteration performed), [last.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/out.0/fold0/last.txt), **[modules.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/out.0/fold0/modules.txt)** (final module assignment of genes), [pll.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/out.0/fold0/pll.txt), and the most important file is **[prediction_k300.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/out.0/fold0/prediction_k300.txt)**, which contains the inferred regulatory network. The format of the regulatory network file is similar to the input prior network, with the first column specifying the regulator, the second column the target gene, and the third column represents the regression coefficient.
 
       Example lines from the inferred regulatory network file `prediction_k300.txt` are as follows:
@@ -357,8 +357,7 @@ The file is formatted as a two-column table: the first column contains target ge
       e.g., for λ = 0.100,
       assessClusterStab results/Merlinp/Lambda_0100/module_files.txt coclustering_matrix.txt
       ```
-      **Output file:**
-      <br>**λ = 0.100:** [coclustering_matrix.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/coclustering_matrix.txt)
+      **Output Co-clustering matrix file at λ = 0.100:** [coclustering_matrix.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/coclustering_matrix.txt)
       
 
     * _**Getting consensus modules from Co-clustering matrix**_
