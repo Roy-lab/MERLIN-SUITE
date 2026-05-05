@@ -381,7 +381,7 @@ The file is formatted as a two-column table: the first column contains target ge
       **Output (λ = 0.100, threshold = 0.1):**
       [consensus_module_0_1_geneset_enrichAnalyzer.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/consensus_module_0_1_geneset_enrichAnalyzer.txt)<br><br>
       
-      For enrichment analysis, GO term annotations per gene were obtained from an _in-house_ [GO annotation file](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/mousegotermap_regnet.txt.gz). Regulator–target relationships were formatted to match the enrichment tool's input requirements, i.e., filenames containing the keyword _regnet and edge format: <target>\t<regulator>. The network file was reformatted using:
+      For enrichment analysis, GO term annotations per gene were obtained from an _in-house_ [GO annotation file](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/mousegotermap_regnet.txt.gz). Regulator–target relationships were formatted to match the enrichment tool's input requirements, i.e., filenames containing the keyword `_regnet` and edge format: `<target>\t<regulator>`. The network file was reformatted using:
       ```text
       cat n20_subsamples_lambda_0100_0_8_sorted.txt | awk '{printf("%s\t%s\n", $2, $1)}' > n20_subsamples_lambda_0100_0_8_sorted_regnet.txt
       ```
