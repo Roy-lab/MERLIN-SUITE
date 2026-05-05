@@ -352,10 +352,10 @@ The file is formatted as a two-column table: the first column contains target ge
       ```
 
       **Output files for consensus networks with confidence score threshold ≥0.8:**
-      <br>λ = 0.000: [n20_subsamples_lambda_0000_alledge.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/n20_subsamples_lambda_0000_alledge.txt)
-      <br>λ = 0.005: [n20_subsamples_lambda_0005_alledge.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/n20_subsamples_lambda_0005_alledge.txt)
-      <br>λ = 0.020: [n20_subsamples_lambda_0020_alledge.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/n20_subsamples_lambda_0020_alledge.txt)
-      <br>λ = 0.100: [n20_subsamples_lambda_0100_alledge.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/n20_subsamples_lambda_0100_alledge.txt)
+      <br>λ = 0.000: [n20_subsamples_lambda_0000_0_8_sorted.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/n20_subsamples_lambda_0000_0_8_sorted.txt)
+      <br>λ = 0.005: [n20_subsamples_lambda_0005_0_8_sorted.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/n20_subsamples_lambda_0005_0_8_sorted.txt)
+      <br>λ = 0.020: [n20_subsamples_lambda_0020_0_8_sorted.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/n20_subsamples_lambda_0020_0_8_sorted.txt)
+      <br>λ = 0.100: [n20_subsamples_lambda_0100_0_8_sorted.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/n20_subsamples_lambda_0100_0_8_sorted.txt)
 
     * Co-clustering matrix generation to detect biologically meaningful modules
   
