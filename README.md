@@ -336,7 +336,7 @@ The file is formatted as a two-column table: the first column contains target ge
       e.g., for λ = 0.100,
       estimateEdgeConf results/Merlinp/Lambda_0100/network_files.txt 0 n20_subsamples_lambda_0100_ alledges
       ```
-      **Output file for consensus networks at λ = 0.100:** [n20_subsamples_lambda_0100_alledge.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/n20_subsamples_lambda_0100_alledge.txt)
+      **Output file for consensus networks at λ = 0.100:** [n20_subsamples_lambda_0100_alledge.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/n20_subsamples_lambda_0100_alledge.txt) <br><br>
 
       Now, selecting the edges with confidence >= 0.8 from the consensus network
       ```text
@@ -347,7 +347,7 @@ The file is formatted as a two-column table: the first column contains target ge
       ## -r = reverse order i.e. desc (by default, asc).
       sort -gr -k3 n20_subsamples_lambda_0100_0_8.txt > n20_subsamples_lambda_0100_0_8_sorted.txt
       ```
-      **Output file for consensus networks at λ = 0.100 with confidence score threshold ≥0.8:** [n20_subsamples_lambda_0100_0_8_sorted.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/n20_subsamples_lambda_0100_0_8_sorted.txt)
+      **Output file for consensus networks at λ = 0.100 with confidence score threshold ≥0.8:** [n20_subsamples_lambda_0100_0_8_sorted.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/n20_subsamples_lambda_0100_0_8_sorted.txt) <br><br>
       
 
     * _**Co-clustering matrix generation to detect biologically meaningful modules**_
@@ -357,7 +357,7 @@ The file is formatted as a two-column table: the first column contains target ge
       e.g., for λ = 0.100,
       assessClusterStab results/Merlinp/Lambda_0100/module_files.txt coclustering_matrix.txt
       ```
-      **Output Co-clustering matrix file at λ = 0.100:** [coclustering_matrix.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/coclustering_matrix.txt)
+      **Output Co-clustering matrix file at λ = 0.100:** [coclustering_matrix.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/coclustering_matrix.txt) <br><br>
       
 
     * _**Getting consensus modules from Co-clustering matrix**_
@@ -367,7 +367,7 @@ The file is formatted as a two-column table: the first column contains target ge
       e.g., for λ = 0.100 and co-clustering score cut-off: 0.1,
       reorder results/Merlinp/Lambda_0100/coclustering_matrix.txt matrix consensus_module_0_1 0.1
       ```
-      **Output file for coclustering matrix at λ = 0.100 with co-clustering score cut-off = 0.1:** [consensus_module_0_1_assign.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/consensus_module_0_1_assign.txt)
+      **Output file for coclustering matrix at λ = 0.100 with co-clustering score cut-off = 0.1:** [consensus_module_0_1_assign.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/consensus_module_0_1_assign.txt) <br><br>
 
 
     * AUPR and F-score comparison with Gold standard networks
