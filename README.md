@@ -336,7 +336,7 @@ The file is formatted as a two-column table: the first column contains target ge
       e.g., for λ = 0.100,
       estimateEdgeConf results/Merlinp/Lambda_0100/network_files.txt 0 n20_subsamples_lambda_0100_ alledges
       ```
-      **Output file for consensus networks at λ = 0.100:** [n20_subsamples_lambda_0100_alledge.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/n20_subsamples_lambda_0100_alledge.txt) <br><br>
+      **Output (λ = 0.100):** [n20_subsamples_lambda_0100_alledge.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/n20_subsamples_lambda_0100_alledge.txt) <br><br>
 
       Now, selecting the edges with confidence >= 0.8 from the consensus network
       ```text
@@ -347,7 +347,7 @@ The file is formatted as a two-column table: the first column contains target ge
       ## -r = reverse order i.e. desc (by default, asc).
       sort -gr -k3 n20_subsamples_lambda_0100_0_8.txt > n20_subsamples_lambda_0100_0_8_sorted.txt
       ```
-      **Output file for consensus networks at λ = 0.100 with confidence score threshold ≥0.8:** [n20_subsamples_lambda_0100_0_8_sorted.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/n20_subsamples_lambda_0100_0_8_sorted.txt) <br><br>
+      **Output (λ = 0.100, confidence score threshold ≥0.8):** [n20_subsamples_lambda_0100_0_8_sorted.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/n20_subsamples_lambda_0100_0_8_sorted.txt) <br><br>
       
 
     * _**Co-clustering matrix generation to detect biologically meaningful modules**_
