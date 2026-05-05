@@ -367,7 +367,7 @@ The file is formatted as a two-column table: the first column contains target ge
       e.g., for λ = 0.100 and co-clustering score cut-off: 0.1,
       reorder results/Merlinp/Lambda_0100/coclustering_matrix.txt matrix consensus_module_0_1 0.1
       ```
-      **Output file for coclustering matrix at λ = 0.100 with co-clustering score cut-off = 0.1:** [consensus_module_0_1_assign.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/consensus_module_0_1_assign.txt) <br><br>
+      **Output files (matrix and module) for coclustering matrix at λ = 0.100 with co-clustering score cut-off = 0.1:** [consensus_module_0_1_assign.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/consensus_module_0_1_assign.txt); [consensus_module_0_1_geneset.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/consensus_module_0_1_geneset.txt) <br><br>
 
 
     * AUPR and F-score comparison with Gold standard networks
