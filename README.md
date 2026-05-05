@@ -301,7 +301,7 @@ The file is formatted as a two-column table: the first column contains target ge
       ```
 
    * **Output Inferred GRN**
-   <br><br>**MERLIN-P** outputs regulatory edges between regulators and target genes, which are available in the [result folder](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/results/out.0). The output result folder includes a subfolder named [fold0](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/results/out.0/fold0). Inside the [fold0](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/results/out.0/fold0) subfolder, there are five files: [iter.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/out.0/fold0/iter.txt) (number of iteration performed), [last.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/out.0/fold0/last.txt), **[modules.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/out.0/fold0/modules.txt)** (final module assignment of genes), [pll.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/out.0/fold0/pll.txt), and the most important file is **[prediction_k300.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/out.0/fold0/prediction_k300.txt)**, which contains the inferred regulatory network. The format of the regulatory network file is similar to the input prior network, with the first column specifying the regulator, the second column the target gene, and the third column represents the regression coefficient.
+   <br><br>**MERLIN-P** outputs regulatory edges between regulators and target genes, which are available in the [result folder](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/results/Merlinp/Lambda_0100/out.0). The output result folder includes a subfolder named [fold0](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/results/Merlinp/Lambda_0100/out.0/fold0) subfolder, there are five files: [iter.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/out.0/fold0/iter.txt) (number of iteration performed), [last.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/out.0/fold0/last.txt), **[modules.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/out.0/fold0/modules.txt)** (final module assignment of genes), [pll.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/out.0/fold0/pll.txt), and the most important file is **[prediction_k300.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/out.0/fold0/prediction_k300.txt)**, which contains the inferred regulatory network. The format of the regulatory network file is similar to the input prior network, with the first column specifying the regulator, the second column the target gene, and the third column represents the regression coefficient.
 
       Example lines from the inferred regulatory network file `prediction_k300.txt` are as follows:
       ```text
@@ -333,13 +333,10 @@ The file is formatted as a two-column table: the first column contains target ge
       For this [estimateedgeconf package from merlin-auxillary tool](https://github.com/Roy-lab/merlin-auxillary) was used, which is as follows:
       ```text
       ## Syntax: estimateEdgeConf <filenamelist> <confidence> <outputfile> <filterededges|alledges>
-      e.g., for λ = 0.100, estimateEdgeConf results/network_files.txt 0 n20_subsamples_lambda_0100_ alledges
+      e.g., for λ = 0.100, estimateEdgeConf results/Merlinp/Lambda_0100/network_files.txt 0 n20_subsamples_lambda_0100_ alledges
       ```
       **Output files:**
-      <br>λ = 0.000: [n20_subsamples_lambda_0000_alledge.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/n20_subsamples_lambda_0000_alledge.txt)
-      <br>λ = 0.005: [n20_subsamples_lambda_0005_alledge.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/n20_subsamples_lambda_0005_alledge.txt)
-      <br>λ = 0.020: [n20_subsamples_lambda_0020_alledge.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/n20_subsamples_lambda_0020_alledge.txt)
-      <br>λ = 0.100: [n20_subsamples_lambda_0100_alledge.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/n20_subsamples_lambda_0100_alledge.txt)
+      <br>**λ = 0.100:** [n20_subsamples_lambda_0100_alledge.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/n20_subsamples_lambda_0100_alledge.txt)
 
       Now, selecting the edges with confidence >= 0.8 from the consensus network
       ```text
@@ -352,13 +349,22 @@ The file is formatted as a two-column table: the first column contains target ge
       ```
 
       **Output files for consensus networks with confidence score threshold ≥0.8:**
-      <br>λ = 0.000: [n20_subsamples_lambda_0000_0_8_sorted.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/n20_subsamples_lambda_0000_0_8_sorted.txt)
-      <br>λ = 0.005: [n20_subsamples_lambda_0005_0_8_sorted.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/n20_subsamples_lambda_0005_0_8_sorted.txt)
-      <br>λ = 0.020: [n20_subsamples_lambda_0020_0_8_sorted.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/n20_subsamples_lambda_0020_0_8_sorted.txt)
-      <br>λ = 0.100: [n20_subsamples_lambda_0100_0_8_sorted.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/n20_subsamples_lambda_0100_0_8_sorted.txt)
+      <br>**λ = 0.100:** [n20_subsamples_lambda_0100_0_8_sorted.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/n20_subsamples_lambda_0100_0_8_sorted.txt)
 
     * Co-clustering matrix generation to detect biologically meaningful modules
-  
+    <br><br>We used the module assignment files from the 20 subsamples to generate a co-clustering matrix for each `λ` setting, which is a (#target genes x #target genes) matrix. The (i,j)-th entry represents the frequency with which genes _i_ and _j_ were assigned to the same module across the 20 subsamples, for example, a frequency of 0.5 indicates that the two genes were clustered together in a module in 10 out of 20 subsamples. The resulting co-clustering matrix is symmetric with diagonal entries equal to 1. Consensus module assignments were derived using co-clustering score cutoffs ranging from  `0.1` to `0.4` for each `λ (lambda) value`. For this [assessClusterStab package from merlin-auxillary tool](https://github.com/Roy-lab/merlin-auxillary) was used, which is as follows:
+      ```text
+      ## Syntax: assessClusterStab <module_filename_list> <output_file>
+      e.g., for λ = 0.100, assessClusterStab results/Merlinp/Lambda_0100/module_files.txt coclustering_matrix.txt
+      ```
+    <br><br>Next, making the consensus module assignment with different co-clustering score cut-offs e.g, `0.1-0.4`. For this [optimalleaforder package from merlin-auxillary tool](https://github.com/Roy-lab/merlin-auxillary) was used, which is as follows:
+      ```text
+      ## Syntax: Syntax: reorder <co_clustering_matrix> <list|pair|matrix> <out_file_prefix> <threshold>
+      e.g., for λ = 0.100 and co-clustering score cut-off: 0.1, reorder results/Merlinp/Lambda_0100/coclustering_matrix.txt matrix consensus_module_0_1 0.1
+      ```
+ 
+      **Output files for coclustering matrix for λ = 0.100:**
+      <br>**co-clustering score cut-off = 0.1:** [consensus_module_0_1_assign.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/consensus_module_0_1_assign.txt)
 
 
     * AUPR and F-score comparison with Gold standard networks
