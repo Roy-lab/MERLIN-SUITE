@@ -1,0 +1,884 @@
+Cluster606	protein polymerization	4.03233e-09	2.7823e-07	1959	12	5	4	130.6	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	microtubule-based movement	7.18081e-08	2.22739e-06	1959	23	5	4	68.1391	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	GTP catabolic process	2.21594e-07	2.22739e-06	1959	30	5	4	52.24	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	guanosine-containing compound catabolic process	2.54318e-07	2.22739e-06	1959	31	5	4	50.5548	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	purine nucleoside catabolic process	2.54318e-07	2.22739e-06	1959	31	5	4	50.5548	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	purine ribonucleoside catabolic process	2.54318e-07	2.22739e-06	1959	31	5	4	50.5548	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	cellular protein complex assembly	2.90529e-07	2.22739e-06	1959	32	5	4	48.975	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	nucleoside catabolic process	2.90529e-07	2.22739e-06	1959	32	5	4	48.975	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	ribonucleoside catabolic process	2.90529e-07	2.22739e-06	1959	32	5	4	48.975	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	GTP metabolic process	3.30465e-07	2.28021e-06	1959	33	5	4	47.4909	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	guanosine-containing compound metabolic process	3.74372e-07	2.34833e-06	1959	34	5	4	46.0941	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	purine nucleoside metabolic process	8.15135e-07	4.32648e-06	1959	41	5	4	38.2244	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	purine ribonucleoside metabolic process	8.15135e-07	4.32648e-06	1959	41	5	4	38.2244	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	ribonucleoside metabolic process	1.19729e-06	5.90091e-06	1959	45	5	4	34.8267	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	nucleoside metabolic process	1.56164e-06	7.18356e-06	1959	48	5	4	32.65	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	purine nucleoside triphosphate catabolic process	2.72923e-06	8.81381e-06	1959	55	5	4	28.4945	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	purine ribonucleoside triphosphate catabolic process	2.72923e-06	8.81381e-06	1959	55	5	4	28.4945	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	ribonucleoside triphosphate catabolic process	2.72923e-06	8.81381e-06	1959	55	5	4	28.4945	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	nucleoside triphosphate catabolic process	2.93794e-06	8.81381e-06	1959	56	5	4	27.9857	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	purine nucleotide catabolic process	2.93794e-06	8.81381e-06	1959	56	5	4	27.9857	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	purine ribonucleotide catabolic process	2.93794e-06	8.81381e-06	1959	56	5	4	27.9857	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	purine-containing compound catabolic process	2.93794e-06	8.81381e-06	1959	56	5	4	27.9857	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	ribonucleotide catabolic process	2.93794e-06	8.81381e-06	1959	56	5	4	27.9857	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	carbohydrate derivative catabolic process	3.39088e-06	9.35883e-06	1959	58	5	4	27.0207	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	nucleotide catabolic process	3.39088e-06	9.35883e-06	1959	58	5	4	27.0207	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	heterocycle catabolic process	3.63597e-06	9.59605e-06	1959	59	5	4	26.5627	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	cellular nitrogen compound catabolic process	3.89405e-06	9.59605e-06	1959	60	5	4	26.12	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	nucleobase-containing compound catabolic process	3.89405e-06	9.59605e-06	1959	60	5	4	26.12	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	purine ribonucleoside triphosphate metabolic process	5.39524e-06	1.27781e-05	1959	65	5	4	24.1108	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	purine nucleoside triphosphate metabolic process	5.74091e-06	1.27781e-05	1959	66	5	4	23.7455	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	ribonucleoside triphosphate metabolic process	5.74091e-06	1.27781e-05	1959	66	5	4	23.7455	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	nucleoside triphosphate metabolic process	6.87752e-06	1.48297e-05	1959	69	5	4	22.713	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	microtubule-based process	7.72333e-06	1.61148e-05	1959	71	5	4	22.0732	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	cellular macromolecular complex assembly	8.1742e-06	1.61148e-05	1959	72	5	4	21.7667	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	purine ribonucleotide metabolic process	8.1742e-06	1.61148e-05	1959	72	5	4	21.7667	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	ribonucleotide metabolic process	9.13454e-06	1.75079e-05	1959	74	5	4	21.1784	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	purine nucleotide metabolic process	1.07297e-05	2.00095e-05	1959	77	5	4	20.3532	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	purine-containing compound metabolic process	1.52533e-05	2.76968e-05	1959	84	5	4	18.6571	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	cellular macromolecular complex subunit organization	1.84031e-05	3.25594e-05	1959	88	5	4	17.8091	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	nucleoside phosphate metabolic process	2.61278e-05	4.39712e-05	1959	96	5	4	16.325	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	nucleotide metabolic process	2.61278e-05	4.39712e-05	1959	96	5	4	16.325	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	carbohydrate derivative metabolic process	3.74535e-05	6.10111e-05	1959	105	5	4	14.9257	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	nucleobase-containing small molecule metabolic process	3.89057e-05	6.10111e-05	1959	106	5	4	14.7849	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	organic substance metabolic process	3.89057e-05	6.10111e-05	1959	106	5	4	14.7849	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	protein complex assembly	4.35141e-05	6.52712e-05	1959	109	5	4	14.378	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	protein complex biogenesis	4.35141e-05	6.52712e-05	1959	109	5	4	14.378	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	heterocycle metabolic process	5.39354e-05	7.75321e-05	1959	115	5	4	13.6278	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	protein complex subunit organization	5.39354e-05	7.75321e-05	1959	115	5	4	13.6278	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	cellular component movement	9.35786e-05	0.000131774	1959	132	5	4	11.8727	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	macromolecular complex assembly	0.000151606	0.000209216	1959	149	5	4	10.5181	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	cellular component assembly at cellular level	0.000181946	0.000246162	1959	156	5	4	10.0462	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	cellular catabolic process	0.000211346	0.000280439	1959	162	5	4	9.67407	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	macromolecular complex subunit organization	0.000238417	0.000310391	1959	167	5	4	9.38443	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	catabolic process	0.000335115	0.000428203	1959	182	5	4	8.61099	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	small molecule metabolic process	0.000567493	0.000711946	1959	208	5	4	7.53462	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	cellular component assembly	0.000759435	0.000935732	1959	224	5	4	6.99643	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	cellular component biogenesis	0.00142357	0.00172327	1959	263	5	4	5.95894	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	cellular component organization at cellular level	0.0191375	0.022767	1959	518	5	4	3.02548	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	cellular component organization or biogenesis at cellular level	0.0240982	0.0281826	1959	551	5	4	2.84428	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	cellular component organization	0.0357492	0.0411116	1959	613	5	4	2.55661	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	nucleobase-containing compound metabolic process	0.0430758	0.0482111	1959	645	5	4	2.42977	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster606	cellular component organization or biogenesis	0.0433202	0.0482111	1959	646	5	4	2.42601	Tuba1b;Tuba1c;Tubb4b;Tubb5
+Cluster656	embryonic skeletal system morphogenesis	2.09292e-08	1.29761e-06	1959	59	5	5	33.2034	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	embryonic skeletal system development	4.69825e-08	1.45646e-06	1959	69	5	5	28.3913	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	anterior/posterior pattern specification	1.00499e-07	2.00043e-06	1959	80	5	5	24.4875	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	skeletal system morphogenesis	1.2906e-07	2.00043e-06	1959	84	5	5	23.3214	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	regionalization	2.83901e-07	3.52037e-06	1959	98	5	5	19.9898	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	embryonic organ morphogenesis	4.03671e-07	4.17127e-06	1959	105	5	5	18.6571	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	pattern specification process	8.31051e-07	7.36074e-06	1959	121	5	5	16.1901	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	skeletal system development	1.02097e-06	7.91253e-06	1959	126	5	5	15.5476	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	embryonic organ development	2.64488e-06	1.82203e-05	1959	152	5	5	12.8882	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	embryonic morphogenesis	7.14886e-06	4.4323e-05	1959	185	5	5	10.5892	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	chordate embryonic development	1.26114e-05	6.5159e-05	1959	207	5	5	9.46377	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	embryo development ending in birth or egg hatching	1.26114e-05	6.5159e-05	1959	207	5	5	9.46377	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	organ morphogenesis	1.5272e-05	7.28358e-05	1959	215	5	5	9.11163	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	embryo development	5.88897e-05	0.000260797	1959	281	5	5	6.97153	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	RNA biosynthetic process	0.000155965	0.000604363	1959	341	5	5	5.74487	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	transcription, DNA-dependent	0.000155965	0.000604363	1959	341	5	5	5.74487	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	anatomical structure morphogenesis	0.000287095	0.00104705	1959	385	5	5	5.08831	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	organ development	0.000621689	0.00205146	1959	449	5	5	4.36303	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	RNA metabolic process	0.000628674	0.00205146	1959	450	5	5	4.35333	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	cellular macromolecule biosynthetic process	0.0010043	0.00287639	1959	494	5	5	3.96559	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	regulation of transcription, DNA-dependent	0.00102488	0.00287639	1959	496	5	5	3.9496	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	regulation of RNA biosynthetic process	0.00103529	0.00287639	1959	497	5	5	3.94165	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	macromolecule biosynthetic process	0.00106705	0.00287639	1959	500	5	5	3.918	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	regulation of RNA metabolic process	0.00121379	0.00313562	1959	513	5	5	3.81871	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	gene expression	0.00140271	0.00347872	1959	528	5	5	3.71023	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	regulation of cellular macromolecule biosynthetic process	0.00170599	0.00392191	1959	549	5	5	3.56831	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	regulation of macromolecule biosynthetic process	0.0017854	0.00392191	1959	554	5	5	3.5361	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	system development	0.00180163	0.00392191	1959	555	5	5	3.52973	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	nucleic acid metabolic process	0.00183444	0.00392191	1959	557	5	5	3.51706	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	regulation of cellular biosynthetic process	0.00193577	0.00399046	1959	563	5	5	3.47957	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	regulation of biosynthetic process	0.00205959	0.00399046	1959	570	5	5	3.43684	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	regulation of nucleobase-containing compound metabolic process	0.00205959	0.00399046	1959	570	5	5	3.43684	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	regulation of nitrogen compound metabolic process	0.00218967	0.00405045	1959	577	5	5	3.39515	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	cellular biosynthetic process	0.00224739	0.00405045	1959	580	5	5	3.37759	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	regulation of gene expression	0.00228655	0.00405045	1959	582	5	5	3.36598	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	central nervous system development	0.00247371	0.00426028	1959	128	5	3	9.18281	Hoxb2;Hoxb3;Hoxb8
+Cluster656	biosynthetic process	0.00259792	0.00435326	1959	597	5	5	3.28141	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	anatomical structure development	0.00340282	0.00554007	1959	630	5	5	3.10952	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	multicellular organismal development	0.00348488	0.00554007	1959	633	5	5	3.09479	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	nucleobase-containing compound metabolic process	0.00382909	0.0059351	1959	645	5	5	3.03721	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	cellular nitrogen compound metabolic process	0.00432981	0.00654751	1959	661	5	5	2.96369	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	nitrogen compound metabolic process	0.00466844	0.00689151	1959	671	5	5	2.91952	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	developmental process	0.00529252	0.00763107	1959	688	5	5	2.84738	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	multicellular organismal process	0.00585507	0.00825033	1959	702	5	5	2.7906	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	regulation of primary metabolic process	0.00619738	0.00853862	1959	710	5	5	2.75915	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	regulation of macromolecule metabolic process	0.00655552	0.0088357	1959	718	5	5	2.72841	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	regulation of cellular metabolic process	0.0067407	0.00889198	1959	722	5	5	2.7133	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	regulation of metabolic process	0.0110631	0.0142899	1959	797	5	5	2.45797	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	cellular macromolecule metabolic process	0.0159175	0.0201405	1959	857	5	5	2.28588	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	macromolecule metabolic process	0.0208006	0.0257928	1959	904	5	5	2.16704	Hoxb2;Hoxb3;Hoxb5;Hoxb7;Hoxb8
+Cluster656	nervous system development	0.0229043	0.0278445	1959	279	5	3	4.2129	Hoxb2;Hoxb3;Hoxb8
+Cluster656	tissue development	0.0269744	0.0321618	1959	296	5	3	3.97095	Hoxb2;Hoxb3;Hoxb5
+Cluster657	mitotic cell cycle	0.00314584	0.038532	1959	139	5	3	8.45612	Pola1;Skp2;Smc3
+Cluster657	cell cycle phase	0.0048165	0.038532	1959	161	5	3	7.30062	Pola1;Skp2;Smc3
+Cluster657	cell cycle process	0.00897571	0.0478704	1959	200	5	3	5.877	Pola1;Skp2;Smc3
+Cluster730	cell cycle process	1.06003e-05	0.000212005	1959	200	5	5	9.795	Mis18a;Plk4;Ska3;Trip13;Zwilch
+Cluster730	cell cycle	3.68283e-05	0.000368283	1959	256	5	5	7.65234	Mis18a;Plk4;Ska3;Trip13;Zwilch
+Cluster730	M phase	7.05853e-05	0.000470569	1959	123	5	4	12.7415	Mis18a;Ska3;Trip13;Zwilch
+Cluster730	organelle organization	0.000196413	0.000824869	1959	357	5	5	5.48739	Mis18a;Plk4;Ska3;Trip13;Zwilch
+Cluster730	cell cycle phase	0.000206217	0.000824869	1959	161	5	4	9.73416	Mis18a;Ska3;Trip13;Zwilch
+Cluster730	mitosis	0.000966944	0.00236029	1959	93	5	3	12.6387	Mis18a;Ska3;Zwilch
+Cluster730	nuclear division	0.000966944	0.00236029	1959	93	5	3	12.6387	Mis18a;Ska3;Zwilch
+Cluster730	organelle fission	0.000966944	0.00236029	1959	93	5	3	12.6387	Mis18a;Ska3;Zwilch
+Cluster730	M phase of mitotic cell cycle	0.00106213	0.00236029	1959	96	5	3	12.2437	Mis18a;Ska3;Zwilch
+Cluster730	cellular component organization at cellular level	0.00127434	0.00254869	1959	518	5	5	3.78185	Mis18a;Plk4;Ska3;Trip13;Zwilch
+Cluster730	cellular component organization or biogenesis at cellular level	0.0017374	0.00315892	1959	551	5	5	3.55535	Mis18a;Plk4;Ska3;Trip13;Zwilch
+Cluster730	cell division	0.00230806	0.00384677	1959	125	5	3	9.4032	Mis18a;Ska3;Zwilch
+Cluster730	cellular component organization	0.00296652	0.00449405	1959	613	5	5	3.19576	Mis18a;Plk4;Ska3;Trip13;Zwilch
+Cluster730	mitotic cell cycle	0.00314584	0.00449405	1959	139	5	3	8.45612	Mis18a;Ska3;Zwilch
+Cluster730	cellular component organization or biogenesis	0.00385896	0.00514528	1959	646	5	5	3.03251	Mis18a;Plk4;Ska3;Trip13;Zwilch
+Cluster722	anterior/posterior pattern specification	1.00499e-07	5.82895e-06	1959	80	5	5	24.4875	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	regionalization	2.83901e-07	7.80431e-06	1959	98	5	5	19.9898	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	embryonic organ morphogenesis	4.03671e-07	7.80431e-06	1959	105	5	5	18.6571	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	pattern specification process	8.31051e-07	1.18433e-05	1959	121	5	5	16.1901	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	skeletal system development	1.02097e-06	1.18433e-05	1959	126	5	5	15.5476	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	embryonic organ development	2.64488e-06	2.55672e-05	1959	152	5	5	12.8882	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	embryonic skeletal system morphogenesis	3.63597e-06	3.01266e-05	1959	59	5	4	26.5627	Hoxa2;Hoxa3;Hoxb4;Hoxb6
+Cluster722	embryonic skeletal system development	6.87752e-06	4.60705e-05	1959	69	5	4	22.713	Hoxa2;Hoxa3;Hoxb4;Hoxb6
+Cluster722	embryonic morphogenesis	7.14886e-06	4.60705e-05	1959	185	5	5	10.5892	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	skeletal system morphogenesis	1.52533e-05	8.05252e-05	1959	84	5	4	18.6571	Hoxa2;Hoxa3;Hoxb4;Hoxb6
+Cluster722	organ morphogenesis	1.5272e-05	8.05252e-05	1959	215	5	5	9.11163	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	embryo development	5.88897e-05	0.000284634	1959	281	5	5	6.97153	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	RNA biosynthetic process	0.000155965	0.000646139	1959	341	5	5	5.74487	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	transcription, DNA-dependent	0.000155965	0.000646139	1959	341	5	5	5.74487	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	anatomical structure morphogenesis	0.000287095	0.0011101	1959	385	5	5	5.08831	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	chordate embryonic development	0.000556828	0.00189977	1959	207	5	4	7.57101	Hoxa2;Hoxa3;Hoxb4;Hoxb6
+Cluster722	embryo development ending in birth or egg hatching	0.000556828	0.00189977	1959	207	5	4	7.57101	Hoxa2;Hoxa3;Hoxb4;Hoxb6
+Cluster722	organ development	0.000621689	0.00191911	1959	449	5	5	4.36303	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	RNA metabolic process	0.000628674	0.00191911	1959	450	5	5	4.35333	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	cellular macromolecule biosynthetic process	0.0010043	0.00269082	1959	494	5	5	3.96559	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	regulation of transcription, DNA-dependent	0.00102488	0.00269082	1959	496	5	5	3.9496	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	regulation of RNA biosynthetic process	0.00103529	0.00269082	1959	497	5	5	3.94165	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	macromolecule biosynthetic process	0.00106705	0.00269082	1959	500	5	5	3.918	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	regulation of RNA metabolic process	0.00121379	0.00293332	1959	513	5	5	3.81871	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	gene expression	0.00140271	0.00325428	1959	528	5	5	3.71023	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	regulation of cellular macromolecule biosynthetic process	0.00170599	0.00366889	1959	549	5	5	3.56831	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	regulation of macromolecule biosynthetic process	0.0017854	0.00366889	1959	554	5	5	3.5361	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	system development	0.00180163	0.00366889	1959	555	5	5	3.52973	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	nucleic acid metabolic process	0.00183444	0.00366889	1959	557	5	5	3.51706	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	regulation of cellular biosynthetic process	0.00193577	0.00373301	1959	563	5	5	3.47957	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	regulation of biosynthetic process	0.00205959	0.00373301	1959	570	5	5	3.43684	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	regulation of nucleobase-containing compound metabolic process	0.00205959	0.00373301	1959	570	5	5	3.43684	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	regulation of nitrogen compound metabolic process	0.00218967	0.00378913	1959	577	5	5	3.39515	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	cellular biosynthetic process	0.00224739	0.00378913	1959	580	5	5	3.37759	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	regulation of gene expression	0.00228655	0.00378913	1959	582	5	5	3.36598	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	biosynthetic process	0.00259792	0.00418553	1959	597	5	5	3.28141	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	anatomical structure development	0.00340282	0.00531903	1959	630	5	5	3.10952	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	multicellular organismal development	0.00348488	0.00531903	1959	633	5	5	3.09479	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	nucleobase-containing compound metabolic process	0.00382909	0.00569455	1959	645	5	5	3.03721	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	cellular nitrogen compound metabolic process	0.00432981	0.00627822	1959	661	5	5	2.96369	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	nitrogen compound metabolic process	0.00466844	0.00660414	1959	671	5	5	2.91952	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	developmental process	0.00529252	0.00730872	1959	688	5	5	2.84738	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	multicellular organismal process	0.00585507	0.00789754	1959	702	5	5	2.7906	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	regulation of primary metabolic process	0.00619738	0.00816928	1959	710	5	5	2.75915	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	regulation of macromolecule metabolic process	0.00655552	0.00844934	1959	718	5	5	2.72841	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	regulation of cellular metabolic process	0.0067407	0.00849914	1959	722	5	5	2.7133	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	regulation of metabolic process	0.0110631	0.0136524	1959	797	5	5	2.45797	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	cellular macromolecule metabolic process	0.0159175	0.0192336	1959	857	5	5	2.28588	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	macromolecule metabolic process	0.0208006	0.0246212	1959	904	5	5	2.16704	Hoxa2;Hoxa3;Hoxb4;Hoxb6;Hoxc4
+Cluster722	tissue development	0.0269744	0.0312903	1959	296	5	3	3.97095	Hoxa3;Hoxb4;Hoxc4
+Cluster728	RNA processing	0.00150323	0.0210452	1959	108	5	3	10.8833	Bcas2;Nudt21;Rrp1b
+Cluster479	glycolysis	5.71164e-10	1.19846e-08	1959	8	5	4	195.9	Aldoa;Ldha;Pgk1;Pkm
+Cluster479	glucose catabolic process	1.71209e-09	1.19846e-08	1959	10	5	4	156.72	Aldoa;Ldha;Pgk1;Pkm
+Cluster479	hexose catabolic process	1.71209e-09	1.19846e-08	1959	10	5	4	156.72	Aldoa;Ldha;Pgk1;Pkm
+Cluster479	monosaccharide catabolic process	1.71209e-09	1.19846e-08	1959	10	5	4	156.72	Aldoa;Ldha;Pgk1;Pkm
+Cluster479	carbohydrate catabolic process	4.03233e-09	2.2581e-08	1959	12	5	4	130.6	Aldoa;Ldha;Pgk1;Pkm
+Cluster479	glucose metabolic process	4.85743e-08	2.2668e-07	1959	21	5	4	74.6286	Aldoa;Ldha;Pgk1;Pkm
+Cluster479	hexose metabolic process	7.18081e-08	2.87232e-07	1959	23	5	4	68.1391	Aldoa;Ldha;Pgk1;Pkm
+Cluster479	monosaccharide metabolic process	8.61341e-08	3.01469e-07	1959	24	5	4	65.3	Aldoa;Ldha;Pgk1;Pkm
+Cluster479	generation of precursor metabolites and energy	6.62599e-07	2.06142e-06	1959	39	5	4	40.1846	Aldoa;Ldha;Pgk1;Pkm
+Cluster479	carbohydrate metabolic process	1.84678e-06	5.17099e-06	1959	50	5	4	31.344	Aldoa;Ldha;Pgk1;Pkm
+Cluster479	catabolic process	0.000335115	0.00085302	1959	182	5	4	8.61099	Aldoa;Ldha;Pgk1;Pkm
+Cluster479	nucleoside phosphate metabolic process	0.00106213	0.00228767	1959	96	5	3	12.2437	Aldoa;Ldha;Pkm
+Cluster479	nucleotide metabolic process	0.00106213	0.00228767	1959	96	5	3	12.2437	Aldoa;Ldha;Pkm
+Cluster479	nucleobase-containing small molecule metabolic process	0.00142276	0.00284553	1959	106	5	3	11.0887	Aldoa;Ldha;Pkm
+Cluster479	heterocycle metabolic process	0.00180787	0.00337469	1959	115	5	3	10.2209	Aldoa;Ldha;Pkm
+Cluster479	phosphate-containing compound metabolic process	0.00718322	0.0118312	1959	185	5	3	6.35351	Aldoa;Pgk1;Pkm
+Cluster479	phosphorus metabolic process	0.00718322	0.0118312	1959	185	5	3	6.35351	Aldoa;Pgk1;Pkm
+Cluster479	small molecule metabolic process	0.0100358	0.0156112	1959	208	5	3	5.65096	Aldoa;Ldha;Pkm
+Cluster592	regulation of cell adhesion	0.000916452	0.0238283	1959	73	6	3	13.4178	Mmp2;Ppap2b;Serpine2
+Cluster592	anatomical structure morphogenesis	0.00144341	0.0238283	1959	385	6	5	4.24026	Gas1;Mgp;Mmp2;Ppap2b;Serpine2
+Cluster592	negative regulation of protein metabolic process	0.00158856	0.0238283	1959	88	6	3	11.1307	Gas1;Ppap2b;Serpine2
+Cluster592	response to external stimulus	0.00273367	0.0307538	1959	106	6	3	9.24057	Gas1;Mmp2;Serpine2
+Cluster592	negative regulation of cell proliferation	0.00450338	0.0337753	1959	126	6	3	7.77381	Gas1;Ogn;Serpine2
+Cluster592	skeletal system development	0.00450338	0.0337753	1959	126	6	3	7.77381	Gas1;Mgp;Mmp2
+Cluster670	positive regulation of protein serine/threonine kinase activity	8.27419e-05	0.00320634	1959	41	5	3	28.6683	Ccnd1;Ccnd2;Cd81
+Cluster670	positive regulation of protein kinase activity	0.000275024	0.00320634	1959	61	5	3	19.2689	Ccnd1;Ccnd2;Cd81
+Cluster670	regulation of protein serine/threonine kinase activity	0.000288782	0.00320634	1959	62	5	3	18.9581	Ccnd1;Ccnd2;Cd81
+Cluster670	positive regulation of kinase activity	0.000348316	0.00320634	1959	66	5	3	17.8091	Ccnd1;Ccnd2;Cd81
+Cluster670	positive regulation of transferase activity	0.000364357	0.00320634	1959	67	5	3	17.5433	Ccnd1;Ccnd2;Cd81
+Cluster670	regulation of catalytic activity	0.000814071	0.00536997	1959	228	5	4	6.87368	Ccnd1;Ccnd2;Cd109;Cd81
+Cluster670	regulation of protein kinase activity	0.00119822	0.00536997	1959	100	5	3	11.754	Ccnd1;Ccnd2;Cd81
+Cluster670	positive regulation of protein phosphorylation	0.00146264	0.00536997	1959	107	5	3	10.985	Ccnd1;Ccnd2;Cd81
+Cluster670	regulation of kinase activity	0.00146264	0.00536997	1959	107	5	3	10.985	Ccnd1;Ccnd2;Cd81
+Cluster670	positive regulation of phosphorylation	0.00154454	0.00536997	1959	109	5	3	10.7835	Ccnd1;Ccnd2;Cd81
+Cluster670	regulation of transferase activity	0.00154454	0.00536997	1959	109	5	3	10.7835	Ccnd1;Ccnd2;Cd81
+Cluster670	positive regulation of phosphate metabolic process	0.00158658	0.00536997	1959	110	5	3	10.6855	Ccnd1;Ccnd2;Cd81
+Cluster670	positive regulation of phosphorus metabolic process	0.00158658	0.00536997	1959	110	5	3	10.6855	Ccnd1;Ccnd2;Cd81
+Cluster670	positive regulation of catalytic activity	0.00225447	0.00692988	1959	124	5	3	9.47903	Ccnd1;Ccnd2;Cd81
+Cluster670	positive regulation of protein modification process	0.00236246	0.00692988	1959	126	5	3	9.32857	Ccnd1;Ccnd2;Cd81
+Cluster670	regulation of molecular function	0.0025984	0.00714559	1959	307	5	4	5.10489	Ccnd1;Ccnd2;Cd109;Cd81
+Cluster670	positive regulation of cellular protein metabolic process	0.00321213	0.00831376	1959	140	5	3	8.39571	Ccnd1;Ccnd2;Cd81
+Cluster670	positive regulation of protein metabolic process	0.00384928	0.00940936	1959	149	5	3	7.88859	Ccnd1;Ccnd2;Cd81
+Cluster670	regulation of protein phosphorylation	0.00415642	0.0096254	1959	153	5	3	7.68235	Ccnd1;Ccnd2;Cd81
+Cluster670	regulation of phosphorylation	0.00490339	0.0107874	1959	162	5	3	7.25556	Ccnd1;Ccnd2;Cd81
+Cluster670	positive regulation of molecular function	0.00517	0.0108324	1959	165	5	3	7.12364	Ccnd1;Ccnd2;Cd81
+Cluster670	regulation of phosphate metabolic process	0.00582735	0.011148	1959	172	5	3	6.83372	Ccnd1;Ccnd2;Cd81
+Cluster670	regulation of phosphorus metabolic process	0.00582735	0.011148	1959	172	5	3	6.83372	Ccnd1;Ccnd2;Cd81
+Cluster670	positive regulation of cell proliferation	0.00632772	0.0116008	1959	177	5	3	6.64068	Ccnd1;Ccnd2;Cd81
+Cluster670	regulation of protein modification process	0.0075218	0.0132384	1959	188	5	3	6.25213	Ccnd1;Ccnd2;Cd81
+Cluster670	regulation of cellular protein metabolic process	0.013506	0.0228562	1959	231	5	3	5.08831	Ccnd1;Ccnd2;Cd81
+Cluster670	regulation of protein metabolic process	0.0180243	0.0293729	1959	256	5	3	4.59141	Ccnd1;Ccnd2;Cd81
+Cluster670	regulation of cell proliferation	0.0272263	0.0427843	1959	297	5	3	3.95758	Ccnd1;Ccnd2;Cd81
+Cluster734	mRNA processing	7.90094e-05	0.00188824	1959	67	8	4	14.6194	Cstf2;Dhx15;Pnn;Sf3a1
+Cluster734	mRNA metabolic process	0.000111073	0.00188824	1959	73	8	4	13.4178	Cstf2;Dhx15;Pnn;Sf3a1
+Cluster734	RNA processing	0.00051548	0.00584211	1959	108	8	4	9.06944	Cstf2;Dhx15;Pnn;Sf3a1
+Cluster734	RNA splicing	0.00111995	0.0095196	1959	56	8	3	13.1183	Dhx15;Pnn;Sf3a1
+Cluster685	protein transport	0.0006571	0.00399113	1959	115	8	4	8.51739	Mcfd2;Sec63;Snx7;Tmed5
+Cluster685	establishment of protein localization	0.000725661	0.00399113	1959	118	8	4	8.30085	Mcfd2;Sec63;Snx7;Tmed5
+Cluster685	protein localization	0.00374438	0.0104352	1959	182	8	4	5.38187	Mcfd2;Sec63;Snx7;Tmed5
+Cluster685	transport	0.00383681	0.0104352	1959	315	8	5	3.8869	Dynlt3;Mcfd2;Sec63;Snx7;Tmed5
+Cluster685	establishment of localization	0.00474325	0.0104352	1959	330	8	5	3.71023	Dynlt3;Mcfd2;Sec63;Snx7;Tmed5
+Cluster685	macromolecule localization	0.00591501	0.0108442	1959	206	8	4	4.75485	Mcfd2;Sec63;Snx7;Tmed5
+Cluster685	localization	0.0193567	0.0304177	1959	453	8	5	2.70281	Dynlt3;Mcfd2;Sec63;Snx7;Tmed5
+Cluster720	RNA splicing	0.00111995	0.0194468	1959	56	8	3	13.1183	Hnrnpc;Hnrnpk;Psip1
+Cluster720	mRNA processing	0.00189439	0.0194468	1959	67	8	3	10.9646	Hnrnpc;Hnrnpk;Psip1
+Cluster720	mRNA metabolic process	0.00243085	0.0194468	1959	73	8	3	10.0634	Hnrnpc;Hnrnpk;Psip1
+Cluster720	RNA processing	0.00744854	0.0446913	1959	108	8	3	6.80208	Hnrnpc;Hnrnpk;Psip1
+Cluster545	protein folding	0.00065548	0.017698	1959	41	9	3	15.9268	Calr;Canx;Hsp90b1
+Cluster545	cellular protein metabolic process	0.00392998	0.0494309	1959	412	9	6	3.1699	Calr;Canx;Hsp90b1;Hspa5;P4hb;Rpn1
+Cluster545	neurological system process	0.00685319	0.0494309	1959	92	9	3	7.09783	Canx;Magt1;Manf
+Cluster545	protein metabolic process	0.00732309	0.0494309	1959	463	9	6	2.82073	Calr;Canx;Hsp90b1;Hspa5;P4hb;Rpn1
+Cluster726	intracellular protein transport	0.000105238	0.0034519	1959	64	16	5	9.56543	Cse1l;Eif5a;Ipo5;Ran;Tomm40
+Cluster726	intracellular transport	0.000106212	0.0034519	1959	105	16	6	6.99643	Cse1l;Eif5a;Ipo5;Ppif;Ran;Tomm40
+Cluster726	protein targeting	0.000394428	0.00854593	1959	46	16	4	10.6467	Eif5a;Ipo5;Ran;Tomm40
+Cluster726	establishment of localization in cell	0.00063856	0.0103766	1959	145	16	6	5.06638	Cse1l;Eif5a;Ipo5;Ppif;Ran;Tomm40
+Cluster726	protein import	0.000815652	0.0106035	1959	24	16	3	15.3047	Ipo5;Ran;Tomm40
+Cluster726	protein transport	0.00165659	0.0134419	1959	115	16	5	5.32337	Cse1l;Eif5a;Ipo5;Ran;Tomm40
+Cluster726	cellular macromolecule localization	0.00179101	0.0134419	1959	117	16	5	5.23237	Cse1l;Eif5a;Ipo5;Ran;Tomm40
+Cluster726	cellular protein localization	0.00179101	0.0134419	1959	117	16	5	5.23237	Cse1l;Eif5a;Ipo5;Ran;Tomm40
+Cluster726	establishment of protein localization	0.00186119	0.0134419	1959	118	16	5	5.18803	Cse1l;Eif5a;Ipo5;Ran;Tomm40
+Cluster726	cellular localization	0.00299399	0.0194609	1959	194	16	6	3.78673	Cse1l;Eif5a;Ipo5;Ppif;Ran;Tomm40
+Cluster726	nucleocytoplasmic transport	0.00452201	0.026721	1959	43	16	3	8.54215	Eif5a;Ipo5;Ran
+Cluster726	nuclear transport	0.0051477	0.0278834	1959	45	16	3	8.1625	Eif5a;Ipo5;Ran
+Cluster726	protein localization to organelle	0.00733095	0.0366547	1959	51	16	3	7.20221	Ipo5;Ran;Tomm40
+Cluster735	positive regulation of cell-substrate adhesion	2.21025e-05	0.00317848	1959	20	18	4	21.7667	Col8a1;Fbln2;Sdc4;Spp1
+Cluster735	negative regulation of proteolysis	5.29239e-05	0.00317848	1959	9	18	3	36.2778	Timp1;Timp2;Timp3
+Cluster735	regulation of catalytic activity	6.35696e-05	0.00317848	1959	228	18	9	4.29605	App;Cst3;Ecm1;Fn1;Sdc4;Serinc1;Tgfbr2;Timp1;Timp2
+Cluster735	regulation of cell-substrate adhesion	0.000134717	0.00408696	1959	31	18	4	14.043	Col8a1;Fbln2;Sdc4;Spp1
+Cluster735	negative regulation of cellular catabolic process	0.000136232	0.00408696	1959	12	18	3	27.2083	Cst3;Timp1;Timp3
+Cluster735	regulation of peptidase activity	0.000211363	0.00528407	1959	65	18	5	8.37179	App;Cst3;Ecm1;Fn1;Timp2
+Cluster735	negative regulation of peptidase activity	0.00027314	0.00569091	1959	37	18	4	11.7658	App;Cst3;Ecm1;Timp2
+Cluster735	positive regulation of cell adhesion	0.000303515	0.00569091	1959	38	18	4	11.4561	Col8a1;Fbln2;Sdc4;Spp1
+Cluster735	negative regulation of catabolic process	0.000409107	0.00681845	1959	17	18	3	19.2059	Cst3;Timp1;Timp3
+Cluster735	positive regulation of catalytic activity	0.000563659	0.00845488	1959	124	18	6	5.26613	App;Fn1;Sdc4;Serinc1;Tgfbr2;Timp2
+Cluster735	regulation of molecular function	0.000666991	0.00870257	1959	307	18	9	3.19055	App;Cst3;Ecm1;Fn1;Sdc4;Serinc1;Tgfbr2;Timp1;Timp2
+Cluster735	negative regulation of hydrolase activity	0.000696205	0.00870257	1959	47	18	4	9.26241	App;Cst3;Ecm1;Timp2
+Cluster735	regulation of biological process	0.000838237	0.00967197	1959	1145	18	17	1.61587	App;Col8a1;Cpe;Cst3;Ecm1;Fbln2;Fn1;Sdc4;Serinc1;Serinc3;Shisa5;Spp1;Tgfbr2;Timp1;Timp2;Timp3;Wls
+Cluster735	negative regulation of catalytic activity	0.00125063	0.0133996	1959	95	18	5	5.72807	App;Cst3;Ecm1;Timp1;Timp2
+Cluster735	biological regulation	0.00138719	0.0138719	1959	1182	18	17	1.56528	App;Col8a1;Cpe;Cst3;Ecm1;Fbln2;Fn1;Sdc4;Serinc1;Serinc3;Shisa5;Spp1;Tgfbr2;Timp1;Timp2;Timp3;Wls
+Cluster735	positive regulation of cellular process	0.00229421	0.021398	1959	620	18	12	2.10645	App;Col8a1;Cst3;Ecm1;Fbln2;Sdc4;Serinc3;Shisa5;Spp1;Tgfbr2;Timp2;Wls
+Cluster735	regulation of hydrolase activity	0.0024251	0.021398	1959	110	18	5	4.94697	App;Cst3;Ecm1;Fn1;Timp2
+Cluster735	positive regulation of molecular function	0.00257261	0.0214384	1959	165	18	6	3.95758	App;Fn1;Sdc4;Serinc1;Tgfbr2;Timp2
+Cluster735	regulation of proteolysis	0.00273668	0.0216054	1959	32	18	3	10.2031	Timp1;Timp2;Timp3
+Cluster735	regulation of cell adhesion	0.00365369	0.0274027	1959	73	18	4	5.96347	Col8a1;Fbln2;Sdc4;Spp1
+Cluster735	positive regulation of biological process	0.00405281	0.0289486	1959	658	18	12	1.9848	App;Col8a1;Cst3;Ecm1;Fbln2;Sdc4;Serinc3;Shisa5;Spp1;Tgfbr2;Timp2;Wls
+Cluster735	regulation of programmed cell death	0.00463195	0.0315815	1959	250	18	7	3.04733	App;Cst3;Fn1;Serinc3;Shisa5;Spp1;Timp1
+Cluster735	negative regulation of molecular function	0.00614395	0.0394689	1959	136	18	5	4.00123	App;Cst3;Ecm1;Timp1;Timp2
+Cluster735	regulation of cell death	0.00631502	0.0394689	1959	264	18	7	2.88573	App;Cst3;Fn1;Serinc3;Shisa5;Spp1;Timp1
+Cluster485	cellular response to interferon-beta	2.48657e-08	9.82195e-07	1959	5	18	4	87.0667	Ifi202b;Ifi203;Ifi204;Ifit1
+Cluster485	response to interferon-beta	2.48657e-08	9.82195e-07	1959	5	18	4	87.0667	Ifi202b;Ifi203;Ifi204;Ifit1
+Cluster485	cellular response to cytokine stimulus	2.78823e-05	0.000734235	1959	43	18	5	12.655	Ifi202b;Ifi203;Ifi204;Ifit1;Stat1
+Cluster485	innate immune response	3.97034e-05	0.000784142	1959	23	18	4	18.9275	Ifit1;Irf7;Irgm1;Stat1
+Cluster485	response to cytokine stimulus	0.000102839	0.00162485	1959	56	18	5	9.71726	Ifi202b;Ifi203;Ifi204;Ifit1;Stat1
+Cluster485	immune response	0.00110394	0.0145352	1959	53	18	4	8.21384	Ifit1;Irf7;Irgm1;Stat1
+Cluster485	defense response	0.00176526	0.0199222	1959	60	18	4	7.25556	Ifit1;Irf7;Irgm1;Stat1
+Cluster683	cell-cell junction organization	3.97034e-05	0.00258072	1959	23	18	4	18.9275	Camsap3;Cdh1;Crb3;Dsp
+Cluster683	cell junction organization	0.00021906	0.00711946	1959	35	18	4	12.4381	Camsap3;Cdh1;Crb3;Dsp
+Cluster683	cell-cell adhesion	0.00155379	0.0336655	1959	58	18	4	7.50575	Camsap3;Cdh1;Dsg2;Dsp
+Cluster669	protein transport	2.47758e-06	5.09313e-05	1959	115	23	9	6.66578	Copa;Kdelr2;Kdelr3;Rrbp1;Sar1a;Sec23a;Sec24d;Sec31a;Sec61a1
+Cluster669	establishment of protein localization	3.08675e-06	5.09313e-05	1959	118	23	9	6.49632	Copa;Kdelr2;Kdelr3;Rrbp1;Sar1a;Sec23a;Sec24d;Sec31a;Sec61a1
+Cluster669	macromolecule localization	5.81567e-06	6.39723e-05	1959	206	23	11	4.54812	Copa;Hdlbp;Kdelr2;Kdelr3;Plod3;Rrbp1;Sar1a;Sec23a;Sec24d;Sec31a;Sec61a1
+Cluster669	protein localization	1.47314e-05	0.000121534	1959	182	23	10	4.67989	Copa;Kdelr2;Kdelr3;Plod3;Rrbp1;Sar1a;Sec23a;Sec24d;Sec31a;Sec61a1
+Cluster669	vesicle-mediated transport	0.000238393	0.0015734	1959	81	23	6	6.30918	Copa;Kdelr2;Kdelr3;Sar1a;Sec23a;Sec31a
+Cluster669	transport	0.000342641	0.00188453	1959	315	23	11	2.97433	Copa;Hdlbp;Kdelr2;Kdelr3;Rrbp1;Sar1a;Sec23a;Sec24d;Sec31a;Sec61a1;Slc39a7
+Cluster669	localization	0.000518738	0.00215549	1959	453	23	13	2.44428	Copa;Hdlbp;Kdelr2;Kdelr3;Mmp14;Plod3;Rrbp1;Sar1a;Sec23a;Sec24d;Sec31a;Sec61a1;Slc39a7
+Cluster669	establishment of localization	0.000522542	0.00215549	1959	330	23	11	2.83913	Copa;Hdlbp;Kdelr2;Kdelr3;Rrbp1;Sar1a;Sec23a;Sec24d;Sec31a;Sec61a1;Slc39a7
+Cluster738	purine nucleoside monophosphate metabolic process	0.00029375	0.0186686	1959	10	28	3	20.9893	Adsl;Ak2;Pfas
+Cluster738	purine ribonucleoside monophosphate metabolic process	0.00029375	0.0186686	1959	10	28	3	20.9893	Adsl;Ak2;Pfas
+Cluster738	ribonucleoside monophosphate metabolic process	0.000400041	0.0186686	1959	11	28	3	19.0812	Adsl;Ak2;Pfas
+Cluster738	ribonucleotide biosynthetic process	0.000621086	0.021738	1959	29	28	4	9.65025	Adsl;Ak2;Cad;Pfas
+Cluster738	nucleoside monophosphate metabolic process	0.000857433	0.0240081	1959	14	28	3	14.9923	Adsl;Ak2;Pfas
+Cluster738	ribonucleoprotein complex biogenesis	0.0014044	0.032533	1959	61	28	5	5.73478	Gnl3;Nhp2;Nop56;Pes1;Prmt5
+Cluster738	cellular component biogenesis at cellular level	0.00162665	0.032533	1959	63	28	5	5.55272	Gnl3;Nhp2;Nop56;Pes1;Prmt5
+Cluster738	nucleotide biosynthetic process	0.00194877	0.0341034	1959	39	28	4	7.17582	Adsl;Ak2;Cad;Pfas
+Cluster738	nucleobase-containing compound biosynthetic process	0.00281082	0.0425343	1959	43	28	4	6.50831	Adsl;Ak2;Cad;Pfas
+Cluster738	heterocycle biosynthetic process	0.00332726	0.0425343	1959	45	28	4	6.21905	Adsl;Ak2;Cad;Pfas
+Cluster738	ribonucleotide metabolic process	0.00334198	0.0425343	1959	74	28	5	4.72732	Adsl;Ak2;Cad;Gnl3;Pfas
+Cluster738	ncRNA metabolic process	0.00390534	0.0454307	1959	47	28	4	5.95441	Nhp2;Nolc1;Pes1;Vars
+Cluster738	ribosome biogenesis	0.00421857	0.0454307	1959	48	28	4	5.83036	Gnl3;Nhp2;Nop56;Pes1
+Cluster604	aminoglycan biosynthetic process	9.56407e-05	0.0153025	1959	5	43	3	27.3349	Chst11;Ext1;Has2
+Cluster604	glycosaminoglycan biosynthetic process	9.56407e-05	0.0153025	1959	5	43	3	27.3349	Chst11;Ext1;Has2
+Cluster604	sprouting angiogenesis	0.000230746	0.0207724	1959	15	43	4	12.1488	Bmper;Efnb2;Flt1;Loxl2
+Cluster604	cell surface receptor signaling pathway	0.000289335	0.0207724	1959	207	43	13	2.86114	Adam19;Efnb2;F2r;Flt1;Foxs1;Gnb4;Gpr176;Itga5;Nrp1;Ptprn;Unc5b;Wisp1;Wnt5a
+Cluster604	polysaccharide biosynthetic process	0.000324569	0.0207724	1959	7	43	3	19.5249	Chst11;Ext1;Has2
+Cluster604	aminoglycan metabolic process	0.000511366	0.0233767	1959	8	43	3	17.0843	Chst11;Ext1;Has2
+Cluster604	glycosaminoglycan metabolic process	0.000511366	0.0233767	1959	8	43	3	17.0843	Chst11;Ext1;Has2
+Cluster604	regulation of axon extension	0.000755322	0.0302129	1959	9	43	3	15.186	Ngf;Nrp1;Wnt5a
+Cluster604	regulation of extent of cell growth	0.00106255	0.0377794	1959	10	43	3	13.6674	Ngf;Nrp1;Wnt5a
+Cluster604	vascular endothelial growth factor receptor signaling pathway	0.00143869	0.0452386	1959	11	43	3	12.4249	Flt1;Foxs1;Nrp1
+Cluster604	sulfur compound metabolic process	0.00155508	0.0452386	1959	24	43	4	7.59302	Chst11;Chst2;Ext1;Papss2
+Cluster604	endothelial cell migration	0.00188899	0.0464983	1959	12	43	3	11.3895	Efnb2;Loxl2;Nrp1
+Cluster604	polysaccharide metabolic process	0.00188899	0.0464983	1959	12	43	3	11.3895	Chst11;Ext1;Has2
+Cluster674	regulation of cellular component movement	6.87023e-09	3.21527e-06	1959	118	49	16	5.42096	Actn1;Adam9;Cited2;Cnn2;Csf1;Cyr61;F3;Hbegf;Ilk;Itgb1;Msn;Ptgs2;Rtn4;Serpine1;Thbs1;Vcl
+Cluster674	regulation of cell migration	1.65295e-08	3.8679e-06	1959	108	49	15	5.55272	Adam9;Cited2;Cnn2;Csf1;Cyr61;F3;Hbegf;Ilk;Itgb1;Msn;Ptgs2;Rtn4;Serpine1;Thbs1;Vcl
+Cluster674	regulation of cell motility	2.76593e-08	4.31484e-06	1959	112	49	15	5.35441	Adam9;Cited2;Cnn2;Csf1;Cyr61;F3;Hbegf;Ilk;Itgb1;Msn;Ptgs2;Rtn4;Serpine1;Thbs1;Vcl
+Cluster674	regulation of locomotion	4.01064e-08	4.69245e-06	1959	115	49	15	5.21473	Adam9;Cited2;Cnn2;Csf1;Cyr61;F3;Hbegf;Ilk;Itgb1;Msn;Ptgs2;Rtn4;Serpine1;Thbs1;Vcl
+Cluster674	response to wounding	5.39517e-08	5.04988e-06	1959	70	49	12	6.85364	Axl;Cd44;Cnn2;Csf1;Cyr61;F3;Hbegf;Lox;Ptgs2;Serpine1;Thbs1;Tnc
+Cluster674	positive regulation of response to stimulus	3.08423e-07	2.4057e-05	1959	195	49	18	3.69042	Axl;Cav1;Cd44;Cited2;Csf1;Ctgf;Cyr61;F3;Flna;Hbegf;Hmga2;Ilk;Itgb1;Ptgs2;Serpine1;Tgfb1i1;Thbs1;Tnfrsf12a
+Cluster674	regulation of localization	5.37117e-07	3.59101e-05	1959	249	49	20	3.21121	Actn1;Adam9;Anxa1;Cav1;Cited2;Cnn2;Csf1;Cyr61;F3;Flna;Hbegf;Hmga2;Ilk;Itgb1;Msn;Ptgs2;Rtn4;Serpine1;Thbs1;Vcl
+Cluster674	positive regulation of signaling	6.98422e-07	3.95855e-05	1959	162	49	16	3.9486	Axl;Cav1;Cd44;Cited2;Csf1;Ctgf;Cyr61;F3;Flna;Hbegf;Ilk;Itgb1;Ptgs2;Tgfb1i1;Thbs1;Tnfrsf12a
+Cluster674	positive regulation of cell communication	7.6126e-07	3.95855e-05	1959	163	49	16	3.92438	Axl;Cav1;Cd44;Cited2;Csf1;Ctgf;Cyr61;F3;Flna;Hbegf;Ilk;Itgb1;Ptgs2;Tgfb1i1;Thbs1;Tnfrsf12a
+Cluster674	wound healing	9.44368e-07	4.41964e-05	1959	34	49	8	9.40696	Axl;Cd44;Cnn2;Cyr61;F3;Hbegf;Lox;Serpine1
+Cluster674	tissue development	2.062e-06	8.77286e-05	1959	296	49	21	2.83639	Anxa1;Capn2;Cav1;Cd44;Cited2;Csf1;Ctgf;Cyr61;Flna;Flnb;Hmga2;Ilk;Itgb1;Plaur;Ptgs2;Rtn4;Tgfb1i1;Thbs1;Tnc;Tpm1;Vcl
+Cluster674	positive regulation of signal transduction	2.68246e-06	0.000104616	1959	157	49	15	3.81971	Axl;Cav1;Cd44;Cited2;Csf1;Ctgf;Cyr61;F3;Flna;Hbegf;Ilk;Itgb1;Tgfb1i1;Thbs1;Tnfrsf12a
+Cluster674	positive regulation of cell migration	3.64051e-06	0.000131058	1959	68	49	10	5.87935	Adam9;Csf1;Cyr61;F3;Hbegf;Ilk;Itgb1;Ptgs2;Serpine1;Thbs1
+Cluster674	positive regulation of cell motility	4.78492e-06	0.000159953	1959	70	49	10	5.71137	Adam9;Csf1;Cyr61;F3;Hbegf;Ilk;Itgb1;Ptgs2;Serpine1;Thbs1
+Cluster674	positive regulation of locomotion	5.46618e-06	0.000170545	1959	71	49	10	5.63093	Adam9;Csf1;Cyr61;F3;Hbegf;Ilk;Itgb1;Ptgs2;Serpine1;Thbs1
+Cluster674	positive regulation of cellular component movement	6.23021e-06	0.000176519	1959	72	49	10	5.55272	Adam9;Csf1;Cyr61;F3;Hbegf;Ilk;Itgb1;Ptgs2;Serpine1;Thbs1
+Cluster674	regulation of intracellular protein kinase cascade	6.41201e-06	0.000176519	1959	107	49	12	4.48369	Axl;Cav1;Cd44;Ctgf;Cyr61;F3;Flna;Hbegf;Hmga2;Ilk;Itgb1;Thbs1
+Cluster674	cell-substrate adhesion	8.26486e-06	0.000214886	1959	32	49	7	8.74554	Actn1;Adam9;Axl;Ctgf;Ilk;Itgb1;Tnfrsf12a
+Cluster674	biological adhesion	1.25746e-05	0.000294245	1959	134	49	13	3.87862	Actn1;Adam9;Axl;Cd44;Ctgf;Cyr61;Ilk;Itgb1;Lpp;Tnc;Tnfrsf12a;Vcl;Zyx
+Cluster674	cell adhesion	1.25746e-05	0.000294245	1959	134	49	13	3.87862	Actn1;Adam9;Axl;Cd44;Ctgf;Cyr61;Ilk;Itgb1;Lpp;Tnc;Tnfrsf12a;Vcl;Zyx
+Cluster674	positive regulation of developmental process	1.99839e-05	0.000445356	1959	184	49	15	3.25921	Adam9;Axl;Csf1;Ctgf;Cyr61;F3;Hmga2;Ilk;Itgb1;Ptgs2;Rtn4;Serpine1;Tgfb1i1;Thbs1;Tnfrsf12a
+Cluster674	anatomical structure formation involved in morphogenesis	2.43842e-05	0.000518719	1959	187	49	15	3.20692	Capn2;Cd44;Cited2;Ctgf;Cyr61;Flna;Hbegf;Hmga2;Ilk;Itgb1;Ptgs2;Rtn4;Thbs1;Tnfrsf12a;Tpm1
+Cluster674	positive regulation of cell adhesion	2.76377e-05	0.000562367	1959	38	49	7	7.36466	Adam9;Cd44;Csf1;Cyr61;Ilk;Itgb1;Thbs1
+Cluster674	positive regulation of protein kinase B signaling cascade	3.93047e-05	0.000766441	1959	17	49	5	11.7587	Axl;F3;Hbegf;Ilk;Thbs1
+Cluster674	anatomical structure morphogenesis	4.17978e-05	0.000782456	1959	385	49	22	2.28455	Actb;Axl;Capn2;Cav1;Cd44;Cited2;Csf1;Ctgf;Cyr61;Flna;Hbegf;Hmga2;Ilk;Itgb1;Ptgs2;Rtn4;Tgfb1i1;Thbs1;Tnc;Tnfrsf12a;Tpm1;Vcl
+Cluster674	multicellular organismal process	7.02533e-05	0.00121581	1959	702	49	31	1.76548	Acta2;Actb;Anxa1;Axl;Capn2;Cav1;Cd44;Cited2;Cnn2;Csf1;Ctgf;Cyr61;F3;Flna;Flnb;Hbegf;Hmga2;Ilk;Itgb1;Lox;Plaur;Ptgs2;Rtn4;Tagln;Tgfb1i1;Thbs1;Tnc;Tnfrsf12a;Tpm1;Tpm2;Wdr1
+Cluster674	positive regulation of intracellular protein kinase cascade	7.22657e-05	0.00121581	1959	76	49	9	4.73443	Axl;Cd44;Ctgf;F3;Flna;Hbegf;Ilk;Itgb1;Thbs1
+Cluster674	anatomical structure development	7.2741e-05	0.00121581	1959	630	49	29	1.84033	Actb;Anxa1;Axl;Capn2;Cav1;Cd44;Cited2;Cnn2;Csf1;Ctgf;Cyr61;Flna;Flnb;Flnc;Hbegf;Hmga2;Ilk;Itgb1;Lox;Plaur;Ptgs2;Rtn4;Tagln;Tgfb1i1;Thbs1;Tnc;Tnfrsf12a;Tpm1;Vcl
+Cluster674	inflammatory response	8.20708e-05	0.0012803	1959	31	49	6	7.73799	Axl;Cd44;Csf1;F3;Ptgs2;Thbs1
+Cluster674	regulation of cell-substrate adhesion	8.20708e-05	0.0012803	1959	31	49	6	7.73799	Csf1;Cyr61;Ilk;Itgb1;Serpine1;Thbs1
+Cluster674	regulation of cell communication	8.93137e-05	0.00131956	1959	287	49	18	2.50743	Axl;Cav1;Cd44;Cited2;Csf1;Ctgf;Cyr61;F3;Flna;Hbegf;Hmga2;Ilk;Itgb1;Ptgs2;Rtn4;Tgfb1i1;Thbs1;Tnfrsf12a
+Cluster674	positive regulation of cell-substrate adhesion	9.30461e-05	0.00131956	1959	20	49	5	9.9949	Csf1;Cyr61;Ilk;Itgb1;Thbs1
+Cluster674	regulation of protein kinase B signaling cascade	9.30461e-05	0.00131956	1959	20	49	5	9.9949	Axl;F3;Hbegf;Ilk;Thbs1
+Cluster674	negative regulation of cellular component movement	9.9103e-05	0.00136412	1959	32	49	6	7.49617	Actn1;Cited2;Cnn2;Ilk;Serpine1;Thbs1
+Cluster674	regulation of anatomical structure morphogenesis	0.000102671	0.00137286	1959	140	49	12	3.42682	Adam9;Cd44;Csf1;F3;Ilk;Myl12a;Ptgs2;Rtn4;Serpine1;Tgfb1i1;Thbs1;Tnfrsf12a
+Cluster674	actin filament-based process	0.000116071	0.00150892	1959	63	49	8	5.07677	Actn1;Cald1;Cnn2;Csrp1;Flna;Flnc;Itgb1;Tpm1
+Cluster674	blood vessel development	0.000124053	0.00155393	1959	121	49	11	3.63451	Cav1;Cited2;Ctgf;Cyr61;Hbegf;Itgb1;Lox;Ptgs2;Rtn4;Thbs1;Tnfrsf12a
+Cluster674	regulation of cellular component organization	0.000126559	0.00155393	1959	267	49	17	2.54552	Adam9;Anxa1;Cav1;Cd44;Cnn2;Crim1;Ctgf;Cyr61;Hbegf;Ilk;Itgb1;Myl12a;Rtn4;Serpine1;Tgfb1i1;Tnfrsf12a;Tpm1
+Cluster674	blood vessel morphogenesis	0.000129494	0.00155393	1959	101	49	10	3.95838	Cav1;Cited2;Ctgf;Cyr61;Hbegf;Itgb1;Ptgs2;Rtn4;Thbs1;Tnfrsf12a
+Cluster674	integrin-mediated signaling pathway	0.000147775	0.00172897	1959	12	49	4	13.3265	Adam9;Ctgf;Ilk;Itgb1
+Cluster674	regulation of response to stress	0.000180311	0.00205819	1959	105	49	10	3.80758	Anxa1;Cav1;Cd44;Ctgf;Hbegf;Hmga2;Ptgs2;Rtn4;Serpine1;Thbs1
+Cluster674	regulation of signaling	0.000187315	0.00206215	1959	332	49	19	2.28799	Axl;Cav1;Cd44;Cited2;Csf1;Ctgf;Cyr61;F3;Flna;Hbegf;Hmga2;Ilk;Itgb1;Ptgs2;Rtn4;Serpine1;Tgfb1i1;Thbs1;Tnfrsf12a
+Cluster674	vasculature development	0.000193164	0.00206215	1959	127	49	11	3.4628	Cav1;Cited2;Ctgf;Cyr61;Hbegf;Itgb1;Lox;Ptgs2;Rtn4;Thbs1;Tnfrsf12a
+Cluster674	system development	0.000193877	0.00206215	1959	555	49	26	1.87292	Actb;Anxa1;Axl;Capn2;Cav1;Cd44;Cited2;Cnn2;Csf1;Ctgf;Cyr61;Flna;Flnb;Hbegf;Hmga2;Ilk;Itgb1;Lox;Plaur;Ptgs2;Rtn4;Tagln;Thbs1;Tnc;Tnfrsf12a;Tpm1
+Cluster674	angiogenesis	0.000273737	0.00284686	1959	71	49	8	4.50474	Ctgf;Cyr61;Hbegf;Itgb1;Ptgs2;Rtn4;Thbs1;Tnfrsf12a
+Cluster674	regulation of response to stimulus	0.000282202	0.00286738	1959	372	49	20	2.14944	Anxa1;Axl;Cav1;Cd44;Cited2;Csf1;Ctgf;Cyr61;F3;Flna;Hbegf;Hmga2;Ilk;Itgb1;Ptgs2;Rtn4;Serpine1;Tgfb1i1;Thbs1;Tnfrsf12a
+Cluster674	regulation of muscle contraction	0.000287964	0.00286738	1959	14	49	4	11.4227	Cald1;Cav1;Ctgf;Ptgs2
+Cluster674	regulation of cell adhesion	0.000332903	0.0032458	1959	73	49	8	4.38133	Adam9;Cd44;Csf1;Cyr61;Ilk;Itgb1;Serpine1;Thbs1
+Cluster674	positive regulation of growth	0.000352455	0.00336631	1959	26	49	5	7.68838	Csf1;Hbegf;Hmga2;Ilk;Tnfrsf12a
+Cluster674	response to stress	0.000393609	0.00368418	1959	321	49	18	2.24185	Adam9;Anxa1;Axl;Cav1;Cd44;Cited2;Cnn2;Csf1;Cyr61;F3;Hbegf;Hmga2;Lox;Ptgs2;Serpine1;Tgfb1i1;Thbs1;Tnc
+Cluster674	cell differentiation	0.000426542	0.00384918	1959	446	49	22	1.97209	Actb;Anxa1;Axl;Capn2;Cav1;Cd44;Cited2;Csf1;Ctgf;Cyr61;Flna;Flnc;Hmga2;Ilk;Itgb1;Plaur;Ptgs2;Rtn4;Tgfb1i1;Tnc;Tnfrsf12a;Tpm1
+Cluster674	developmental process	0.000427686	0.00384918	1959	688	49	29	1.68519	Actb;Anxa1;Axl;Capn2;Cav1;Cd44;Cited2;Cnn2;Csf1;Ctgf;Cyr61;Flna;Flnb;Flnc;Hbegf;Hmga2;Ilk;Itgb1;Lox;Plaur;Ptgs2;Rtn4;Tagln;Tgfb1i1;Thbs1;Tnc;Tnfrsf12a;Tpm1;Vcl
+Cluster674	actin cytoskeleton organization	0.000449399	0.00396828	1959	58	49	7	4.82512	Actn1;Cald1;Cnn2;Csrp1;Flna;Itgb1;Tpm1
+Cluster674	organ development	0.000471947	0.00409021	1959	449	49	22	1.95891	Anxa1;Axl;Capn2;Cav1;Cd44;Cited2;Cnn2;Csf1;Ctgf;Cyr61;Flna;Flnb;Hmga2;Itgb1;Lox;Plaur;Ptgs2;Rtn4;Tagln;Thbs1;Tnc;Tpm1
+Cluster674	regulation of cell growth	0.00050024	0.00416335	1959	59	49	7	4.74334	Cd44;Crim1;Cyr61;Hbegf;Ilk;Rtn4;Tnfrsf12a
+Cluster674	cellular component assembly involved in morphogenesis	0.000504541	0.00416335	1959	16	49	4	9.9949	Flna;Ilk;Itgb1;Tpm1
+Cluster674	negative regulation of cell migration	0.000507075	0.00416335	1959	28	49	5	7.13921	Cited2;Cnn2;Ilk;Serpine1;Thbs1
+Cluster674	regulation of multicellular organismal process	0.000540614	0.00434651	1959	359	49	19	2.11591	Axl;Cald1;Cav1;Cd44;Csf1;Ctgf;Cyr61;F3;Hbegf;Hmga2;Ilk;Itgb1;Ptgs2;Rtn4;Serpine1;Tgfb1i1;Thbs1;Tnfrsf12a;Tpm1
+Cluster674	defense response	0.000555586	0.00434651	1959	60	49	7	4.66429	Axl;Cd44;Csf1;F3;Ptgs2;Serpine1;Thbs1
+Cluster674	cellular developmental process	0.000557244	0.00434651	1959	454	49	22	1.93734	Actb;Anxa1;Axl;Capn2;Cav1;Cd44;Cited2;Csf1;Ctgf;Cyr61;Flna;Flnc;Hmga2;Ilk;Itgb1;Plaur;Ptgs2;Rtn4;Tgfb1i1;Tnc;Tnfrsf12a;Tpm1
+Cluster674	negative regulation of cell motility	0.000708015	0.00524626	1959	30	49	5	6.66327	Cited2;Cnn2;Ilk;Serpine1;Thbs1
+Cluster674	multicellular organismal development	0.00070858	0.00524626	1959	633	49	27	1.70529	Actb;Anxa1;Axl;Capn2;Cav1;Cd44;Cited2;Cnn2;Csf1;Ctgf;Cyr61;Flna;Flnb;Hbegf;Hmga2;Ilk;Itgb1;Lox;Plaur;Ptgs2;Rtn4;Tagln;Tgfb1i1;Thbs1;Tnc;Tnfrsf12a;Tpm1
+Cluster674	cell migration	0.000708859	0.00524626	1959	102	49	9	3.52761	Axl;Cd44;Ctgf;Cyr61;Hbegf;Itgb1;Rtn4;Thbs1;Tnfrsf12a
+Cluster674	regulation of molecular function	0.000717438	0.00524626	1959	307	49	17	2.21385	Adam9;Anxa1;Cald1;Calu;Cav1;Cd44;Csf1;Ctgf;Cyr61;F3;Flna;Hmga2;Ilk;Serpine1;Thbs1;Tpm1;Tpm2
+Cluster674	regulation of signal transduction	0.000775389	0.0055828	1959	309	49	17	2.19952	Axl;Cav1;Cd44;Cited2;Csf1;Ctgf;Cyr61;F3;Flna;Hbegf;Hmga2;Ilk;Itgb1;Serpine1;Tgfb1i1;Thbs1;Tnfrsf12a
+Cluster674	regulation of cell-matrix adhesion	0.000817487	0.00571021	1959	18	49	4	8.88435	Csf1;Ilk;Serpine1;Thbs1
+Cluster674	regulation of wound healing	0.000817487	0.00571021	1959	18	49	4	8.88435	Cav1;Hbegf;Serpine1;Thbs1
+Cluster674	positive regulation of cell death	0.000861988	0.00573486	1959	127	49	10	3.148	Anxa1;Cav1;Cd44;Ctgf;Cyr61;Hmga2;Itgb1;Ptgs2;Thbs1;Tnfrsf12a
+Cluster674	positive regulation of transport	0.000875031	0.00573486	1959	84	49	8	3.80758	Adam9;Anxa1;Cav1;Flna;Itgb1;Ptgs2;Rtn4;Serpine1
+Cluster674	cell motility	0.000878346	0.00573486	1959	105	49	9	3.42682	Axl;Cd44;Ctgf;Cyr61;Hbegf;Itgb1;Rtn4;Thbs1;Tnfrsf12a
+Cluster674	localization of cell	0.000878346	0.00573486	1959	105	49	9	3.42682	Axl;Cd44;Ctgf;Cyr61;Hbegf;Itgb1;Rtn4;Thbs1;Tnfrsf12a
+Cluster674	regulation of anatomical structure size	0.000882287	0.00573486	1959	47	49	6	5.10378	Acta2;Cav1;Ilk;Rtn4;Tnfrsf12a;Tpm1
+Cluster674	regulation of catalytic activity	0.000895716	0.0057424	1959	228	49	14	2.45489	Adam9;Anxa1;Calu;Cav1;Cd44;Csf1;Ctgf;Cyr61;F3;Ilk;Serpine1;Thbs1;Tpm1;Tpm2
+Cluster674	regulation of peptidase activity	0.000910203	0.00575642	1959	65	49	7	4.30549	Cav1;Cd44;Ctgf;Cyr61;F3;Serpine1;Thbs1
+Cluster674	regulation of developmental process	0.00097753	0.00609979	1959	345	49	18	2.08589	Adam9;Axl;Cav1;Cd44;Csf1;Ctgf;Cyr61;F3;Hmga2;Ilk;Itgb1;Myl12a;Ptgs2;Rtn4;Serpine1;Tgfb1i1;Thbs1;Tnfrsf12a
+Cluster674	positive regulation of protein phosphorylation	0.00100878	0.00621194	1959	107	49	9	3.36277	Adam9;Cav1;Cd44;Csf1;Ctgf;Cyr61;Ilk;Itgb1;Thbs1
+Cluster674	developmental process involved in reproduction	0.00110747	0.00667191	1959	87	49	8	3.67628	Axl;Cd44;Cited2;Csf1;Hmga2;Plaur;Ptgs2;Tnc
+Cluster674	regulation of axon extension	0.00111199	0.00667191	1959	9	49	3	13.3265	Ilk;Rtn4;Tnfrsf12a
+Cluster674	positive regulation of phosphorylation	0.00115463	0.00671008	1959	109	49	9	3.30107	Adam9;Cav1;Cd44;Csf1;Ctgf;Cyr61;Ilk;Itgb1;Thbs1
+Cluster674	cardiovascular system development	0.00116658	0.00671008	1959	181	49	12	2.65058	Cav1;Cited2;Ctgf;Cyr61;Hbegf;Itgb1;Lox;Ptgs2;Rtn4;Thbs1;Tnfrsf12a;Tpm1
+Cluster674	circulatory system development	0.00116658	0.00671008	1959	181	49	12	2.65058	Cav1;Cited2;Ctgf;Cyr61;Hbegf;Itgb1;Lox;Ptgs2;Rtn4;Thbs1;Tnfrsf12a;Tpm1
+Cluster674	regulation of system process	0.00119678	0.00671008	1959	68	49	7	4.11555	Cald1;Cav1;Ctgf;Hbegf;Ptgs2;Rtn4;Tpm1
+Cluster674	positive regulation of phosphate metabolic process	0.00123375	0.00671008	1959	110	49	9	3.27106	Adam9;Cav1;Cd44;Csf1;Ctgf;Cyr61;Ilk;Itgb1;Thbs1
+Cluster674	positive regulation of phosphorus metabolic process	0.00123375	0.00671008	1959	110	49	9	3.27106	Adam9;Cav1;Cd44;Csf1;Ctgf;Cyr61;Ilk;Itgb1;Thbs1
+Cluster674	regulation of hydrolase activity	0.00123375	0.00671008	1959	110	49	9	3.27106	Cav1;Cd44;Ctgf;Cyr61;F3;Serpine1;Thbs1;Tpm1;Tpm2
+Cluster674	positive regulation of angiogenesis	0.00124739	0.00671008	1959	20	49	4	7.99592	F3;Ptgs2;Serpine1;Thbs1
+Cluster674	regulation of muscle system process	0.00124739	0.00671008	1959	20	49	4	7.99592	Cald1;Cav1;Ctgf;Ptgs2
+Cluster674	negative regulation of locomotion	0.00128197	0.00681773	1959	34	49	5	5.87935	Cited2;Cnn2;Ilk;Serpine1;Thbs1
+Cluster674	regulation of transport	0.00137324	0.0072211	1959	159	49	11	2.76588	Adam9;Anxa1;Cav1;Cnn2;Flna;Hmga2;Itgb1;Ptgs2;Rtn4;Serpine1;Thbs1
+Cluster674	regulation of growth	0.00140524	0.00730727	1959	112	49	9	3.21265	Cd44;Crim1;Csf1;Cyr61;Hbegf;Hmga2;Ilk;Rtn4;Tnfrsf12a
+Cluster674	cell-matrix adhesion	0.00151269	0.00752982	1959	21	49	4	7.61516	Actn1;Adam9;Ctgf;Itgb1
+Cluster674	regulation of endocytosis	0.00151269	0.00752982	1959	21	49	4	7.61516	Cav1;Cnn2;Itgb1;Serpine1
+Cluster674	striated muscle cell development	0.00151269	0.00752982	1959	21	49	4	7.61516	Flnc;Itgb1;Tnc;Tpm1
+Cluster674	reproductive structure development	0.00152082	0.00752982	1959	52	49	6	4.61303	Axl;Cd44;Cited2;Hmga2;Plaur;Tnc
+Cluster674	actomyosin structure organization	0.00156067	0.00752982	1959	10	49	3	11.9939	Cnn2;Itgb1;Tpm1
+Cluster674	regulation of extent of cell growth	0.00156067	0.00752982	1959	10	49	3	11.9939	Ilk;Rtn4;Tnfrsf12a
+Cluster674	regulation of smooth muscle contraction	0.00156067	0.00752982	1959	10	49	3	11.9939	Cald1;Cav1;Ptgs2
+Cluster674	positive regulation of multicellular organismal process	0.00172083	0.00821785	1959	93	49	8	3.4391	Cav1;Csf1;Ctgf;Hmga2;Ptgs2;Serpine1;Thbs1;Tpm1
+Cluster674	regulation of multicellular organismal development	0.00174136	0.00823191	1959	272	49	15	2.20476	Axl;Cav1;Cd44;Csf1;Cyr61;F3;Hmga2;Ilk;Itgb1;Ptgs2;Rtn4;Serpine1;Tgfb1i1;Thbs1;Tnfrsf12a
+Cluster674	muscle structure development	0.00184525	0.00856568	1959	94	49	8	3.40252	Capn2;Cav1;Flnb;Flnc;Itgb1;Tagln;Tnc;Tpm1
+Cluster674	regulation of endopeptidase activity	0.00185721	0.00856568	1959	54	49	6	4.44218	Cd44;Ctgf;Cyr61;F3;Serpine1;Thbs1
+Cluster674	positive regulation of molecular function	0.00186688	0.00856568	1959	165	49	11	2.66531	Adam9;Cald1;Cav1;Csf1;Ctgf;Cyr61;F3;Hmga2;Ilk;Thbs1;Tpm1
+Cluster674	regulation of vesicle-mediated transport	0.0018978	0.00862302	1959	37	49	5	5.40265	Anxa1;Cav1;Cnn2;Itgb1;Serpine1
+Cluster674	positive regulation of cell differentiation	0.0019505	0.00877724	1959	141	49	10	2.83543	Axl;Csf1;Ctgf;Cyr61;Ilk;Itgb1;Ptgs2;Rtn4;Tgfb1i1;Tnfrsf12a
+Cluster674	muscle contraction	0.00210828	0.00939692	1959	11	49	3	10.9035	Acta2;Tpm1;Tpm2
+Cluster674	positive regulation of transmembrane receptor protein serine/threonine kinase signaling pathway	0.00215697	0.00952323	1959	23	49	4	6.95297	Cyr61;Ilk;Tgfb1i1;Thbs1
+Cluster674	cellular membrane organization	0.002414	0.0105585	1959	39	49	5	5.12559	Cav1;Flna;Itgb1;Myl12a;Thbs1
+Cluster674	regulation of response to external stimulus	0.00246454	0.0106797	1959	57	49	6	4.20838	Anxa1;Cav1;Ptgs2;Rtn4;Serpine1;Thbs1
+Cluster674	positive regulation of apoptotic process	0.00257679	0.0110637	1959	122	49	9	2.94931	Anxa1;Cav1;Cd44;Cyr61;Hmga2;Itgb1;Ptgs2;Thbs1;Tnfrsf12a
+Cluster674	membrane organization	0.00270738	0.0113973	1959	40	49	5	4.99745	Cav1;Flna;Itgb1;Myl12a;Thbs1
+Cluster674	regulation of cysteine-type endopeptidase activity involved in apoptotic process	0.00270738	0.0113973	1959	40	49	5	4.99745	Cd44;Ctgf;Cyr61;F3;Thbs1
+Cluster674	cytoskeleton organization	0.00272756	0.0113973	1959	123	49	9	2.92534	Actn1;Cald1;Cav1;Cnn2;Csrp1;Flna;Itgb1;Tagln;Tpm1
+Cluster674	positive regulation of catalytic activity	0.0028853	0.0117419	1959	124	49	9	2.90174	Adam9;Cav1;Csf1;Ctgf;Cyr61;F3;Ilk;Thbs1;Tpm1
+Cluster674	positive regulation of cellular component organization	0.0028853	0.0117419	1959	124	49	9	2.90174	Adam9;Anxa1;Cav1;Ctgf;Ilk;Itgb1;Serpine1;Tgfb1i1;Tnfrsf12a
+Cluster674	positive regulation of programmed cell death	0.0028853	0.0117419	1959	124	49	9	2.90174	Anxa1;Cav1;Cd44;Cyr61;Hmga2;Itgb1;Ptgs2;Thbs1;Tnfrsf12a
+Cluster674	regulation of biological quality	0.00292065	0.0117833	1959	316	49	16	2.02428	Acta2;Anxa1;Axl;Cav1;Cited2;Csf1;F3;Flna;Hmga2;Ilk;Itgb1;Myl12a;Ptgs2;Rtn4;Tnfrsf12a;Tpm1
+Cluster674	regulation of cysteine-type endopeptidase activity	0.00302587	0.0120009	1959	41	49	5	4.87556	Cd44;Ctgf;Cyr61;F3;Thbs1
+Cluster674	striated muscle cell differentiation	0.00302587	0.0120009	1959	41	49	5	4.87556	Capn2;Flnc;Itgb1;Tnc;Tpm1
+Cluster674	cell development	0.00309849	0.0121857	1959	230	49	13	2.25972	Actb;Axl;Cd44;Cited2;Cyr61;Flna;Flnc;Hmga2;Ilk;Itgb1;Rtn4;Tnc;Tpm1
+Cluster674	positive regulation of protein modification process	0.00322262	0.0125682	1959	126	49	9	2.85569	Adam9;Cav1;Cd44;Csf1;Ctgf;Cyr61;Ilk;Itgb1;Thbs1
+Cluster674	positive regulation of peptidase activity	0.0034457	0.0133272	1959	26	49	4	6.15071	Cav1;Ctgf;Cyr61;F3
+Cluster674	regulation of smooth muscle cell migration	0.00352746	0.0135316	1959	13	49	3	9.22606	F3;Ilk;Serpine1
+Cluster674	cell projection organization	0.00374385	0.0139882	1959	105	49	8	3.04606	Actb;Cd44;Flna;Ilk;Itgb1;Rtn4;Tnc;Vcl
+Cluster674	cell surface receptor signaling pathway	0.00375386	0.0139882	1959	207	49	12	2.31766	Adam9;Anxa1;Axl;Cav1;Cd44;Cited2;Ctgf;Flna;Hbegf;Ilk;Itgb1;Tgfb1i1
+Cluster674	regulation of cell death	0.00378637	0.0139882	1959	264	49	14	2.12013	Anxa1;Axl;Cav1;Cd44;Ctgf;Cyr61;Hmga2;Ilk;Itgb1;Plaur;Ptgs2;Serpine1;Thbs1;Tnfrsf12a
+Cluster674	muscle organ development	0.00379594	0.0139882	1959	62	49	6	3.86899	Capn2;Cav1;Flnb;Tagln;Tnc;Tpm1
+Cluster674	regulation of MAPK cascade	0.00379594	0.0139882	1959	62	49	6	3.86899	Cav1;Cd44;Ctgf;Cyr61;Ilk;Itgb1
+Cluster674	cellular component assembly at cellular level	0.00415832	0.0152039	1959	156	49	10	2.56279	Actn1;Cald1;Cav1;Flna;Hmga2;Ilk;Itgb1;Lox;Tpm1;Vcl
+Cluster674	regulation of cell proliferation	0.00424596	0.015224	1959	297	49	15	2.01917	Anxa1;Cav1;Cnn2;Csf1;Ctgf;Cyr61;F3;Hbegf;Hmga2;Ilk;Itgb1;Ptgs2;Serpine1;Thbs1;Tnc
+Cluster674	reproductive process	0.00435718	0.015224	1959	157	49	10	2.54647	Axl;Cav1;Cd44;Cited2;Csf1;Hmga2;Itgb1;Plaur;Ptgs2;Tnc
+Cluster674	gland development	0.00440138	0.015224	1959	85	49	7	3.29244	Cav1;Cd44;Cited2;Csf1;Hmga2;Plaur;Tnc
+Cluster674	positive regulation of endocytosis	0.00441096	0.015224	1959	14	49	3	8.56706	Cav1;Itgb1;Serpine1
+Cluster674	regulation of blood coagulation	0.00441096	0.015224	1959	14	49	3	8.56706	Cav1;Serpine1;Thbs1
+Cluster674	regulation of heart contraction	0.00441096	0.015224	1959	14	49	3	8.56706	Ctgf;Hbegf;Tpm1
+Cluster674	regulation of hemostasis	0.00441096	0.015224	1959	14	49	3	8.56706	Cav1;Serpine1;Thbs1
+Cluster674	cellular component movement	0.00442643	0.015224	1959	132	49	9	2.72588	Axl;Cd44;Ctgf;Cyr61;Hbegf;Itgb1;Rtn4;Thbs1;Tnfrsf12a
+Cluster674	striated muscle tissue development	0.00445659	0.015224	1959	64	49	6	3.74809	Capn2;Cav1;Flnb;Itgb1;Tnc;Tpm1
+Cluster674	locomotion	0.00465762	0.0157954	1959	133	49	9	2.70539	Axl;Cd44;Ctgf;Cyr61;Hbegf;Itgb1;Rtn4;Thbs1;Tnfrsf12a
+Cluster674	epithelium development	0.00477769	0.0159711	1959	159	49	10	2.51444	Anxa1;Cd44;Cited2;Csf1;Ilk;Plaur;Ptgs2;Tgfb1i1;Tnc;Vcl
+Cluster674	reproduction	0.00477769	0.0159711	1959	159	49	10	2.51444	Axl;Cav1;Cd44;Cited2;Csf1;Hmga2;Itgb1;Plaur;Ptgs2;Tnc
+Cluster674	muscle tissue development	0.00481724	0.0159891	1959	65	49	6	3.69042	Capn2;Cav1;Flnb;Itgb1;Tnc;Tpm1
+Cluster674	cellular component morphogenesis	0.00489823	0.0161435	1959	134	49	9	2.6852	Actb;Axl;Flna;Hmga2;Ilk;Itgb1;Rtn4;Tnc;Tpm1
+Cluster674	muscle cell development	0.00518003	0.0169528	1959	29	49	4	5.51443	Flnc;Itgb1;Tnc;Tpm1
+Cluster674	negative regulation of molecular function	0.0054087	0.0171305	1959	136	49	9	2.64571	Anxa1;Calu;Cav1;Cd44;Flna;Hmga2;Ilk;Serpine1;Thbs1
+Cluster674	muscle system process	0.00541733	0.0171305	1959	15	49	3	7.99592	Acta2;Tpm1;Tpm2
+Cluster674	positive regulation of cell growth	0.00541733	0.0171305	1959	15	49	3	7.99592	Hbegf;Ilk;Tnfrsf12a
+Cluster674	regulation of cell size	0.00541733	0.0171305	1959	15	49	3	7.99592	Ilk;Rtn4;Tnfrsf12a
+Cluster674	response to calcium ion	0.00541733	0.0171305	1959	15	49	3	7.99592	Adam9;Cav1;Thbs1
+Cluster674	mesenchymal cell differentiation	0.00553233	0.0173767	1959	47	49	5	4.25315	Cited2;Flna;Hmga2;Plaur;Rtn4
+Cluster674	regulation of apoptotic process	0.00582641	0.0181784	1959	247	49	13	2.10419	Anxa1;Axl;Cav1;Cd44;Cyr61;Hmga2;Ilk;Itgb1;Plaur;Ptgs2;Serpine1;Thbs1;Tnfrsf12a
+Cluster674	regulation of programmed cell death	0.00646672	0.0198708	1959	250	49	13	2.07894	Anxa1;Axl;Cav1;Cd44;Cyr61;Hmga2;Ilk;Itgb1;Plaur;Ptgs2;Serpine1;Thbs1;Tnfrsf12a
+Cluster674	regulation of coagulation	0.00655105	0.0198708	1959	16	49	3	7.49617	Cav1;Serpine1;Thbs1
+Cluster674	positive regulation of cellular protein metabolic process	0.00655416	0.0198708	1959	140	49	9	2.57012	Adam9;Cav1;Cd44;Csf1;Ctgf;Cyr61;Ilk;Itgb1;Thbs1
+Cluster674	skeletal muscle organ development	0.00661465	0.0198708	1959	31	49	4	5.15866	Capn2;Cav1;Flnb;Tnc
+Cluster674	skeletal muscle tissue development	0.00661465	0.0198708	1959	31	49	4	5.15866	Capn2;Cav1;Flnb;Tnc
+Cluster674	response to inorganic substance	0.00662361	0.0198708	1959	49	49	5	4.07955	Adam9;Anxa1;Axl;Cav1;Thbs1
+Cluster674	prostate gland development	0.00781606	0.0231514	1959	17	49	3	7.05522	Cd44;Plaur;Tnc
+Cluster674	response to lipopolysaccharide	0.00781606	0.0231514	1959	17	49	3	7.05522	Axl;Ptgs2;Serpine1
+Cluster674	positive regulation of biological process	0.00804083	0.0236533	1959	658	49	25	1.51898	Adam9;Anxa1;Axl;Cav1;Cd44;Cited2;Cnn2;Csf1;Ctgf;Cyr61;F3;Flna;Hbegf;Hmga2;Ilk;Itgb1;Plaur;Ptgs2;Rtn4;Serpine1;Tgfb1i1;Thbs1;Tnc;Tnfrsf12a;Tpm1
+Cluster674	cell morphogenesis involved in differentiation	0.00813715	0.0236533	1959	95	49	7	2.94586	Actb;Axl;Flna;Hmga2;Ilk;Rtn4;Tnc
+Cluster674	negative regulation of catalytic activity	0.00813715	0.0236533	1959	95	49	7	2.94586	Anxa1;Calu;Cav1;Cd44;Ilk;Serpine1;Thbs1
+Cluster674	negative regulation of apoptotic process	0.00824197	0.0238101	1959	145	49	9	2.48149	Anxa1;Axl;Cd44;Cyr61;Hmga2;Ilk;Plaur;Serpine1;Thbs1
+Cluster674	positive regulation of hydrolase activity	0.00853279	0.0243497	1959	52	49	5	3.84419	Cav1;Ctgf;Cyr61;F3;Tpm1
+Cluster674	regulation of transmembrane receptor protein serine/threonine kinase signaling pathway	0.00853279	0.0243497	1959	52	49	5	3.84419	Cav1;Cyr61;Ilk;Tgfb1i1;Thbs1
+Cluster674	negative regulation of programmed cell death	0.00861645	0.0244394	1959	146	49	9	2.4645	Anxa1;Axl;Cd44;Cyr61;Hmga2;Ilk;Plaur;Serpine1;Thbs1
+Cluster674	regulation of axonogenesis	0.00921578	0.0259119	1959	18	49	3	6.66327	Ilk;Rtn4;Tnfrsf12a
+Cluster674	connective tissue development	0.00924635	0.0259119	1959	53	49	5	3.77166	Csf1;Ctgf;Cyr61;Hmga2;Thbs1
+Cluster674	positive regulation of protein metabolic process	0.00981885	0.0273525	1959	149	49	9	2.41487	Adam9;Cav1;Cd44;Csf1;Ctgf;Cyr61;Ilk;Itgb1;Thbs1
+Cluster674	positive regulation of cell proliferation	0.0101937	0.0279919	1959	177	49	10	2.25873	Csf1;Ctgf;Cyr61;F3;Hbegf;Hmga2;Ilk;Itgb1;Ptgs2;Tnc
+Cluster674	regulation of angiogenesis	0.0102278	0.0279919	1959	35	49	4	4.5691	F3;Ptgs2;Serpine1;Thbs1
+Cluster674	regulation of cellular component size	0.0102278	0.0279919	1959	35	49	4	4.5691	Ilk;Rtn4;Tnfrsf12a;Tpm1
+Cluster674	response to hydrogen peroxide	0.0107531	0.0290371	1959	19	49	3	6.31257	Adam9;Anxa1;Axl
+Cluster674	mesenchyme development	0.0107959	0.0290371	1959	55	49	5	3.63451	Cited2;Flna;Hmga2;Plaur;Rtn4
+Cluster674	positive regulation of immune system process	0.0107959	0.0290371	1959	55	49	5	3.63451	Axl;Cav1;Cd44;Serpine1;Thbs1
+Cluster674	secretion	0.0112972	0.030212	1959	36	49	4	4.44218	Anxa1;Axl;Cav1;Ctgf
+Cluster674	regulation of protein phosphorylation	0.011617	0.0307609	1959	153	49	9	2.35174	Adam9;Cav1;Cd44;Csf1;Ctgf;Cyr61;Ilk;Itgb1;Thbs1
+Cluster674	negative regulation of transport	0.0116339	0.0307609	1959	56	49	5	3.56961	Anxa1;Cnn2;Flna;Ptgs2;Thbs1
+Cluster674	tissue morphogenesis	0.0121033	0.0309591	1959	154	49	9	2.33647	Cd44;Cited2;Csf1;Hmga2;Ilk;Tgfb1i1;Tnc;Tpm1;Vcl
+Cluster674	multicellular organism reproduction	0.0124217	0.0309591	1959	79	49	6	3.03642	Axl;Cav1;Cited2;Hmga2;Itgb1;Ptgs2
+Cluster674	multicellular organismal reproductive process	0.0124217	0.0309591	1959	79	49	6	3.03642	Axl;Cav1;Cited2;Hmga2;Itgb1;Ptgs2
+Cluster674	neuron projection development	0.0124217	0.0309591	1959	79	49	6	3.03642	Actb;Cd44;Ilk;Itgb1;Rtn4;Tnc
+Cluster674	actin filament organization	0.0124306	0.0309591	1959	20	49	3	5.99694	Actn1;Cald1;Flna
+Cluster674	regulation of ERK1 and ERK2 cascade	0.0124306	0.0309591	1959	20	49	3	5.99694	Cd44;Ctgf;Cyr61
+Cluster674	regulation of blood pressure	0.0124306	0.0309591	1959	20	49	3	5.99694	Acta2;Ptgs2;Tpm1
+Cluster674	regulation of endothelial cell proliferation	0.0124306	0.0309591	1959	20	49	3	5.99694	Cav1;F3;Thbs1
+Cluster674	blood circulation	0.0124366	0.0309591	1959	37	49	4	4.32212	Acta2;Cav1;Ptgs2;Tpm1
+Cluster674	circulatory system process	0.0124366	0.0309591	1959	37	49	4	4.32212	Acta2;Cav1;Ptgs2;Tpm1
+Cluster674	gland morphogenesis	0.0124366	0.0309591	1959	37	49	4	4.32212	Cav1;Cd44;Csf1;Tnc
+Cluster674	cell-cell adhesion	0.0134419	0.0331094	1959	58	49	5	3.44652	Cd44;Ctgf;Cyr61;Itgb1;Vcl
+Cluster674	muscle cell differentiation	0.0134419	0.0331094	1959	58	49	5	3.44652	Capn2;Flnc;Itgb1;Tnc;Tpm1
+Cluster674	negative regulation of cell death	0.0142041	0.0342007	1959	158	49	9	2.27732	Anxa1;Axl;Cd44;Cyr61;Hmga2;Ilk;Plaur;Serpine1;Thbs1
+Cluster674	positive regulation of cysteine-type endopeptidase activity	0.0142503	0.0342007	1959	21	49	3	5.71137	Ctgf;Cyr61;F3
+Cluster674	positive regulation of cysteine-type endopeptidase activity involved in apoptotic process	0.0142503	0.0342007	1959	21	49	3	5.71137	Ctgf;Cyr61;F3
+Cluster674	positive regulation of endopeptidase activity	0.0142503	0.0342007	1959	21	49	3	5.71137	Ctgf;Cyr61;F3
+Cluster674	response to reactive oxygen species	0.0142503	0.0342007	1959	21	49	3	5.71137	Adam9;Anxa1;Axl
+Cluster674	cellular component organization	0.0145648	0.0347771	1959	613	49	23	1.50005	Actb;Actn1;Axl;Cald1;Cav1;Cd44;Cnn2;Csrp1;Ctgf;Cyr61;Flna;Hmga2;Ilk;Itgb1;Lox;Myl12a;Rtn4;Tagln;Thbs1;Tnc;Tnfrsf12a;Tpm1;Vcl
+Cluster674	regulation of cell morphogenesis	0.0154321	0.0366611	1959	60	49	5	3.33163	Ilk;Myl12a;Rtn4;Tgfb1i1;Tnfrsf12a
+Cluster674	positive regulation of metabolic process	0.0156767	0.037054	1959	407	49	17	1.66991	Adam9;Anxa1;Cav1;Cd44;Cited2;Cnn2;Csf1;Ctgf;Cyr61;Hmga2;Ilk;Itgb1;Plaur;Ptgs2;Tgfb1i1;Thbs1;Tnc
+Cluster674	regulation of BMP signaling pathway	0.0162137	0.03764	1959	22	49	3	5.45176	Cav1;Cyr61;Ilk
+Cluster674	regulation of body fluid levels	0.0162137	0.03764	1959	22	49	3	5.45176	Axl;Cav1;F3
+Cluster674	positive regulation of cell activation	0.0162894	0.03764	1959	40	49	4	3.99796	Axl;Cav1;Ctgf;Thbs1
+Cluster674	regulation of actin filament-based process	0.0162894	0.03764	1959	40	49	4	3.99796	Cnn2;Ctgf;Ilk;Tpm1
+Cluster674	regulation of cell differentiation	0.0163908	0.03764	1959	249	49	12	1.92673	Axl;Cav1;Csf1;Ctgf;Cyr61;Hmga2;Ilk;Itgb1;Ptgs2;Rtn4;Tgfb1i1;Tnfrsf12a
+Cluster674	positive regulation of protein kinase activity	0.016498	0.03764	1959	61	49	5	3.27702	Adam9;Csf1;Cyr61;Ilk;Thbs1
+Cluster674	signal transduction	0.0165214	0.03764	1959	376	49	16	1.70126	Adam9;Amotl2;Anxa1;Axl;Cav1;Cd44;Cited2;Ctgf;Flna;Hbegf;Hmga2;Ilk;Itgb1;Ppap2a;Tgfb1i1;Tnc
+Cluster674	regulation of phosphorylation	0.016568	0.03764	1959	162	49	9	2.22109	Adam9;Cav1;Cd44;Csf1;Ctgf;Cyr61;Ilk;Itgb1;Thbs1
+Cluster674	positive regulation of MAPK cascade	0.0177233	0.0398774	1959	41	49	4	3.90045	Cd44;Ctgf;Ilk;Itgb1
+Cluster674	regulation of cell morphogenesis involved in differentiation	0.0177233	0.0398774	1959	41	49	4	3.90045	Ilk;Rtn4;Tgfb1i1;Tnfrsf12a
+Cluster674	response to molecule of bacterial origin	0.0183223	0.0410278	1959	23	49	3	5.21473	Axl;Ptgs2;Serpine1
+Cluster674	regulation of immune system process	0.0201527	0.0449118	1959	113	49	7	2.47661	Axl;Cav1;Cd44;Csf1;Msn;Serpine1;Thbs1
+Cluster674	cell junction assembly	0.0205767	0.0456393	1959	24	49	3	4.99745	Actn1;Itgb1;Vcl
+Cluster674	mesenchymal cell development	0.0208229	0.0459676	1959	43	49	4	3.71903	Cited2;Flna;Hmga2;Rtn4
+Cluster674	morphogenesis of an epithelium	0.0210643	0.0462821	1959	114	49	7	2.45489	Cd44;Cited2;Csf1;Ilk;Tgfb1i1;Tnc;Vcl
+Cluster674	positive regulation of kinase activity	0.0225694	0.0493573	1959	66	49	5	3.02876	Adam9;Csf1;Cyr61;Ilk;Thbs1
+Cluster674	blastocyst development	0.0229776	0.0495555	1959	25	49	3	4.79755	Capn2;Cited2;Hbegf
+Cluster674	epithelial to mesenchymal transition	0.0229776	0.0495555	1959	25	49	3	4.79755	Flna;Hmga2;Rtn4
+Cluster674	regulation of smooth muscle cell proliferation	0.0229776	0.0495555	1959	25	49	3	4.79755	Hbegf;Ilk;Ptgs2
+Cluster676	stem cell differentiation	1.17739e-07	3.56751e-05	1959	47	50	10	8.33617	Dppa2;Esrrb;Jarid2;Lin28a;Nodal;Pou5f1;Sall4;Sox2;Tet1;Zscan10
+Cluster676	stem cell maintenance	1.11076e-06	0.000168281	1959	34	50	8	9.21882	Dppa2;Esrrb;Lin28a;Nodal;Pou5f1;Sall4;Sox2;Tet1
+Cluster676	stem cell development	1.78073e-06	0.000179853	1959	36	50	8	8.70667	Dppa2;Esrrb;Lin28a;Nodal;Pou5f1;Sall4;Sox2;Tet1
+Cluster676	regulation of gene expression	7.75883e-05	0.00404297	1959	582	50	28	1.88495	Cbx7;Dnmt3b;Dnmt3l;Dppa2;Dppa4;Dppa5a;Esrrb;Gbx2;Grb7;Igf2bp1;Jarid2;Lefty1;Lin28a;Mycn;Nodal;Nr0b1;Pou5f1;Sall1;Sall4;Sox2;Taf7;Tdgf1;Tet1;Tle4;Utf1;Zfp42;Zic3;Zscan10
+Cluster676	regulation of cellular macromolecule biosynthetic process	7.94456e-05	0.00404297	1959	549	50	27	1.92689	Cbx7;Dnmt3b;Dnmt3l;Dppa2;Dppa4;Esrrb;Gbx2;Grb7;Igf2bp1;Jarid2;Lefty1;Lin28a;Mycn;Nodal;Nr0b1;Pou5f1;Sall1;Sall4;Sox2;Taf7;Tdgf1;Tet1;Tle4;Utf1;Zfp42;Zic3;Zscan10
+Cluster676	regulation of macromolecule biosynthetic process	9.45283e-05	0.00404297	1959	554	50	27	1.90949	Cbx7;Dnmt3b;Dnmt3l;Dppa2;Dppa4;Esrrb;Gbx2;Grb7;Igf2bp1;Jarid2;Lefty1;Lin28a;Mycn;Nodal;Nr0b1;Pou5f1;Sall1;Sall4;Sox2;Taf7;Tdgf1;Tet1;Tle4;Utf1;Zfp42;Zic3;Zscan10
+Cluster676	regulation of transcription, DNA-dependent	0.000123948	0.00404297	1959	496	50	25	1.9748	Cbx7;Dnmt3b;Dnmt3l;Dppa2;Dppa4;Esrrb;Gbx2;Jarid2;Lefty1;Lin28a;Mycn;Nodal;Nr0b1;Pou5f1;Sall1;Sall4;Sox2;Taf7;Tdgf1;Tet1;Tle4;Utf1;Zfp42;Zic3;Zscan10
+Cluster676	regulation of cellular biosynthetic process	0.000128433	0.00404297	1959	563	50	27	1.87897	Cbx7;Dnmt3b;Dnmt3l;Dppa2;Dppa4;Esrrb;Gbx2;Grb7;Igf2bp1;Jarid2;Lefty1;Lin28a;Mycn;Nodal;Nr0b1;Pou5f1;Sall1;Sall4;Sox2;Taf7;Tdgf1;Tet1;Tle4;Utf1;Zfp42;Zic3;Zscan10
+Cluster676	regulation of RNA biosynthetic process	0.000128435	0.00404297	1959	497	50	25	1.97082	Cbx7;Dnmt3b;Dnmt3l;Dppa2;Dppa4;Esrrb;Gbx2;Jarid2;Lefty1;Lin28a;Mycn;Nodal;Nr0b1;Pou5f1;Sall1;Sall4;Sox2;Taf7;Tdgf1;Tet1;Tle4;Utf1;Zfp42;Zic3;Zscan10
+Cluster676	regulation of chromosome organization	0.000133431	0.00404297	1959	33	50	6	7.12364	Dnmt3b;Dppa2;Jarid2;Pou5f1;Taf7;Tet1
+Cluster676	negative regulation of chromosome organization	0.000160092	0.00409322	1959	12	50	4	13.06	Dnmt3b;Jarid2;Taf7;Tet1
+Cluster676	regulation of biosynthetic process	0.000162108	0.00409322	1959	570	50	27	1.85589	Cbx7;Dnmt3b;Dnmt3l;Dppa2;Dppa4;Esrrb;Gbx2;Grb7;Igf2bp1;Jarid2;Lefty1;Lin28a;Mycn;Nodal;Nr0b1;Pou5f1;Sall1;Sall4;Sox2;Taf7;Tdgf1;Tet1;Tle4;Utf1;Zfp42;Zic3;Zscan10
+Cluster676	regulation of RNA metabolic process	0.000223397	0.00520686	1959	513	50	25	1.90936	Cbx7;Dnmt3b;Dnmt3l;Dppa2;Dppa4;Esrrb;Gbx2;Jarid2;Lefty1;Lin28a;Mycn;Nodal;Nr0b1;Pou5f1;Sall1;Sall4;Sox2;Taf7;Tdgf1;Tet1;Tle4;Utf1;Zfp42;Zic3;Zscan10
+Cluster676	blastocyst formation	0.000311709	0.00608968	1959	14	50	4	11.1943	Esrrb;Nodal;Pou5f1;Tet1
+Cluster676	blastocyst development	0.000319567	0.00608968	1959	25	50	5	7.836	Esrrb;Nodal;Pou5f1;Sall4;Tet1
+Cluster676	negative regulation of cellular macromolecule biosynthetic process	0.000321567	0.00608968	1959	254	50	16	2.46803	Cbx7;Dnmt3b;Dnmt3l;Grb7;Igf2bp1;Jarid2;Lefty1;Nodal;Nr0b1;Pou5f1;Sall1;Sall4;Sox2;Taf7;Tle4;Zscan10
+Cluster676	negative regulation of macromolecule biosynthetic process	0.000352755	0.00628733	1959	256	50	16	2.44875	Cbx7;Dnmt3b;Dnmt3l;Grb7;Igf2bp1;Jarid2;Lefty1;Nodal;Nr0b1;Pou5f1;Sall1;Sall4;Sox2;Taf7;Tle4;Zscan10
+Cluster676	negative regulation of cellular biosynthetic process	0.00044255	0.0074496	1959	261	50	16	2.40184	Cbx7;Dnmt3b;Dnmt3l;Grb7;Igf2bp1;Jarid2;Lefty1;Nodal;Nr0b1;Pou5f1;Sall1;Sall4;Sox2;Taf7;Tle4;Zscan10
+Cluster676	negative regulation of biosynthetic process	0.000505489	0.00751571	1959	264	50	16	2.37455	Cbx7;Dnmt3b;Dnmt3l;Grb7;Igf2bp1;Jarid2;Lefty1;Nodal;Nr0b1;Pou5f1;Sall1;Sall4;Sox2;Taf7;Tle4;Zscan10
+Cluster676	negative regulation of transcription from RNA polymerase II promoter	0.000544504	0.00751571	1959	163	50	12	2.88442	Cbx7;Dnmt3b;Jarid2;Lefty1;Nodal;Nr0b1;Pou5f1;Sall1;Sall4;Sox2;Taf7;Tle4
+Cluster676	response to retinoic acid	0.000545695	0.00751571	1959	16	50	4	9.795	Lefty1;Pou5f1;Sox2;Triml2
+Cluster676	response to vitamin A	0.000545695	0.00751571	1959	16	50	4	9.795	Lefty1;Pou5f1;Sox2;Triml2
+Cluster676	developmental process	0.000684055	0.00901169	1959	688	50	29	1.65148	Dnmt3b;Dnmt3l;Dppa2;Dppa4;Dppa5a;Esrrb;Gab1;Gbx2;Gdf3;Jarid2;Lefty1;Lefty2;Lin28a;Mreg;Mycn;Nodal;Nr0b1;Phc1;Phlda2;Pou5f1;Sall1;Sall4;Sox2;Tdgf1;Tet1;Tex19.1;Zfp42;Zic3;Zscan10
+Cluster676	negative regulation of histone modification	0.000801185	0.00956011	1959	8	50	3	14.6925	Dnmt3b;Jarid2;Taf7
+Cluster676	negative regulation of cell differentiation	0.00084284	0.00956011	1959	124	50	10	3.15968	Dppa2;Esrrb;Lin28a;Mycn;Nodal;Nr0b1;Pou5f1;Sall4;Sox2;Tet1
+Cluster676	gastrulation	0.00087576	0.00956011	1959	46	50	6	5.11043	Gdf3;Lefty1;Nodal;Pou5f1;Sox2;Tdgf1
+Cluster676	anterior/posterior axis specification	0.000883442	0.00956011	1959	18	50	4	8.70667	Gdf3;Lefty1;Nodal;Tdgf1
+Cluster676	response to vitamin	0.000883442	0.00956011	1959	18	50	4	8.70667	Lefty1;Pou5f1;Sox2;Triml2
+Cluster676	negative regulation of gene expression	0.000938621	0.00980697	1959	251	50	15	2.34143	Cbx7;Dnmt3b;Dnmt3l;Jarid2;Lefty1;Lin28a;Nodal;Nr0b1;Pou5f1;Sall1;Sall4;Sox2;Taf7;Tle4;Zscan10
+Cluster676	regulation of transcription from RNA polymerase II promoter	0.00103051	0.010328	1959	281	50	16	2.23089	Cbx7;Dnmt3b;Jarid2;Lefty1;Mycn;Nodal;Nr0b1;Pou5f1;Sall1;Sall4;Sox2;Taf7;Tdgf1;Tle4;Utf1;Zic3
+Cluster676	multicellular organismal development	0.00107754	0.010328	1959	633	50	27	1.67118	Dnmt3b;Dnmt3l;Dppa2;Dppa4;Dppa5a;Esrrb;Gab1;Gbx2;Gdf3;Jarid2;Lefty1;Lefty2;Lin28a;Mreg;Mycn;Nodal;Nr0b1;Phc1;Phlda2;Pou5f1;Sall1;Sall4;Sox2;Tdgf1;Tet1;Tex19.1;Zic3
+Cluster676	endoderm development	0.00109808	0.010328	1959	19	50	4	8.24842	Gdf3;Nodal;Pou5f1;Sox2
+Cluster676	negative regulation of developmental process	0.00112483	0.010328	1959	152	50	11	2.83539	Dppa2;Esrrb;Lin28a;Mycn;Nodal;Nr0b1;Pou5f1;Rps6ka6;Sall4;Sox2;Tet1
+Cluster676	growth	0.00117708	0.0103672	1959	86	50	8	3.64465	Esrrb;Gdf3;Lefty1;Lefty2;Mreg;Nodal;Sall1;Sall4
+Cluster676	negative regulation of metabolic process	0.00119753	0.0103672	1959	343	50	18	2.05609	Cbx7;Dnmt3b;Dnmt3l;Grb7;Igf2bp1;Jarid2;Lefty1;Lin28a;Mycn;Nodal;Nr0b1;Pou5f1;Sall1;Sall4;Sox2;Taf7;Tle4;Zscan10
+Cluster676	regulation of nucleobase-containing compound metabolic process	0.00129244	0.0108781	1959	570	50	25	1.71842	Cbx7;Dnmt3b;Dnmt3l;Dppa2;Dppa4;Esrrb;Gbx2;Jarid2;Lefty1;Lin28a;Mycn;Nodal;Nr0b1;Pou5f1;Sall1;Sall4;Sox2;Taf7;Tdgf1;Tet1;Tle4;Utf1;Zfp42;Zic3;Zscan10
+Cluster676	negative regulation of transcription, DNA-dependent	0.0013306	0.0108965	1959	232	50	14	2.36431	Cbx7;Dnmt3b;Dnmt3l;Jarid2;Lefty1;Nodal;Nr0b1;Pou5f1;Sall1;Sall4;Sox2;Taf7;Tle4;Zscan10
+Cluster676	regulation of macromolecule metabolic process	0.0015144	0.0120754	1959	718	50	29	1.58248	Cbx7;Dnmt3b;Dnmt3l;Dppa2;Dppa4;Dppa5a;Esrrb;Gab1;Gbx2;Grb7;Igf2bp1;Jarid2;Lefty1;Lin28a;Mycn;Nodal;Nr0b1;Pou5f1;Sall1;Sall4;Sox2;Taf7;Tdgf1;Tet1;Tle4;Utf1;Zfp42;Zic3;Zscan10
+Cluster676	regulation of nitrogen compound metabolic process	0.00156955	0.0120806	1959	577	50	25	1.69757	Cbx7;Dnmt3b;Dnmt3l;Dppa2;Dppa4;Esrrb;Gbx2;Jarid2;Lefty1;Lin28a;Mycn;Nodal;Nr0b1;Pou5f1;Sall1;Sall4;Sox2;Taf7;Tdgf1;Tet1;Tle4;Utf1;Zfp42;Zic3;Zscan10
+Cluster676	regulation of histone modification	0.00163273	0.0120806	1959	21	50	4	7.46286	Dnmt3b;Dppa2;Jarid2;Taf7
+Cluster676	regulation of histone methylation	0.00165578	0.0120806	1959	10	50	3	11.754	Dnmt3b;Dppa2;Jarid2
+Cluster676	negative regulation of cellular metabolic process	0.00168851	0.0120806	1959	323	50	17	2.06211	Cbx7;Dnmt3b;Dnmt3l;Grb7;Igf2bp1;Jarid2;Lefty1;Mycn;Nodal;Nr0b1;Pou5f1;Sall1;Sall4;Sox2;Taf7;Tle4;Zscan10
+Cluster676	embryonic morphogenesis	0.00171441	0.0120806	1959	185	50	12	2.54141	Esrrb;Gbx2;Gdf3;Lefty1;Mycn;Nodal;Pou5f1;Sall1;Sall4;Sox2;Tdgf1;Zic3
+Cluster676	negative regulation of RNA metabolic process	0.0020205	0.0139139	1959	242	50	14	2.26661	Cbx7;Dnmt3b;Dnmt3l;Jarid2;Lefty1;Nodal;Nr0b1;Pou5f1;Sall1;Sall4;Sox2;Taf7;Tle4;Zscan10
+Cluster676	developmental induction	0.00223591	0.0147279	1959	11	50	3	10.6855	Pou5f1;Sall1;Sox2
+Cluster676	trophectodermal cell differentiation	0.00223591	0.0147279	1959	11	50	3	10.6855	Esrrb;Nodal;Pou5f1
+Cluster676	response to nutrient	0.00232624	0.0149968	1959	23	50	4	6.81391	Lefty1;Pou5f1;Sox2;Triml2
+Cluster676	multicellular organismal process	0.0025335	0.0159927	1959	702	50	28	1.56274	Dnmt3b;Dnmt3l;Dppa2;Dppa4;Dppa5a;Esrrb;Gab1;Gbx2;Gdf3;Jarid2;Lefty1;Lefty2;Lin28a;Mreg;Mycn;Nodal;Nr0b1;Phc1;Phlda2;Pou5f1;Sall1;Sall4;Sox2;Tdgf1;Tet1;Tex19.1;Zfp42;Zic3
+Cluster676	negative regulation of macromolecule metabolic process	0.00263878	0.0163173	1959	336	50	17	1.98232	Cbx7;Dnmt3b;Dnmt3l;Grb7;Igf2bp1;Jarid2;Lefty1;Lin28a;Nodal;Nr0b1;Pou5f1;Sall1;Sall4;Sox2;Taf7;Tle4;Zscan10
+Cluster676	cell fate commitment involved in formation of primary germ layer	0.00292785	0.0168244	1959	12	50	3	9.795	Nodal;Pou5f1;Sox2
+Cluster676	cell-cell signaling involved in cell fate commitment	0.00292785	0.0168244	1959	12	50	3	9.795	Pou5f1;Sall1;Sox2
+Cluster676	in utero embryonic development	0.00297997	0.0168244	1959	122	50	9	2.89033	Dnmt3l;Esrrb;Gab1;Gdf3;Nodal;Pou5f1;Sall4;Tdgf1;Tet1
+Cluster676	embryo development	0.00303782	0.0168244	1959	281	50	15	2.09146	Dnmt3l;Esrrb;Gab1;Gbx2;Gdf3;Lefty1;Mycn;Nodal;Pou5f1;Sall1;Sall4;Sox2;Tdgf1;Tet1;Zic3
+Cluster676	regulation of primary metabolic process	0.00307321	0.0168244	1959	710	50	28	1.54513	Cbx7;Dnmt3b;Dnmt3l;Dppa2;Dppa4;Esrrb;Gab1;Gbx2;Grb7;Igf2bp1;Jarid2;Lefty1;Lin28a;Mycn;Nodal;Nr0b1;Pou5f1;Sall1;Sall4;Sox2;Taf7;Tdgf1;Tet1;Tle4;Utf1;Zfp42;Zic3;Zscan10
+Cluster676	RNA biosynthetic process	0.00310947	0.0168244	1959	341	50	17	1.95326	Cbx7;Dppa2;Dppa4;Esrrb;Gbx2;Jarid2;Nr0b1;Pou5f1;Sall4;Sox2;Taf7;Tet1;Tle4;Utf1;Zfp42;Zic3;Zscan10
+Cluster676	transcription, DNA-dependent	0.00310947	0.0168244	1959	341	50	17	1.95326	Cbx7;Dppa2;Dppa4;Esrrb;Gbx2;Jarid2;Nr0b1;Pou5f1;Sall4;Sox2;Taf7;Tet1;Tle4;Utf1;Zfp42;Zic3;Zscan10
+Cluster676	axis specification	0.00320028	0.017012	1959	25	50	4	6.2688	Gdf3;Lefty1;Nodal;Tdgf1
+Cluster676	negative regulation of nucleobase-containing compound metabolic process	0.0036035	0.0188252	1959	257	50	14	2.13432	Cbx7;Dnmt3b;Dnmt3l;Jarid2;Lefty1;Nodal;Nr0b1;Pou5f1;Sall1;Sall4;Sox2;Taf7;Tle4;Zscan10
+Cluster676	negative regulation of nitrogen compound metabolic process	0.00387677	0.0199095	1959	259	50	14	2.11784	Cbx7;Dnmt3b;Dnmt3l;Jarid2;Lefty1;Nodal;Nr0b1;Pou5f1;Sall1;Sall4;Sox2;Taf7;Tle4;Zscan10
+Cluster676	regulation of cellular metabolic process	0.00407236	0.0205654	1959	722	50	28	1.51945	Cbx7;Dnmt3b;Dnmt3l;Dppa2;Dppa4;Esrrb;Gab1;Gbx2;Grb7;Igf2bp1;Jarid2;Lefty1;Lin28a;Mycn;Nodal;Nr0b1;Pou5f1;Sall1;Sall4;Sox2;Taf7;Tdgf1;Tet1;Tle4;Utf1;Zfp42;Zic3;Zscan10
+Cluster676	chordate embryonic development	0.00448821	0.0219343	1959	207	50	12	2.2713	Dnmt3l;Esrrb;Gab1;Gbx2;Gdf3;Mycn;Nodal;Pou5f1;Sall1;Sall4;Tdgf1;Tet1
+Cluster676	embryo development ending in birth or egg hatching	0.00448821	0.0219343	1959	207	50	12	2.2713	Dnmt3l;Esrrb;Gab1;Gbx2;Gdf3;Mycn;Nodal;Pou5f1;Sall1;Sall4;Tdgf1;Tet1
+Cluster676	organ development	0.0046257	0.0219933	1959	449	50	20	1.74521	Dppa2;Dppa4;Esrrb;Gab1;Gbx2;Gdf3;Jarid2;Lefty1;Mreg;Mycn;Nodal;Nr0b1;Phlda2;Pou5f1;Sall1;Sall4;Sox2;Tdgf1;Tex19.1;Zic3
+Cluster676	embryonic pattern specification	0.00467262	0.0219933	1959	14	50	3	8.39571	Gdf3;Nodal;Tdgf1
+Cluster676	negative regulation of cellular process	0.0047371	0.0219933	1959	585	50	24	1.60738	Cbx7;Dnmt3b;Dnmt3l;Dppa2;Esrrb;Grb7;Igf2bp1;Jarid2;Lefty1;Lin28a;Mycn;Nodal;Nr0b1;Pou5f1;Rps6ka6;Sall1;Sall4;Sox2;Taf7;Tdgf1;Tet1;Tex19.1;Tle4;Zscan10
+Cluster676	heart development	0.00479063	0.0219933	1959	107	50	8	2.92935	Gab1;Lefty1;Nodal;Pou5f1;Sall1;Sall4;Tdgf1;Zic3
+Cluster676	positive regulation of neuron differentiation	0.00489549	0.0221393	1959	28	50	4	5.59714	Dnmt3b;Lin28a;Sall1;Sox2
+Cluster676	tube development	0.00535891	0.0238787	1959	133	50	9	2.65128	Dppa2;Dppa4;Gbx2;Mycn;Nodal;Sall1;Sall4;Sox2;Zic3
+Cluster676	anatomical structure development	0.00597537	0.0262397	1959	630	50	25	1.55476	Dnmt3b;Dnmt3l;Dppa2;Dppa4;Esrrb;Gab1;Gbx2;Gdf3;Jarid2;Lefty1;Lin28a;Mreg;Mycn;Nodal;Nr0b1;Phlda2;Pou5f1;Sall1;Sall4;Sox2;Tdgf1;Tet1;Tex19.1;Zfp42;Zic3
+Cluster676	regulation of metabolic process	0.00920763	0.0398559	1959	797	50	29	1.42562	Cbx7;Dnmt3b;Dnmt3l;Dppa2;Dppa4;Dppa5a;Esrrb;Gab1;Gbx2;Grb7;Igf2bp1;Jarid2;Lefty1;Lin28a;Mycn;Nodal;Nr0b1;Pou5f1;Sall1;Sall4;Sox2;Taf7;Tdgf1;Tet1;Tle4;Utf1;Zfp42;Zic3;Zscan10
+Cluster676	cell differentiation	0.010071	0.0427818	1959	446	50	19	1.6691	Dnmt3b;Dppa2;Esrrb;Gbx2;Jarid2;Lin28a;Mreg;Mycn;Nodal;Nr0b1;Pou5f1;Sall1;Sall4;Sox2;Tdgf1;Tet1;Zfp42;Zic3;Zscan10
+Cluster676	tube morphogenesis	0.010166	0.0427818	1959	97	50	7	2.82742	Gbx2;Mycn;Nodal;Sall1;Sall4;Sox2;Zic3
+Cluster676	lung development	0.0108819	0.0440012	1959	54	50	5	3.62778	Dppa2;Dppa4;Mycn;Nodal;Sox2
+Cluster676	respiratory tube development	0.0108819	0.0440012	1959	54	50	5	3.62778	Dppa2;Dppa4;Mycn;Nodal;Sox2
+Cluster676	positive regulation of transcription from RNA polymerase II promoter	0.0108914	0.0440012	1959	175	50	10	2.23886	Mycn;Nodal;Pou5f1;Sall1;Sall4;Sox2;Taf7;Tdgf1;Utf1;Zic3
+Cluster676	negative regulation of biological process	0.011062	0.0441024	1959	622	50	24	1.51177	Cbx7;Dnmt3b;Dnmt3l;Dppa2;Esrrb;Grb7;Igf2bp1;Jarid2;Lefty1;Lin28a;Mycn;Nodal;Nr0b1;Pou5f1;Rps6ka6;Sall1;Sall4;Sox2;Taf7;Tdgf1;Tet1;Tex19.1;Tle4;Zscan10
+Cluster676	cell fate specification	0.0113694	0.0447394	1959	19	50	3	6.18632	Nodal;Pou5f1;Sox2
+Cluster676	system development	0.0119178	0.0462961	1959	555	50	22	1.55308	Dnmt3b;Dppa2;Dppa4;Esrrb;Gab1;Gbx2;Gdf3;Jarid2;Lefty1;Lin28a;Mreg;Mycn;Nodal;Nr0b1;Phlda2;Pou5f1;Sall1;Sall4;Sox2;Tdgf1;Tex19.1;Zic3
+Cluster676	cellular developmental process	0.0122426	0.0469559	1959	454	50	19	1.63969	Dnmt3b;Dppa2;Esrrb;Gbx2;Jarid2;Lin28a;Mreg;Mycn;Nodal;Nr0b1;Pou5f1;Sall1;Sall4;Sox2;Tdgf1;Tet1;Zfp42;Zic3;Zscan10
+Cluster676	tissue development	0.0129021	0.0488668	1959	296	50	14	1.85311	Dppa2;Dppa4;Gab1;Gbx2;Gdf3;Mreg;Mycn;Nodal;Pou5f1;Sall1;Sall4;Sox2;Tdgf1;Zic3
+Cluster611	cellular response to amino acid stimulus	1.70665e-06	0.000131799	1959	16	52	6	14.1274	Col16a1;Col1a1;Col1a2;Col3a1;Col5a2;Col6a1
+Cluster611	cellular response to amine stimulus	2.5843e-06	0.000131799	1959	17	52	6	13.2964	Col16a1;Col1a1;Col1a2;Col3a1;Col5a2;Col6a1
+Cluster611	cellular response to organic nitrogen	2.5843e-06	0.000131799	1959	17	52	6	13.2964	Col16a1;Col1a1;Col1a2;Col3a1;Col5a2;Col6a1
+Cluster611	response to amino acid stimulus	2.5843e-06	0.000131799	1959	17	52	6	13.2964	Col16a1;Col1a1;Col1a2;Col3a1;Col5a2;Col6a1
+Cluster611	cellular response to acid	3.79818e-06	0.000154966	1959	18	52	6	12.5577	Col16a1;Col1a1;Col1a2;Col3a1;Col5a2;Col6a1
+Cluster611	response to amine stimulus	5.43911e-06	0.00018493	1959	19	52	6	11.8968	Col16a1;Col1a1;Col1a2;Col3a1;Col5a2;Col6a1
+Cluster611	response to acid	7.61328e-06	0.000221873	1959	20	52	6	11.3019	Col16a1;Col1a1;Col1a2;Col3a1;Col5a2;Col6a1
+Cluster611	protein heterotrimerization	1.45937e-05	0.00037214	1959	7	52	4	21.5275	Col1a1;Col1a2;Col6a1;Col6a2
+Cluster611	response to organic nitrogen	3.14137e-05	0.000712043	1959	25	52	6	9.04154	Col16a1;Col1a1;Col1a2;Col3a1;Col5a2;Col6a1
+Cluster611	skin development	3.7989e-05	0.000774975	1959	16	52	5	11.7728	Col1a1;Col1a2;Col3a1;Col5a1;Col5a2
+Cluster611	collagen fibril organization	5.27409e-05	0.000978104	1959	17	52	5	11.0803	Col1a1;Col1a2;Col3a1;Col5a1;Col5a2
+Cluster611	biological adhesion	0.000124037	0.00194643	1959	134	52	12	3.37371	Aebp1;Col12a1;Col16a1;Col3a1;Col5a1;Col5a3;Col6a1;Col6a2;Igfbp7;Mfge8;Scarf2;Wisp2
+Cluster611	cell adhesion	0.000124037	0.00194643	1959	134	52	12	3.37371	Aebp1;Col12a1;Col16a1;Col3a1;Col5a1;Col5a3;Col6a1;Col6a2;Igfbp7;Mfge8;Scarf2;Wisp2
+Cluster611	protein trimerization	0.000186947	0.00272408	1959	12	52	4	12.5577	Col1a1;Col1a2;Col6a1;Col6a2
+Cluster611	transforming growth factor beta receptor signaling pathway	0.000254062	0.00345525	1959	23	52	5	8.1898	Col1a2;Col3a1;Ltbp1;Ltbp3;Pdgfrb
+Cluster611	collagen metabolic process	0.000899871	0.0107984	1959	8	52	3	14.1274	Col1a1;Col3a1;Col5a1
+Cluster611	multicellular organismal macromolecule metabolic process	0.000899871	0.0107984	1959	8	52	3	14.1274	Col1a1;Col3a1;Col5a1
+Cluster611	multicellular organismal metabolic process	0.00132456	0.0150117	1959	9	52	3	12.5577	Col1a1;Col3a1;Col5a1
+Cluster611	wound healing	0.00168307	0.0178449	1959	34	52	5	5.54016	Col1a1;Col3a1;Col5a1;Efemp2;Thbd
+Cluster611	extracellular matrix organization	0.00188046	0.0178449	1959	51	52	6	4.43213	Col1a1;Col1a2;Col3a1;Col5a1;Col5a2;Col5a3
+Cluster611	extracellular structure organization	0.00188046	0.0178449	1959	51	52	6	4.43213	Col1a1;Col1a2;Col3a1;Col5a1;Col5a2;Col5a3
+Cluster611	transmembrane receptor protein serine/threonine kinase signaling pathway	0.00192445	0.0178449	1959	35	52	5	5.38187	Col1a2;Col3a1;Ltbp1;Ltbp3;Pdgfrb
+Cluster611	protein heterooligomerization	0.00428481	0.0380044	1959	26	52	4	5.79586	Col1a1;Col1a2;Col6a1;Col6a2
+Cluster611	cellular response to endogenous stimulus	0.00471549	0.0400816	1959	81	52	7	3.2557	Col16a1;Col1a1;Col1a2;Col3a1;Col5a2;Col6a1;Pdgfrb
+Cluster739	DNA metabolic process	6.72466e-34	1.54667e-31	1959	163	54	40	8.90252	Asf1b;Brca1;Ccne1;Ccne2;Cdt1;Chaf1a;Chaf1b;Chek1;Dna2;Dnmt1;Dtl;Exo1;Fen1;Gins2;Hells;Lig1;Mcm10;Mcm2;Mcm4;Mcm5;Mcm6;Mcm7;Nasp;Ncapd3;Ncapg2;Orc6;Pcna;Pola2;Rad51;Rad51ap1;Rfc1;Rfc5;Rpa1;Rrm2;Tipin;Tk1;Topbp1;Uhrf1;Ung;Usp1
+Cluster739	DNA replication	9.04887e-32	1.04062e-29	1959	58	54	28	17.5134	Brca1;Ccne1;Ccne2;Cdt1;Chaf1a;Chaf1b;Dna2;Dtl;Fen1;Gins2;Lig1;Mcm10;Mcm2;Mcm4;Mcm5;Mcm6;Mcm7;Nasp;Orc6;Pcna;Pola2;Rad51;Rfc1;Rfc5;Rpa1;Rrm2;Tipin;Tk1
+Cluster739	DNA-dependent DNA replication	1.07713e-15	8.25798e-14	1959	23	54	13	20.5048	Ccne1;Ccne2;Dna2;Fen1;Lig1;Mcm2;Mcm4;Mcm5;Mcm6;Mcm7;Orc6;Rad51;Tipin
+Cluster739	nucleic acid metabolic process	3.30461e-15	1.90015e-13	1959	557	54	43	2.80062	Asf1b;Atad2;Brca1;Ccne1;Ccne2;Cdt1;Chaf1a;Chaf1b;Chek1;Dna2;Dnmt1;Dtl;E2f8;Exo1;Fen1;Gins2;Hells;Lig1;Mcm10;Mcm2;Mcm4;Mcm5;Mcm6;Mcm7;Nasp;Ncapd3;Ncapg2;Orc6;Pcna;Pola2;Rad51;Rad51ap1;Rfc1;Rfc5;Rpa1;Rrm2;Timeless;Tipin;Tk1;Topbp1;Uhrf1;Ung;Usp1
+Cluster739	nucleobase-containing compound metabolic process	1.31693e-14	6.05788e-13	1959	645	54	45	2.53101	Asf1b;Atad2;Brca1;Ccne1;Ccne2;Cdt1;Chaf1a;Chaf1b;Chek1;Dck;Dhfr;Dna2;Dnmt1;Dtl;E2f8;Exo1;Fen1;Gins2;Hells;Lig1;Mcm10;Mcm2;Mcm4;Mcm5;Mcm6;Mcm7;Nasp;Ncapd3;Ncapg2;Orc6;Pcna;Pola2;Rad51;Rad51ap1;Rfc1;Rfc5;Rpa1;Rrm2;Timeless;Tipin;Tk1;Topbp1;Uhrf1;Ung;Usp1
+Cluster739	cellular nitrogen compound metabolic process	3.70649e-14	1.42082e-12	1959	661	54	45	2.46974	Asf1b;Atad2;Brca1;Ccne1;Ccne2;Cdt1;Chaf1a;Chaf1b;Chek1;Dck;Dhfr;Dna2;Dnmt1;Dtl;E2f8;Exo1;Fen1;Gins2;Hells;Lig1;Mcm10;Mcm2;Mcm4;Mcm5;Mcm6;Mcm7;Nasp;Ncapd3;Ncapg2;Orc6;Pcna;Pola2;Rad51;Rad51ap1;Rfc1;Rfc5;Rpa1;Rrm2;Timeless;Tipin;Tk1;Topbp1;Uhrf1;Ung;Usp1
+Cluster739	nitrogen compound metabolic process	6.97088e-14	2.29043e-12	1959	671	54	45	2.43294	Asf1b;Atad2;Brca1;Ccne1;Ccne2;Cdt1;Chaf1a;Chaf1b;Chek1;Dck;Dhfr;Dna2;Dnmt1;Dtl;E2f8;Exo1;Fen1;Gins2;Hells;Lig1;Mcm10;Mcm2;Mcm4;Mcm5;Mcm6;Mcm7;Nasp;Ncapd3;Ncapg2;Orc6;Pcna;Pola2;Rad51;Rad51ap1;Rfc1;Rfc5;Rpa1;Rrm2;Timeless;Tipin;Tk1;Topbp1;Uhrf1;Ung;Usp1
+Cluster739	response to DNA damage stimulus	2.822e-12	8.11326e-11	1959	115	54	20	6.30918	Brca1;Chaf1a;Chaf1b;Chek1;Dna2;Dtl;Exo1;Fen1;Lig1;Mcm7;Pcna;Rad51;Rad51ap1;Rpa1;Timeless;Tipin;Topbp1;Uhrf1;Ung;Usp1
+Cluster739	DNA repair	3.98377e-12	1.01807e-10	1959	78	54	17	7.9067	Brca1;Chaf1a;Chaf1b;Chek1;Dna2;Dtl;Exo1;Fen1;Lig1;Pcna;Rad51;Rad51ap1;Rpa1;Topbp1;Uhrf1;Ung;Usp1
+Cluster739	cell cycle	2.87353e-11	6.60912e-10	1959	256	54	27	3.82617	Brca1;Ccne1;Ccne2;Cdt1;Chaf1a;Chaf1b;Chek1;E2f8;Exo1;Fbxo5;Gmnn;Hells;Lig1;Mcm2;Mcm4;Mcm5;Mcm6;Mcm7;Nasp;Ncapd3;Ncapg2;Rad51;Rpa1;Timeless;Tipin;Topbp1;Uhrf1
+Cluster739	DNA-dependent DNA replication initiation	2.8111e-10	5.87776e-09	1959	9	54	7	28.216	Ccne1;Ccne2;Mcm2;Mcm4;Mcm5;Mcm6;Mcm7
+Cluster739	cellular macromolecule biosynthetic process	5.46086e-10	1.04666e-08	1959	494	54	35	2.57029	Asf1b;Atad2;Brca1;Ccne1;Ccne2;Cdt1;Chaf1a;Chaf1b;Dna2;Dnmt1;Dtl;E2f8;Fen1;Gins2;Hells;Lig1;Mcm10;Mcm2;Mcm4;Mcm5;Mcm6;Mcm7;Nasp;Orc6;Pcna;Pola2;Rad51;Rfc1;Rfc5;Rpa1;Rrm2;Timeless;Tipin;Tk1;Uhrf1
+Cluster739	macromolecule biosynthetic process	7.84756e-10	1.38841e-08	1959	500	54	35	2.53944	Asf1b;Atad2;Brca1;Ccne1;Ccne2;Cdt1;Chaf1a;Chaf1b;Dna2;Dnmt1;Dtl;E2f8;Fen1;Gins2;Hells;Lig1;Mcm10;Mcm2;Mcm4;Mcm5;Mcm6;Mcm7;Nasp;Orc6;Pcna;Pola2;Rad51;Rfc1;Rfc5;Rpa1;Rrm2;Timeless;Tipin;Tk1;Uhrf1
+Cluster739	cellular macromolecule metabolic process	1.51906e-09	2.49559e-08	1959	857	54	45	1.9049	Asf1b;Atad2;Brca1;Ccne1;Ccne2;Cdt1;Chaf1a;Chaf1b;Chek1;Dna2;Dnmt1;Dtl;E2f8;Exo1;Fen1;Gins2;Hat1;Hells;Lig1;Mcm10;Mcm2;Mcm4;Mcm5;Mcm6;Mcm7;Nasp;Ncapd3;Ncapg2;Orc6;Pbk;Pcna;Pola2;Rad51;Rad51ap1;Rfc1;Rfc5;Rpa1;Rrm2;Timeless;Tipin;Tk1;Topbp1;Uhrf1;Ung;Usp1
+Cluster739	macromolecule metabolic process	1.22591e-08	1.78538e-07	1959	904	54	45	1.80586	Asf1b;Atad2;Brca1;Ccne1;Ccne2;Cdt1;Chaf1a;Chaf1b;Chek1;Dna2;Dnmt1;Dtl;E2f8;Exo1;Fen1;Gins2;Hat1;Hells;Lig1;Mcm10;Mcm2;Mcm4;Mcm5;Mcm6;Mcm7;Nasp;Ncapd3;Ncapg2;Orc6;Pbk;Pcna;Pola2;Rad51;Rad51ap1;Rfc1;Rfc5;Rpa1;Rrm2;Timeless;Tipin;Tk1;Topbp1;Uhrf1;Ung;Usp1
+Cluster739	cellular biosynthetic process	1.24201e-08	1.78538e-07	1959	580	54	36	2.25172	Asf1b;Atad2;Brca1;Ccne1;Ccne2;Cdt1;Chaf1a;Chaf1b;Dhfr;Dna2;Dnmt1;Dtl;E2f8;Fen1;Gins2;Hells;Lig1;Mcm10;Mcm2;Mcm4;Mcm5;Mcm6;Mcm7;Nasp;Orc6;Pcna;Pola2;Rad51;Rfc1;Rfc5;Rpa1;Rrm2;Timeless;Tipin;Tk1;Uhrf1
+Cluster739	DNA unwinding involved in replication	1.32209e-08	1.7887e-07	1959	5	54	5	36.2778	Mcm2;Mcm4;Mcm6;Mcm7;Rad51
+Cluster739	cellular response to stress	2.87961e-08	3.54517e-07	1959	188	54	20	3.85934	Brca1;Chaf1a;Chaf1b;Chek1;Dna2;Dtl;Exo1;Fen1;Lig1;Mcm7;Pcna;Rad51;Rad51ap1;Rpa1;Timeless;Tipin;Topbp1;Uhrf1;Ung;Usp1
+Cluster739	biosynthetic process	2.92862e-08	3.54517e-07	1959	597	54	36	2.1876	Asf1b;Atad2;Brca1;Ccne1;Ccne2;Cdt1;Chaf1a;Chaf1b;Dhfr;Dna2;Dnmt1;Dtl;E2f8;Fen1;Gins2;Hells;Lig1;Mcm10;Mcm2;Mcm4;Mcm5;Mcm6;Mcm7;Nasp;Orc6;Pcna;Pola2;Rad51;Rfc1;Rfc5;Rpa1;Rrm2;Timeless;Tipin;Tk1;Uhrf1
+Cluster739	DNA conformation change	5.04046e-08	5.79653e-07	1959	51	54	11	7.82462	Asf1b;Chaf1a;Chaf1b;Hells;Mcm2;Mcm4;Mcm6;Mcm7;Ncapd3;Ncapg2;Rad51
+Cluster739	primary metabolic process	1.35344e-07	1.48234e-06	1959	1051	54	47	1.62232	Asf1b;Atad2;Brca1;Ccne1;Ccne2;Cdt1;Chaf1a;Chaf1b;Chek1;Dck;Dhfr;Dna2;Dnmt1;Dtl;E2f8;Exo1;Fen1;Gins2;Hat1;Hells;Lig1;Mcm10;Mcm2;Mcm4;Mcm5;Mcm6;Mcm7;Nasp;Ncapd3;Ncapg2;Orc6;Pbk;Pcna;Pola2;Rad51;Rad51ap1;Rfc1;Rfc5;Rpa1;Rrm2;Timeless;Tipin;Tk1;Topbp1;Uhrf1;Ung;Usp1
+Cluster739	cellular metabolic process	2.137e-07	2.23414e-06	1959	1063	54	47	1.604	Asf1b;Atad2;Brca1;Ccne1;Ccne2;Cdt1;Chaf1a;Chaf1b;Chek1;Dck;Dhfr;Dna2;Dnmt1;Dtl;E2f8;Exo1;Fen1;Gins2;Hat1;Hells;Lig1;Mcm10;Mcm2;Mcm4;Mcm5;Mcm6;Mcm7;Nasp;Ncapd3;Ncapg2;Orc6;Pbk;Pcna;Pola2;Rad51;Rad51ap1;Rfc1;Rfc5;Rpa1;Rrm2;Timeless;Tipin;Tk1;Topbp1;Uhrf1;Ung;Usp1
+Cluster739	DNA recombination	3.27612e-06	3.27612e-05	1959	36	54	8	8.06173	Brca1;Exo1;Lig1;Rad51;Rad51ap1;Rpa1;Topbp1;Ung
+Cluster739	regulation of DNA metabolic process	4.50847e-06	4.32061e-05	1959	63	54	10	5.75838	Brca1;Cdt1;Chek1;Dna2;Gmnn;Pcna;Rad51;Rpa2;Tipin;Usp1
+Cluster739	DNA duplex unwinding	5.38141e-06	4.95089e-05	1959	11	54	5	16.4899	Mcm2;Mcm4;Mcm6;Mcm7;Rad51
+Cluster739	metabolic process	8.03968e-06	7.11202e-05	1959	1166	54	47	1.46231	Asf1b;Atad2;Brca1;Ccne1;Ccne2;Cdt1;Chaf1a;Chaf1b;Chek1;Dck;Dhfr;Dna2;Dnmt1;Dtl;E2f8;Exo1;Fen1;Gins2;Hat1;Hells;Lig1;Mcm10;Mcm2;Mcm4;Mcm5;Mcm6;Mcm7;Nasp;Ncapd3;Ncapg2;Orc6;Pbk;Pcna;Pola2;Rad51;Rad51ap1;Rfc1;Rfc5;Rpa1;Rrm2;Timeless;Tipin;Tk1;Topbp1;Uhrf1;Ung;Usp1
+Cluster739	DNA geometric change	9.03269e-06	7.69452e-05	1959	12	54	5	15.1157	Mcm2;Mcm4;Mcm6;Mcm7;Rad51
+Cluster739	DNA packaging	6.33421e-05	0.00052031	1959	39	54	7	6.5114	Asf1b;Chaf1a;Chaf1b;Hells;Mcm2;Ncapd3;Ncapg2
+Cluster739	DNA integrity checkpoint	0.000149386	0.00118479	1959	20	54	5	9.06944	Brca1;Cdt1;Chek1;Dtl;Tipin
+Cluster739	response to stress	0.000163467	0.00125325	1959	321	54	20	2.2603	Brca1;Chaf1a;Chaf1b;Chek1;Dna2;Dtl;Exo1;Fen1;Lig1;Mcm7;Pcna;Rad51;Rad51ap1;Rpa1;Timeless;Tipin;Topbp1;Uhrf1;Ung;Usp1
+Cluster739	postreplication repair	0.000190585	0.00141402	1959	5	54	3	21.7667	Brca1;Dtl;Pcna
+Cluster739	regulation of S phase	0.000216937	0.00155924	1959	12	54	4	12.0926	Cdt1;Chek1;Timeless;Tipin
+Cluster739	chromosome organization	0.000254574	0.00177431	1959	160	54	13	2.94757	Asf1b;Chaf1a;Chaf1b;Chek1;Dnmt1;Hat1;Hells;Mcm2;Nasp;Ncapd3;Ncapg2;Rpa1;Uhrf1
+Cluster739	chromatin assembly	0.000376473	0.00254673	1959	24	54	5	7.55787	Asf1b;Chaf1a;Chaf1b;Hells;Mcm2
+Cluster739	regulation of DNA repair	0.000562396	0.00369574	1959	15	54	4	9.67407	Brca1;Chek1;Rpa2;Usp1
+Cluster739	double-strand break repair via homologous recombination	0.000641274	0.0039863	1959	7	54	3	15.5476	Brca1;Rad51;Rpa1
+Cluster739	recombinational repair	0.000641274	0.0039863	1959	7	54	3	15.5476	Brca1;Rad51;Rpa1
+Cluster739	G2/M transition DNA damage checkpoint	0.00100605	0.00608925	1959	8	54	3	13.6042	Brca1;Chek1;Dtl
+Cluster739	chromatin organization	0.00107216	0.00632302	1959	118	54	10	3.07439	Asf1b;Chaf1a;Chaf1b;Chek1;Dnmt1;Hat1;Hells;Mcm2;Nasp;Uhrf1
+Cluster739	chromatin assembly or disassembly	0.00111265	0.00639775	1959	30	54	5	6.0463	Asf1b;Chaf1a;Chaf1b;Hells;Mcm2
+Cluster739	DNA damage checkpoint	0.00147095	0.00793512	1959	19	54	4	7.63743	Brca1;Chek1;Dtl;Tipin
+Cluster739	G2/M transition checkpoint	0.0014797	0.00793512	1959	9	54	3	12.0926	Brca1;Chek1;Dtl
+Cluster739	M phase	0.00148352	0.00793512	1959	123	54	10	2.94941	Exo1;Fbxo5;Hells;Ncapd3;Ncapg2;Rad51;Rpa1;Timeless;Tipin;Topbp1
+Cluster739	cell division	0.00168069	0.00869969	1959	125	54	10	2.90222	Ccne1;Ccne2;Fbxo5;Hells;Lig1;Mcm5;Ncapd3;Ncapg2;Timeless;Tipin
+Cluster739	M phase of meiotic cell cycle	0.00173994	0.00869969	1959	33	54	5	5.49663	Exo1;Fbxo5;Rad51;Rpa1;Topbp1
+Cluster739	meiosis	0.00173994	0.00869969	1959	33	54	5	5.49663	Exo1;Fbxo5;Rad51;Rpa1;Topbp1
+Cluster739	negative regulation of cell cycle process	0.00180134	0.00881507	1959	20	54	4	7.25556	Cdt1;Chek1;Fbxo5;Tipin
+Cluster739	regulation of DNA replication	0.00199757	0.00937633	1959	34	54	5	5.33497	Cdt1;Dna2;Gmnn;Pcna;Tipin
+Cluster739	regulation of gene expression, epigenetic	0.00199757	0.00937633	1959	34	54	5	5.33497	Brca1;Chek1;Dnmt1;Hat1;Hells
+Cluster739	base-excision repair	0.00207276	0.00953469	1959	10	54	3	10.8833	Dna2;Pcna;Ung
+Cluster739	double-strand break repair	0.00218001	0.00983143	1959	21	54	4	6.91005	Brca1;Lig1;Rad51;Rpa1
+Cluster739	meiotic cell cycle	0.00228211	0.010094	1959	35	54	5	5.18254	Exo1;Fbxo5;Rad51;Rpa1;Topbp1
+Cluster739	response to radiation	0.00253697	0.0110095	1959	52	54	6	4.1859	Brca1;Chek1;Dtl;Tipin;Topbp1;Usp1
+Cluster739	cell cycle checkpoint	0.00293843	0.0125155	1959	37	54	5	4.9024	Brca1;Cdt1;Chek1;Dtl;Tipin
+Cluster739	cell cycle phase	0.00348335	0.0145667	1959	161	54	11	2.47861	Chek1;Exo1;Fbxo5;Hells;Ncapd3;Ncapg2;Rad51;Rpa1;Timeless;Tipin;Topbp1
+Cluster739	response to UV	0.00424528	0.017436	1959	25	54	4	5.80444	Chek1;Dtl;Tipin;Usp1
+Cluster739	organelle organization	0.00509143	0.0205444	1959	357	54	18	1.82913	Asf1b;Brca1;Chaf1a;Chaf1b;Chek1;Dna2;Dnmt1;Fbxo5;Hat1;Hells;Mcm2;Nasp;Ncapd3;Ncapg2;Rpa1;Timeless;Tipin;Uhrf1
+Cluster739	regulation of cell cycle	0.0055743	0.022105	1959	171	54	11	2.33366	Brca1;Ccne1;Ccne2;Cdt1;Chek1;Dtl;Fbxo5;Fignl1;Gmnn;Timeless;Tipin
+Cluster739	cell cycle process	0.00657091	0.0256154	1959	200	54	12	2.17667	Brca1;Chek1;Exo1;Fbxo5;Hells;Ncapd3;Ncapg2;Rad51;Rpa1;Timeless;Tipin;Topbp1
+Cluster739	regulation of cell cycle arrest	0.00696587	0.0267025	1959	45	54	5	4.03086	Brca1;Cdt1;Chek1;Dtl;Tipin
+Cluster739	regulation of response to DNA damage stimulus	0.00830396	0.03131	1959	30	54	4	4.83704	Brca1;Chek1;Rpa2;Usp1
+Cluster739	gene silencing	0.0102429	0.0379977	1959	17	54	3	6.40196	Dnmt1;Hat1;Hells
+Cluster739	response to light stimulus	0.0104609	0.0381905	1959	32	54	4	4.53472	Chek1;Dtl;Tipin;Usp1
+Cluster739	regulation of cell cycle process	0.0130218	0.046797	1959	94	54	7	2.70154	Brca1;Cdt1;Chek1;Dtl;Fbxo5;Timeless;Tipin
+Cluster739	meiosis I	0.0140388	0.0496756	1959	19	54	3	5.72807	Fbxo5;Rad51;Topbp1
+Cluster724	M phase	2.9528e-50	9.77376e-48	1959	123	74	52	11.1918	Anln;Aspm;Aurka;Aurkb;Birc5;Bub1;Bub1b;Ccna2;Ccnb1;Ccnb2;Ccnf;Cdc20;Cdca2;Cdca3;Cdca8;Cdk1;Cenpe;Cenpf;Cep55;Ckap5;Cks2;Dlgap5;Espl1;Fam83d;H2afx;Incenp;Kif11;Kif18a;Kif20b;Kif23;Kif2c;Mad2l1;Mis18bp1;Mki67;Ncapd2;Ncapg;Ncaph;Nek2;Nuf2;Nusap1;Plk1;Racgap1;Rad21;Sgol1;Smc2;Smc4;Spag5;Spc25;Tacc3;Top2a;Tpx2;Ube2c
+Cluster724	M phase of mitotic cell cycle	3.14869e-48	5.21109e-46	1959	96	74	47	12.9607	Anln;Aspm;Aurka;Aurkb;Birc5;Bub1;Bub1b;Ccna2;Ccnb1;Ccnb2;Ccnf;Cdc20;Cdca2;Cdca3;Cdca8;Cdk1;Cenpe;Cenpf;Cep55;Ckap5;Dlgap5;Espl1;Fam83d;Incenp;Kif11;Kif18a;Kif20b;Kif23;Kif2c;Mad2l1;Mis18bp1;Ncapd2;Ncapg;Ncaph;Nek2;Nuf2;Nusap1;Plk1;Racgap1;Rad21;Sgol1;Smc2;Smc4;Spag5;Spc25;Tpx2;Ube2c
+Cluster724	cell cycle phase	9.0375e-48	9.97138e-46	1959	161	74	55	9.04356	Anln;Aspm;Aurka;Aurkb;Birc5;Bub1;Bub1b;Ccna2;Ccnb1;Ccnb2;Ccnf;Cdc20;Cdca2;Cdca3;Cdca8;Cdk1;Cenpe;Cenpf;Cep55;Ckap5;Cks2;Dbf4;Dlgap5;Espl1;Fam83d;Foxm1;H2afx;Incenp;Iqgap3;Kif11;Kif18a;Kif20b;Kif23;Kif2c;Mad2l1;Mis18bp1;Mki67;Ncapd2;Ncapg;Ncaph;Nek2;Nuf2;Nusap1;Plk1;Racgap1;Rad21;Sgol1;Smc2;Smc4;Spag5;Spc25;Tacc3;Top2a;Tpx2;Ube2c
+Cluster724	mitotic cell cycle	7.80179e-47	6.45598e-45	1959	139	74	52	9.90356	Anln;Aspm;Aurka;Aurkb;Birc5;Bub1;Bub1b;Ccna2;Ccnb1;Ccnb2;Ccnf;Cdc20;Cdca2;Cdca3;Cdca8;Cdk1;Cenpa;Cenpe;Cenpf;Cep55;Ckap5;Dbf4;Dlgap5;Espl1;Fam83d;Foxm1;Incenp;Iqgap3;Kif11;Kif18a;Kif20b;Kif23;Kif2c;Mad2l1;Mis18bp1;Ncapd2;Ncapg;Ncaph;Nek2;Nuf2;Nusap1;Plk1;Racgap1;Rad21;Sgol1;Smc2;Smc4;Spag5;Spc25;Top2a;Tpx2;Ube2c
+Cluster724	cell cycle process	1.56358e-46	1.03509e-44	1959	200	74	58	7.67716	Anln;Aspm;Aurka;Aurkb;Birc5;Bub1;Bub1b;Ccna2;Ccnb1;Ccnb2;Ccnf;Cdc20;Cdca2;Cdca3;Cdca8;Cdk1;Cenpa;Cenpe;Cenpf;Cep55;Ckap2;Ckap5;Cks2;Dbf4;Dlgap5;Ect2;Espl1;Fam83d;Foxm1;H2afx;Incenp;Iqgap3;Kif11;Kif18a;Kif20b;Kif23;Kif2c;Mad2l1;Mis18bp1;Mki67;Ncapd2;Ncapg;Ncaph;Nek2;Nuf2;Nusap1;Plk1;Racgap1;Rad21;Sgol1;Smc2;Smc4;Spag5;Spc25;Tacc3;Top2a;Tpx2;Ube2c
+Cluster724	mitosis	1.69462e-45	7.01151e-44	1959	93	74	45	12.8095	Anln;Aspm;Aurka;Aurkb;Birc5;Bub1;Bub1b;Ccna2;Ccnb1;Ccnb2;Ccnf;Cdc20;Cdca2;Cdca3;Cdca8;Cdk1;Cenpe;Cep55;Ckap5;Espl1;Fam83d;Incenp;Kif11;Kif18a;Kif20b;Kif23;Kif2c;Mad2l1;Mis18bp1;Ncapd2;Ncapg;Ncaph;Nek2;Nuf2;Nusap1;Plk1;Racgap1;Rad21;Sgol1;Smc2;Smc4;Spag5;Spc25;Tpx2;Ube2c
+Cluster724	nuclear division	1.69462e-45	7.01151e-44	1959	93	74	45	12.8095	Anln;Aspm;Aurka;Aurkb;Birc5;Bub1;Bub1b;Ccna2;Ccnb1;Ccnb2;Ccnf;Cdc20;Cdca2;Cdca3;Cdca8;Cdk1;Cenpe;Cep55;Ckap5;Espl1;Fam83d;Incenp;Kif11;Kif18a;Kif20b;Kif23;Kif2c;Mad2l1;Mis18bp1;Ncapd2;Ncapg;Ncaph;Nek2;Nuf2;Nusap1;Plk1;Racgap1;Rad21;Sgol1;Smc2;Smc4;Spag5;Spc25;Tpx2;Ube2c
+Cluster724	organelle fission	1.69462e-45	7.01151e-44	1959	93	74	45	12.8095	Anln;Aspm;Aurka;Aurkb;Birc5;Bub1;Bub1b;Ccna2;Ccnb1;Ccnb2;Ccnf;Cdc20;Cdca2;Cdca3;Cdca8;Cdk1;Cenpe;Cep55;Ckap5;Espl1;Fam83d;Incenp;Kif11;Kif18a;Kif20b;Kif23;Kif2c;Mad2l1;Mis18bp1;Ncapd2;Ncapg;Ncaph;Nek2;Nuf2;Nusap1;Plk1;Racgap1;Rad21;Sgol1;Smc2;Smc4;Spag5;Spc25;Tpx2;Ube2c
+Cluster724	cell division	1.15571e-44	4.25045e-43	1959	125	74	49	10.3774	Anln;Aspm;Aurka;Aurkb;Birc5;Bub1;Bub1b;Ccna2;Ccnb1;Ccnb2;Ccnf;Cdc20;Cdca2;Cdca3;Cdca8;Cdk1;Cenpe;Cep55;Ckap2;Ckap5;Cks1b;Cks2;Ect2;Fam83d;Incenp;Kif11;Kif20a;Kif20b;Kif23;Kif2c;Mad2l1;Mis18bp1;Ncapd2;Ncaph;Nek2;Nuf2;Nusap1;Plk1;Prc1;Racgap1;Rad21;Sgol1;Smc2;Smc4;Spag5;Spc25;Top2a;Tpx2;Ube2c
+Cluster724	cell cycle	3.40307e-44	1.12642e-42	1959	256	74	61	6.30801	Anln;Aspm;Aurka;Aurkb;Birc5;Bub1;Bub1b;Ccna2;Ccnb1;Ccnb2;Ccnf;Cdc20;Cdca2;Cdca3;Cdca8;Cdk1;Cenpa;Cenpe;Cenpf;Cep55;Ckap2;Ckap5;Cks1b;Cks2;Dbf4;Dlgap5;Ect2;Espl1;Fam83d;Foxm1;H2afx;Incenp;Iqgap3;Kif11;Kif18a;Kif20b;Kif23;Kif2c;Mad2l1;Melk;Mis18bp1;Mki67;Ncapd2;Ncapg;Ncaph;Nek2;Nuf2;Nusap1;Plk1;Prc1;Racgap1;Rad21;Sgol1;Smc2;Smc4;Spag5;Spc25;Tacc3;Top2a;Tpx2;Ube2c
+Cluster724	chromosome segregation	7.5865e-22	2.28285e-20	1959	48	74	23	12.685	Birc5;Bub1;Ccnb1;Cenpe;Cenpf;Espl1;Incenp;Kif18a;Kif2c;Mad2l1;Ncapd2;Ncapg;Ncaph;Nek2;Nuf2;Nusap1;Rad21;Sgol1;Smc2;Smc4;Spag5;Spc25;Top2a
+Cluster724	organelle organization	1.53761e-21	4.24124e-20	1959	357	74	50	3.7077	Anln;Aspm;Aurka;Aurkb;Birc5;Bub1;Bub1b;Ccna2;Ccnb1;Ccnb2;Ccnf;Cdc20;Cdca2;Cdca3;Cdca8;Cdk1;Cenpa;Cenpe;Cep55;Ckap5;Espl1;Fam83d;H2afx;Incenp;Kif11;Kif18a;Kif20a;Kif20b;Kif23;Kif2c;Mad2l1;Mis18bp1;Ncapd2;Ncapg;Ncaph;Nek2;Nuf2;Nusap1;Plk1;Racgap1;Rad21;Sgol1;Smc2;Smc4;Spag5;Spc25;Tacc3;Top2a;Tpx2;Ube2c
+Cluster724	microtubule-based process	1.97309e-18	5.0238e-17	1959	71	74	24	8.94861	Aurkb;Birc5;Cenpa;Cenpe;Ckap5;Espl1;Kif11;Kif18a;Kif20a;Kif20b;Kif22;Kif23;Kif2c;Kif4;Nek2;Nuf2;Nusap1;Plk1;Racgap1;Sgol1;Spag5;Spc25;Tacc3;Tpx2
+Cluster724	microtubule cytoskeleton organization	1.37123e-17	3.24199e-16	1959	54	74	21	10.295	Aurkb;Birc5;Cenpa;Cenpe;Ckap5;Espl1;Kif11;Kif18a;Kif20a;Kif23;Kif2c;Nek2;Nuf2;Nusap1;Plk1;Racgap1;Sgol1;Spag5;Spc25;Tacc3;Tpx2
+Cluster724	cellular component organization at cellular level	7.54669e-15	1.6653e-13	1959	518	74	51	2.60641	Anln;Aspm;Aurka;Aurkb;Birc5;Bub1;Bub1b;Ccna2;Ccnb1;Ccnb2;Ccnf;Cdc20;Cdca2;Cdca3;Cdca8;Cdk1;Cenpa;Cenpe;Cep55;Ckap5;Ect2;Espl1;Fam83d;H2afx;Incenp;Kif11;Kif18a;Kif20a;Kif20b;Kif23;Kif2c;Mad2l1;Mis18bp1;Ncapd2;Ncapg;Ncaph;Nek2;Nuf2;Nusap1;Plk1;Racgap1;Rad21;Sgol1;Smc2;Smc4;Spag5;Spc25;Tacc3;Top2a;Tpx2;Ube2c
+Cluster724	cytokinesis	1.74069e-14	3.38923e-13	1959	21	74	13	16.388	Anln;Aurkb;Birc5;Cep55;Ckap2;Ect2;Incenp;Kif20a;Kif23;Nusap1;Plk1;Prc1;Racgap1
+Cluster724	sister chromatid segregation	1.74069e-14	3.38923e-13	1959	21	74	13	16.388	Ccnb1;Espl1;Kif18a;Mad2l1;Ncapd2;Ncapg;Ncaph;Nek2;Nusap1;Smc2;Smc4;Spag5;Top2a
+Cluster724	cellular component organization or biogenesis at cellular level	1.22408e-13	2.25095e-12	1959	551	74	51	2.45031	Anln;Aspm;Aurka;Aurkb;Birc5;Bub1;Bub1b;Ccna2;Ccnb1;Ccnb2;Ccnf;Cdc20;Cdca2;Cdca3;Cdca8;Cdk1;Cenpa;Cenpe;Cep55;Ckap5;Ect2;Espl1;Fam83d;H2afx;Incenp;Kif11;Kif18a;Kif20a;Kif20b;Kif23;Kif2c;Mad2l1;Mis18bp1;Ncapd2;Ncapg;Ncaph;Nek2;Nuf2;Nusap1;Plk1;Racgap1;Rad21;Sgol1;Smc2;Smc4;Spag5;Spc25;Tacc3;Top2a;Tpx2;Ube2c
+Cluster724	mitotic sister chromatid segregation	3.376e-13	5.88135e-12	1959	20	74	12	15.8838	Ccnb1;Espl1;Kif18a;Mad2l1;Ncapd2;Ncapg;Ncaph;Nek2;Nusap1;Smc2;Smc4;Spag5
+Cluster724	cellular component organization	2.4311e-12	4.02347e-11	1959	613	74	52	2.24567	Anln;Aspm;Aurka;Aurkb;Birc5;Bub1;Bub1b;Ccna2;Ccnb1;Ccnb2;Ccnf;Cdc20;Cdca2;Cdca3;Cdca8;Cdk1;Cenpa;Cenpe;Cep55;Ckap5;Ect2;Espl1;Fam83d;H2afx;Incenp;Iqgap3;Kif11;Kif18a;Kif20a;Kif20b;Kif23;Kif2c;Mad2l1;Mis18bp1;Ncapd2;Ncapg;Ncaph;Nek2;Nuf2;Nusap1;Plk1;Racgap1;Rad21;Sgol1;Smc2;Smc4;Spag5;Spc25;Tacc3;Top2a;Tpx2;Ube2c
+Cluster724	regulation of cell cycle process	4.24811e-12	6.69584e-11	1959	94	74	21	5.91417	Aurkb;Birc5;Bub1;Ccnb1;Ccnf;Cdc20;Cdk1;Cenpe;Cenpf;Dbf4;Ect2;Foxm1;H2afx;Kif23;Mad2l1;Nusap1;Plk1;Racgap1;Top2a;Tpx2;Ube2c
+Cluster724	cellular component organization or biogenesis	2.45147e-11	3.68834e-10	1959	646	74	52	2.13095	Anln;Aspm;Aurka;Aurkb;Birc5;Bub1;Bub1b;Ccna2;Ccnb1;Ccnb2;Ccnf;Cdc20;Cdca2;Cdca3;Cdca8;Cdk1;Cenpa;Cenpe;Cep55;Ckap5;Ect2;Espl1;Fam83d;H2afx;Incenp;Iqgap3;Kif11;Kif18a;Kif20a;Kif20b;Kif23;Kif2c;Mad2l1;Mis18bp1;Ncapd2;Ncapg;Ncaph;Nek2;Nuf2;Nusap1;Plk1;Racgap1;Rad21;Sgol1;Smc2;Smc4;Spag5;Spc25;Tacc3;Top2a;Tpx2;Ube2c
+Cluster724	cytoskeleton organization	9.94076e-10	1.4306e-08	1959	123	74	21	4.51978	Aurkb;Birc5;Cenpa;Cenpe;Ckap5;Espl1;Kif11;Kif18a;Kif20a;Kif23;Kif2c;Nek2;Nuf2;Nusap1;Plk1;Racgap1;Sgol1;Spag5;Spc25;Tacc3;Tpx2
+Cluster724	spindle organization	1.43986e-09	1.9858e-08	1959	22	74	10	12.0332	Aurkb;Ckap5;Espl1;Kif11;Kif23;Racgap1;Spag5;Spc25;Tacc3;Tpx2
+Cluster724	regulation of cell cycle	3.11483e-09	3.84903e-08	1959	171	74	24	3.7155	Aurkb;Birc5;Bub1;Ccna2;Ccnb1;Ccnb2;Ccnf;Cdc20;Cdk1;Cenpe;Cenpf;Dbf4;Ect2;Foxm1;H2afx;Kif23;Mad2l1;Nusap1;Plk1;Racgap1;Tacc3;Top2a;Tpx2;Ube2c
+Cluster724	chromosome condensation	3.13969e-09	3.84903e-08	1959	13	74	8	16.2911	Cdk1;Ncapd2;Ncapg;Ncaph;Nusap1;Smc2;Smc4;Top2a
+Cluster724	regulation of chromosome segregation	3.13969e-09	3.84903e-08	1959	13	74	8	16.2911	Bub1;Ccnb1;Cenpe;Ect2;Kif2c;Nek2;Racgap1;Spag5
+Cluster724	regulation of attachment of spindle microtubules to kinetochore	1.61493e-08	1.90908e-07	1959	7	74	6	22.6911	Ccnb1;Cenpe;Ect2;Nek2;Racgap1;Spag5
+Cluster724	mitotic chromosome condensation	6.26698e-08	6.91456e-07	1959	8	74	6	19.8547	Ncapd2;Ncapg;Ncaph;Nusap1;Smc2;Smc4
+Cluster724	protein localization to chromosome	6.26698e-08	6.91456e-07	1959	8	74	6	19.8547	Aurkb;Bub1b;Cdk1;Cenpa;Plk1;Rad21
+Cluster724	M phase of meiotic cell cycle	1.47501e-07	1.47948e-06	1959	33	74	10	8.02211	Cks2;Espl1;H2afx;Mki67;Nek2;Plk1;Sgol1;Smc2;Smc4;Top2a
+Cluster724	meiosis	1.47501e-07	1.47948e-06	1959	33	74	10	8.02211	Cks2;Espl1;H2afx;Mki67;Nek2;Plk1;Sgol1;Smc2;Smc4;Top2a
+Cluster724	regulation of microtubule-based process	1.47501e-07	1.47948e-06	1959	33	74	10	8.02211	Ccnb1;Ccnf;Cenpe;Ckap2;Ect2;Nek2;Racgap1;Spag5;Tacc3;Tpx2
+Cluster724	meiotic cell cycle	2.7526e-07	2.67974e-06	1959	35	74	10	7.56371	Cks2;Espl1;H2afx;Mki67;Nek2;Plk1;Sgol1;Smc2;Smc4;Top2a
+Cluster724	DNA packaging	8.43878e-07	7.98067e-06	1959	39	74	10	6.78794	Cdk1;Cenpa;H2afx;Ncapd2;Ncapg;Ncaph;Nusap1;Smc2;Smc4;Top2a
+Cluster724	microtubule-based movement	8.81271e-07	8.1028e-06	1959	23	74	8	9.20799	Cenpe;Kif11;Kif18a;Kif20a;Kif20b;Kif22;Kif2c;Kif4
+Cluster724	cell cycle cytokinesis	9.44258e-07	8.44728e-06	1959	11	74	6	14.4398	Ckap2;Ect2;Kif23;Nusap1;Plk1;Racgap1
+Cluster724	regulation of microtubule cytoskeleton organization	9.90693e-07	8.62946e-06	1959	31	74	9	7.6857	Ccnb1;Ccnf;Cenpe;Ckap2;Ect2;Nek2;Racgap1;Spag5;Tpx2
+Cluster724	positive regulation of cell cycle process	3.07057e-06	2.60605e-05	1959	35	74	9	6.80734	Aurkb;Birc5;Cenpe;Ect2;Kif23;Nusap1;Plk1;Racgap1;Ube2c
+Cluster724	meiotic chromosome segregation	3.4481e-06	2.77931e-05	1959	8	74	5	16.5456	Espl1;Sgol1;Smc2;Smc4;Top2a
+Cluster724	spindle checkpoint	3.4481e-06	2.77931e-05	1959	8	74	5	16.5456	Birc5;Bub1;Ccnb1;Cenpe;Mad2l1
+Cluster724	regulation of cell cycle arrest	3.52662e-06	2.77931e-05	1959	45	74	10	5.88288	Birc5;Bub1;Ccnb1;Cdk1;Cenpe;Foxm1;H2afx;Mad2l1;Plk1;Top2a
+Cluster724	organelle localization	4.79484e-06	3.69091e-05	1959	28	74	8	7.56371	Aspm;Birc5;Ccnb1;Cenpa;Cenpf;Kif18a;Nusap1;Tacc3
+Cluster724	cell cycle checkpoint	5.08926e-06	3.82851e-05	1959	37	74	9	6.43937	Birc5;Bub1;Ccnb1;Cdk1;Cenpe;H2afx;Mad2l1;Plk1;Top2a
+Cluster724	regulation of mitotic cell cycle	8.59876e-06	6.32486e-05	1959	72	74	12	4.41216	Birc5;Ccnb1;Cdk1;Cenpe;Cenpf;Dbf4;Mad2l1;Nusap1;Plk1;Top2a;Tpx2;Ube2c
+Cluster724	positive regulation of cell cycle cytokinesis	9.13454e-06	6.43305e-05	1959	5	74	4	21.1784	Aurkb;Ect2;Kif23;Racgap1
+Cluster724	regulation of cell cycle cytokinesis	9.13454e-06	6.43305e-05	1959	5	74	4	21.1784	Aurkb;Ect2;Kif23;Racgap1
+Cluster724	DNA conformation change	1.17616e-05	8.11058e-05	1959	51	74	10	5.19078	Cdk1;Cenpa;H2afx;Ncapd2;Ncapg;Ncaph;Nusap1;Smc2;Smc4;Top2a
+Cluster724	mitotic spindle organization	1.4618e-05	9.87464e-05	1959	10	74	5	13.2365	Aurkb;Kif11;Kif23;Racgap1;Spc25
+Cluster724	chromosome organization	5.22944e-05	0.000346189	1959	160	74	17	2.81275	Ccnb1;Cdca8;Cdk1;Cenpa;Espl1;H2afx;Kif18a;Mad2l1;Ncapd2;Ncapg;Ncaph;Nek2;Nusap1;Smc2;Smc4;Spag5;Top2a
+Cluster724	positive regulation of cytokinesis	6.03354e-05	0.000384058	1959	7	74	4	15.1274	Aurkb;Ect2;Kif23;Racgap1
+Cluster724	spindle assembly involved in mitosis	6.03354e-05	0.000384058	1959	7	74	4	15.1274	Aurkb;Kif11;Kif23;Racgap1
+Cluster724	spindle assembly	6.82745e-05	0.000426393	1959	13	74	5	10.1819	Aurkb;Kif11;Kif23;Racgap1;Tpx2
+Cluster724	cellular process involved in reproduction	7.40317e-05	0.000453787	1959	75	74	11	3.8827	Ccnb1;Cks2;Espl1;H2afx;Mki67;Nek2;Plk1;Sgol1;Smc2;Smc4;Top2a
+Cluster724	G2/M transition of mitotic cell cycle	0.000103091	0.000620419	1959	14	74	5	9.45463	Birc5;Cdk1;Foxm1;Plk1;Top2a
+Cluster724	establishment of organelle localization	0.000109356	0.000646371	1959	22	74	6	7.2199	Birc5;Ccnb1;Cenpa;Cenpf;Kif18a;Nusap1
+Cluster724	centrosome organization	0.000150105	0.000856631	1959	15	74	5	8.82432	Ckap5;Kif11;Nek2;Plk1;Sgol1
+Cluster724	microtubule organizing center organization	0.000150105	0.000856631	1959	15	74	5	8.82432	Ckap5;Kif11;Nek2;Plk1;Sgol1
+Cluster724	chromosome localization	0.000331883	0.00180087	1959	10	74	4	10.5892	Birc5;Ccnb1;Cenpf;Kif18a
+Cluster724	establishment of chromosome localization	0.000331883	0.00180087	1959	10	74	4	10.5892	Birc5;Ccnb1;Cenpf;Kif18a
+Cluster724	regulation of cytokinesis	0.000331883	0.00180087	1959	10	74	4	10.5892	Aurkb;Ect2;Kif23;Racgap1
+Cluster724	regulation of organelle organization	0.000415465	0.00221805	1959	121	74	13	2.8442	Bub1;Ccnb1;Ccnf;Cenpe;Ckap2;Ect2;Mad2l1;Nek2;Nusap1;Plk1;Racgap1;Spag5;Tpx2
+Cluster724	interphase	0.000486407	0.0024591	1959	51	74	8	4.15262	Birc5;Cdk1;Cenpf;Dbf4;Foxm1;Iqgap3;Plk1;Top2a
+Cluster724	interphase of mitotic cell cycle	0.000486407	0.0024591	1959	51	74	8	4.15262	Birc5;Cdk1;Cenpf;Dbf4;Foxm1;Iqgap3;Plk1;Top2a
+Cluster724	kinetochore organization	0.000490335	0.0024591	1959	5	74	3	15.8838	Cenpa;Smc2;Smc4
+Cluster724	spindle assembly checkpoint	0.000490335	0.0024591	1959	5	74	3	15.8838	Bub1;Cenpe;Mad2l1
+Cluster724	organelle assembly	0.000563712	0.0027849	1959	29	74	6	5.47717	Aurkb;Cenpa;Kif11;Kif23;Racgap1;Tpx2
+Cluster724	cellular localization	0.000587626	0.00286035	1959	194	74	17	2.3198	Arl6ip1;Aspm;Aurkb;Birc5;Bub1b;Ccnb1;Cdk1;Cenpa;Cenpe;Cenpf;Kif18a;Nuf2;Nusap1;Plk1;Rad21;Sgol1;Tacc3
+Cluster724	protein localization	0.000850703	0.00402482	1959	182	74	16	2.32729	Arl6ip1;Aurkb;Birc5;Bub1b;Cdk1;Cenpa;Cenpe;Cenpf;Ect2;Kif18a;Kif20a;Nuf2;Plk1;Rad21;Sgol1;Tacc3
+Cluster724	mitotic cell cycle checkpoint	0.000851171	0.00402482	1959	21	74	5	6.30309	Ccnb1;Cdk1;Cenpe;Mad2l1;Top2a
+Cluster724	attachment of spindle microtubules to chromosome	0.00095405	0.00438598	1959	6	74	3	13.2365	Cenpe;Nuf2;Sgol1
+Cluster724	mitotic cell cycle spindle checkpoint	0.00095405	0.00438598	1959	6	74	3	13.2365	Ccnb1;Cenpe;Mad2l1
+Cluster724	protein phosphorylation	0.000975177	0.00442169	1959	132	74	13	2.60719	Aurka;Aurkb;Birc5;Bub1;Bub1b;Ccnb1;Cdk1;Dbf4;Iqgap3;Melk;Nek2;Plk1;Ttk
+Cluster724	regulation of cytoskeleton organization	0.00107629	0.00481423	1959	71	74	9	3.35573	Ccnb1;Ccnf;Cenpe;Ckap2;Ect2;Nek2;Racgap1;Spag5;Tpx2
+Cluster724	cellular macromolecular complex subunit organization	0.00133888	0.00590891	1959	88	74	10	3.00829	Aurkb;Cenpa;H2afx;Kif18a;Kif23;Kif2c;Racgap1;Smc2;Smc4;Ube2c
+Cluster724	regulation of mitotic metaphase/anaphase transition	0.00162434	0.00707441	1959	7	74	3	11.3456	Cenpe;Mad2l1;Plk1
+Cluster724	maintenance of location in cell	0.00197414	0.00837743	1959	25	74	5	5.29459	Aspm;Cenpe;Nuf2;Sgol1;Tacc3
+Cluster724	regulation of cell division	0.00197414	0.00837743	1959	25	74	5	5.29459	Aspm;Aurkb;Ect2;Kif23;Racgap1
+Cluster724	phosphorylation	0.00237461	0.00994931	1959	163	74	14	2.27375	Aurka;Aurkb;Birc5;Bub1;Bub1b;Ccnb1;Cdk1;Cks2;Dbf4;Iqgap3;Melk;Nek2;Plk1;Ttk
+Cluster724	microtubule anchoring	0.0025286	0.0104621	1959	8	74	3	9.92736	Cenpe;Nuf2;Sgol1
+Cluster724	macromolecule localization	0.00323359	0.0132138	1959	206	74	16	2.05615	Arl6ip1;Aurkb;Birc5;Bub1b;Cdk1;Cenpa;Cenpe;Cenpf;Ect2;Kif18a;Kif20a;Nuf2;Plk1;Rad21;Sgol1;Tacc3
+Cluster724	cellular macromolecule localization	0.0036238	0.0140406	1959	117	74	11	2.48891	Arl6ip1;Aurkb;Bub1b;Cdk1;Cenpa;Cenpe;Nuf2;Plk1;Rad21;Sgol1;Tacc3
+Cluster724	cellular protein localization	0.0036238	0.0140406	1959	117	74	11	2.48891	Arl6ip1;Aurkb;Bub1b;Cdk1;Cenpa;Cenpe;Nuf2;Plk1;Rad21;Sgol1;Tacc3
+Cluster724	G2/M transition checkpoint	0.00369042	0.0140406	1959	9	74	3	8.82432	Cdk1;Plk1;Top2a
+Cluster724	metaphase plate congression	0.00369042	0.0140406	1959	9	74	3	8.82432	Ccnb1;Cenpf;Kif18a
+Cluster724	positive regulation of mitosis	0.00369042	0.0140406	1959	9	74	3	8.82432	Cenpe;Nusap1;Plk1
+Cluster724	positive regulation of nuclear division	0.00369042	0.0140406	1959	9	74	3	8.82432	Cenpe;Nusap1;Plk1
+Cluster724	positive regulation of cell division	0.00384009	0.014123	1959	18	74	4	5.88288	Aurkb;Ect2;Kif23;Racgap1
+Cluster724	regulation of mitosis	0.00384009	0.014123	1959	18	74	4	5.88288	Cenpe;Mad2l1;Nusap1;Plk1
+Cluster724	regulation of nuclear division	0.00384009	0.014123	1959	18	74	4	5.88288	Cenpe;Mad2l1;Nusap1;Plk1
+Cluster724	maintenance of location	0.00392079	0.0142613	1959	29	74	5	4.56431	Aspm;Cenpe;Nuf2;Sgol1;Tacc3
+Cluster724	positive regulation of cell cycle	0.00421159	0.0151526	1959	42	74	6	3.78185	Birc5;Ccnb1;Cdk1;Cenpe;Nusap1;Plk1
+Cluster724	regulation of cyclin-dependent protein kinase activity	0.00472648	0.0168222	1959	19	74	4	5.57326	Ccna2;Ccnb1;Ccnb2;Plk1
+Cluster724	reproductive process	0.00477955	0.0168301	1959	157	74	13	2.19203	Aspm;Ccnb1;Cks2;Espl1;H2afx;Mki67;Nek2;Plk1;Racgap1;Sgol1;Smc2;Smc4;Top2a
+Cluster724	reproduction	0.00533419	0.0185855	1959	159	74	13	2.16446	Aspm;Ccnb1;Cks2;Espl1;H2afx;Mki67;Nek2;Plk1;Racgap1;Sgol1;Smc2;Smc4;Top2a
+Cluster724	cellular protein complex assembly	0.00608589	0.0209837	1959	32	74	5	4.1364	Aurkb;Cenpa;Kif23;Racgap1;Ube2c
+Cluster724	DNA metabolic process	0.0065998	0.022521	1959	163	74	13	2.11134	Cdk1;Cenpa;Dbf4;H2afx;Kif22;Ncapd2;Ncapg;Ncaph;Nusap1;Rad21;Smc2;Smc4;Top2a
+Cluster724	regulation of ubiquitin-protein ligase activity	0.00686346	0.0231817	1959	11	74	3	7.2199	Cdc20;Mad2l1;Plk1
+Cluster724	phosphate-containing compound metabolic process	0.00764238	0.0252963	1959	185	74	14	2.00336	Aurka;Aurkb;Birc5;Bub1;Bub1b;Ccnb1;Cdk1;Cks2;Dbf4;Iqgap3;Melk;Nek2;Plk1;Ttk
+Cluster724	phosphorus metabolic process	0.00764238	0.0252963	1959	185	74	14	2.00336	Aurka;Aurkb;Birc5;Bub1;Bub1b;Ccnb1;Cdk1;Cks2;Dbf4;Iqgap3;Melk;Nek2;Plk1;Ttk
+Cluster724	macromolecular complex subunit organization	0.00809632	0.0265335	1959	167	74	13	2.06077	Aurkb;Ccnb1;Cdk1;Cenpa;Ect2;H2afx;Kif18a;Kif23;Kif2c;Racgap1;Smc2;Smc4;Ube2c
+Cluster724	maintenance of protein location in cell	0.00818551	0.0265628	1959	22	74	4	4.81327	Cenpe;Nuf2;Sgol1;Tacc3
+Cluster724	regulation of G2/M transition of mitotic cell cycle	0.00890516	0.0283424	1959	12	74	3	6.61824	Cdk1;Cenpf;Top2a
+Cluster724	regulation of ligase activity	0.00890516	0.0283424	1959	12	74	3	6.61824	Cdc20;Mad2l1;Plk1
+Cluster724	protein complex subunit organization	0.00965747	0.030444	1959	115	74	10	2.302	Aurkb;Ccnb1;Cdk1;Cenpa;Ect2;Kif18a;Kif23;Kif2c;Racgap1;Ube2c
+Cluster724	cellular process	0.0108868	0.0339955	1959	1602	74	68	1.1237	Anln;Arhgap11a;Arhgap19;Arl6ip1;Aspm;Aurka;Aurkb;Birc5;Bub1;Bub1b;Ccna2;Ccnb1;Ccnb2;Ccnf;Cdc20;Cdca2;Cdca3;Cdca8;Cdk1;Cenpa;Cenpe;Cenpf;Cep55;Ckap2;Ckap5;Cks1b;Cks2;Dbf4;Dlgap5;Ect2;Espl1;Fam83d;Foxm1;H2afx;Incenp;Iqgap3;Kif11;Kif18a;Kif20a;Kif20b;Kif22;Kif23;Kif2c;Kif4;Mad2l1;Melk;Mis18bp1;Mki67;Ncapd2;Ncapg;Ncaph;Nek2;Nuf2;Nusap1;Plk1;Prc1;Racgap1;Rad21;Sgol1;Smc2;Smc4;Spag5;Spc25;Tacc3;Top2a;Tpx2;Ttk;Ube2c
+Cluster724	protein localization to organelle	0.0110445	0.0341657	1959	51	74	6	3.11447	Aurkb;Bub1b;Cdk1;Cenpa;Plk1;Rad21
+Cluster724	neural precursor cell proliferation	0.0112659	0.034211	1959	13	74	3	6.10915	Aspm;Melk;Tacc3
+Cluster724	proteasomal ubiquitin-dependent protein catabolic process	0.0112659	0.034211	1959	13	74	3	6.10915	Ccnf;Cdc20;Ube2c
+Cluster724	negative regulation of organelle organization	0.012717	0.0382667	1959	38	74	5	3.48329	Ccnb1;Ccnf;Cenpe;Ckap2;Mad2l1
+Cluster724	proteasomal protein catabolic process	0.013954	0.0416105	1959	14	74	3	5.67278	Ccnf;Cdc20;Ube2c
+Cluster724	maintenance of protein location	0.014924	0.0441059	1959	26	74	4	4.07277	Cenpe;Nuf2;Sgol1;Tacc3
+Cluster724	positive regulation of mitotic cell cycle	0.0169757	0.0497251	1959	15	74	3	5.29459	Birc5;Ccnb1;Cdk1
+Cluster702	tRNA metabolic process	1.10932e-06	0.000234677	1959	11	76	6	14.0598	Gars;Iars;Nars;Nsun2;Tars;Yars
+Cluster702	amino acid activation	3.94416e-06	0.000234677	1959	8	76	5	16.1102	Gars;Iars;Nars;Tars;Yars
+Cluster702	tRNA aminoacylation	3.94416e-06	0.000234677	1959	8	76	5	16.1102	Gars;Iars;Nars;Tars;Yars
+Cluster702	tRNA aminoacylation for protein translation	3.94416e-06	0.000234677	1959	8	76	5	16.1102	Gars;Iars;Nars;Tars;Yars
+Cluster702	ncRNA metabolic process	6.90555e-06	0.000328704	1959	47	76	10	5.48432	Bop1;Ftsj3;Gars;Iars;Nars;Nsun2;Pa2g4;Tars;Utp15;Yars
+Cluster702	cellular amino acid metabolic process	2.15277e-05	0.000853933	1959	53	76	10	4.86346	Adss;Bcat1;Gars;Gcsh;Got1;Iars;Nars;Psat1;Tars;Yars
+Cluster702	ribosome biogenesis	6.08826e-05	0.00207001	1959	48	76	9	4.83306	Bop1;Eif6;Ftsj3;Gtpbp4;Nip7;Pa2g4;Rrn3;Rrs1;Utp15
+Cluster702	carboxylic acid metabolic process	0.000144551	0.00347977	1959	92	76	12	3.36213	Adss;Bcat1;Dlat;Gars;Gcsh;Got1;Iars;Idh3a;Nars;Psat1;Tars;Yars
+Cluster702	oxoacid metabolic process	0.000144551	0.00347977	1959	92	76	12	3.36213	Adss;Bcat1;Dlat;Gars;Gcsh;Got1;Iars;Idh3a;Nars;Psat1;Tars;Yars
+Cluster702	cellular ketone metabolic process	0.00016083	0.00347977	1959	93	76	12	3.32598	Adss;Bcat1;Dlat;Gars;Gcsh;Got1;Iars;Idh3a;Nars;Psat1;Tars;Yars
+Cluster702	organic acid metabolic process	0.00016083	0.00347977	1959	93	76	12	3.32598	Adss;Bcat1;Dlat;Gars;Gcsh;Got1;Iars;Idh3a;Nars;Psat1;Tars;Yars
+Cluster702	ribonucleoprotein complex biogenesis	0.000417756	0.00828549	1959	61	76	9	3.80306	Bop1;Eif6;Ftsj3;Gtpbp4;Nip7;Pa2g4;Rrn3;Rrs1;Utp15
+Cluster702	translation	0.000516439	0.0090997	1959	105	76	12	2.94586	Eef1e1;Eif2s1;Eif4e;Eif6;Etf1;Gars;Gspt1;Iars;Nars;Rpl7l1;Tars;Yars
+Cluster702	cellular component biogenesis at cellular level	0.000535277	0.0090997	1959	63	76	9	3.68233	Bop1;Eif6;Ftsj3;Gtpbp4;Nip7;Pa2g4;Rrn3;Rrs1;Utp15
+Cluster702	protein folding	0.000778364	0.01235	1959	41	76	7	4.40083	Cct2;Cct6a;Dnaja2;Hspa9;Hspd1;Hsph1;Ppid
+Cluster705	translation	1.84943e-71	2.18233e-69	1959	105	65	57	16.3609	Eef1a1;Eef1b2;Eef1d;Eef1g;Eif3f;Eif3h;Eif3i;Eif3k;Rpl10;Rpl11;Rpl13;Rpl14;Rpl18;Rpl18a;Rpl19;Rpl22;Rpl22l1;Rpl23;Rpl24;Rpl27a;Rpl28;Rpl3;Rpl32;Rpl37a;Rpl38;Rpl39;Rpl4;Rpl5;Rpl6;Rpl7;Rpl8;Rpl9;Rplp0;Rplp1;Rplp2;Rps11;Rps14;Rps15;Rps15a;Rps16;Rps17;Rps18;Rps19;Rps2;Rps20;Rps21;Rps23;Rps24;Rps28;Rps29;Rps3;Rps4x;Rps5;Rps7;Rps8;Rps9;Rpsa
+Cluster705	cellular protein metabolic process	3.11588e-33	1.83837e-31	1959	412	65	58	4.24279	Eef1a1;Eef1b2;Eef1d;Eef1g;Eif3f;Eif3h;Eif3i;Eif3k;Nme2;Rpl10;Rpl11;Rpl13;Rpl14;Rpl18;Rpl18a;Rpl19;Rpl22;Rpl22l1;Rpl23;Rpl24;Rpl27a;Rpl28;Rpl3;Rpl32;Rpl37a;Rpl38;Rpl39;Rpl4;Rpl5;Rpl6;Rpl7;Rpl8;Rpl9;Rplp0;Rplp1;Rplp2;Rps11;Rps14;Rps15;Rps15a;Rps16;Rps17;Rps18;Rps19;Rps2;Rps20;Rps21;Rps23;Rps24;Rps28;Rps29;Rps3;Rps4x;Rps5;Rps7;Rps8;Rps9;Rpsa
+Cluster705	protein metabolic process	3.49959e-30	1.37651e-28	1959	463	65	58	3.77544	Eef1a1;Eef1b2;Eef1d;Eef1g;Eif3f;Eif3h;Eif3i;Eif3k;Nme2;Rpl10;Rpl11;Rpl13;Rpl14;Rpl18;Rpl18a;Rpl19;Rpl22;Rpl22l1;Rpl23;Rpl24;Rpl27a;Rpl28;Rpl3;Rpl32;Rpl37a;Rpl38;Rpl39;Rpl4;Rpl5;Rpl6;Rpl7;Rpl8;Rpl9;Rplp0;Rplp1;Rplp2;Rps11;Rps14;Rps15;Rps15a;Rps16;Rps17;Rps18;Rps19;Rps2;Rps20;Rps21;Rps23;Rps24;Rps28;Rps29;Rps3;Rps4x;Rps5;Rps7;Rps8;Rps9;Rpsa
+Cluster705	cellular macromolecule biosynthetic process	1.6596e-28	4.89581e-27	1959	494	65	58	3.53852	Eef1a1;Eef1b2;Eef1d;Eef1g;Eif3f;Eif3h;Eif3i;Eif3k;Naca;Rpl10;Rpl11;Rpl13;Rpl14;Rpl18;Rpl18a;Rpl19;Rpl22;Rpl22l1;Rpl23;Rpl24;Rpl27a;Rpl28;Rpl3;Rpl32;Rpl37a;Rpl38;Rpl39;Rpl4;Rpl5;Rpl6;Rpl7;Rpl8;Rpl9;Rplp0;Rplp1;Rplp2;Rps11;Rps14;Rps15;Rps15a;Rps16;Rps17;Rps18;Rps19;Rps2;Rps20;Rps21;Rps23;Rps24;Rps28;Rps29;Rps3;Rps4x;Rps5;Rps7;Rps8;Rps9;Rpsa
+Cluster705	macromolecule biosynthetic process	3.39464e-28	8.01134e-27	1959	500	65	58	3.49606	Eef1a1;Eef1b2;Eef1d;Eef1g;Eif3f;Eif3h;Eif3i;Eif3k;Naca;Rpl10;Rpl11;Rpl13;Rpl14;Rpl18;Rpl18a;Rpl19;Rpl22;Rpl22l1;Rpl23;Rpl24;Rpl27a;Rpl28;Rpl3;Rpl32;Rpl37a;Rpl38;Rpl39;Rpl4;Rpl5;Rpl6;Rpl7;Rpl8;Rpl9;Rplp0;Rplp1;Rplp2;Rps11;Rps14;Rps15;Rps15a;Rps16;Rps17;Rps18;Rps19;Rps2;Rps20;Rps21;Rps23;Rps24;Rps28;Rps29;Rps3;Rps4x;Rps5;Rps7;Rps8;Rps9;Rpsa
+Cluster705	cellular biosynthetic process	3.48165e-27	6.84724e-26	1959	580	65	60	3.11777	Atp5o;Eef1a1;Eef1b2;Eef1d;Eef1g;Eif3f;Eif3h;Eif3i;Eif3k;Naca;Nme2;Rpl10;Rpl11;Rpl13;Rpl14;Rpl18;Rpl18a;Rpl19;Rpl22;Rpl22l1;Rpl23;Rpl24;Rpl27a;Rpl28;Rpl3;Rpl32;Rpl37a;Rpl38;Rpl39;Rpl4;Rpl5;Rpl6;Rpl7;Rpl8;Rpl9;Rplp0;Rplp1;Rplp2;Rps11;Rps14;Rps15;Rps15a;Rps16;Rps17;Rps18;Rps19;Rps2;Rps20;Rps21;Rps23;Rps24;Rps28;Rps29;Rps3;Rps4x;Rps5;Rps7;Rps8;Rps9;Rpsa
+Cluster705	gene expression	8.47168e-27	1.42808e-25	1959	528	65	58	3.31066	Eef1a1;Eef1b2;Eef1d;Eef1g;Eif3f;Eif3h;Eif3i;Eif3k;Naca;Rpl10;Rpl11;Rpl13;Rpl14;Rpl18;Rpl18a;Rpl19;Rpl22;Rpl22l1;Rpl23;Rpl24;Rpl27a;Rpl28;Rpl3;Rpl32;Rpl37a;Rpl38;Rpl39;Rpl4;Rpl5;Rpl6;Rpl7;Rpl8;Rpl9;Rplp0;Rplp1;Rplp2;Rps11;Rps14;Rps15;Rps15a;Rps16;Rps17;Rps18;Rps19;Rps2;Rps20;Rps21;Rps23;Rps24;Rps28;Rps29;Rps3;Rps4x;Rps5;Rps7;Rps8;Rps9;Rpsa
+Cluster705	biosynthetic process	2.03568e-26	3.00263e-25	1959	597	65	60	3.02899	Atp5o;Eef1a1;Eef1b2;Eef1d;Eef1g;Eif3f;Eif3h;Eif3i;Eif3k;Naca;Nme2;Rpl10;Rpl11;Rpl13;Rpl14;Rpl18;Rpl18a;Rpl19;Rpl22;Rpl22l1;Rpl23;Rpl24;Rpl27a;Rpl28;Rpl3;Rpl32;Rpl37a;Rpl38;Rpl39;Rpl4;Rpl5;Rpl6;Rpl7;Rpl8;Rpl9;Rplp0;Rplp1;Rplp2;Rps11;Rps14;Rps15;Rps15a;Rps16;Rps17;Rps18;Rps19;Rps2;Rps20;Rps21;Rps23;Rps24;Rps28;Rps29;Rps3;Rps4x;Rps5;Rps7;Rps8;Rps9;Rpsa
+Cluster705	ribosomal small subunit biogenesis	2.32156e-19	3.04382e-18	1959	14	65	13	27.9857	Rps14;Rps15;Rps16;Rps17;Rps19;Rps2;Rps21;Rps24;Rps25;Rps28;Rps7;Rps8;Rpsa
+Cluster705	ribosome biogenesis	9.77919e-19	1.15395e-17	1959	48	65	20	12.5577	Rpl11;Rpl14;Rpl24;Rpl5;Rpl7;Rplp0;Rps14;Rps15;Rps16;Rps17;Rps18;Rps19;Rps2;Rps21;Rps24;Rps25;Rps28;Rps7;Rps8;Rpsa
+Cluster705	ribonucleoprotein complex biogenesis	2.71328e-16	2.91061e-15	1959	61	65	20	9.88146	Rpl11;Rpl14;Rpl24;Rpl5;Rpl7;Rplp0;Rps14;Rps15;Rps16;Rps17;Rps18;Rps19;Rps2;Rps21;Rps24;Rps25;Rps28;Rps7;Rps8;Rpsa
+Cluster705	cellular component biogenesis at cellular level	5.60702e-16	5.51357e-15	1959	63	65	20	9.56777	Rpl11;Rpl14;Rpl24;Rpl5;Rpl7;Rplp0;Rps14;Rps15;Rps16;Rps17;Rps18;Rps19;Rps2;Rps21;Rps24;Rps25;Rps28;Rps7;Rps8;Rpsa
+Cluster705	cellular macromolecule metabolic process	6.90028e-16	6.26333e-15	1959	857	65	59	2.07488	Eef1a1;Eef1b2;Eef1d;Eef1g;Eif3f;Eif3h;Eif3i;Eif3k;Naca;Nme2;Rpl10;Rpl11;Rpl13;Rpl14;Rpl18;Rpl18a;Rpl19;Rpl22;Rpl22l1;Rpl23;Rpl24;Rpl27a;Rpl28;Rpl3;Rpl32;Rpl37a;Rpl38;Rpl39;Rpl4;Rpl5;Rpl6;Rpl7;Rpl8;Rpl9;Rplp0;Rplp1;Rplp2;Rps11;Rps14;Rps15;Rps15a;Rps16;Rps17;Rps18;Rps19;Rps2;Rps20;Rps21;Rps23;Rps24;Rps28;Rps29;Rps3;Rps4x;Rps5;Rps7;Rps8;Rps9;Rpsa
+Cluster705	macromolecule metabolic process	1.39253e-14	1.1737e-13	1959	904	65	59	1.967	Eef1a1;Eef1b2;Eef1d;Eef1g;Eif3f;Eif3h;Eif3i;Eif3k;Naca;Nme2;Rpl10;Rpl11;Rpl13;Rpl14;Rpl18;Rpl18a;Rpl19;Rpl22;Rpl22l1;Rpl23;Rpl24;Rpl27a;Rpl28;Rpl3;Rpl32;Rpl37a;Rpl38;Rpl39;Rpl4;Rpl5;Rpl6;Rpl7;Rpl8;Rpl9;Rplp0;Rplp1;Rplp2;Rps11;Rps14;Rps15;Rps15a;Rps16;Rps17;Rps18;Rps19;Rps2;Rps20;Rps21;Rps23;Rps24;Rps28;Rps29;Rps3;Rps4x;Rps5;Rps7;Rps8;Rps9;Rpsa
+Cluster705	translational elongation	2.7749e-14	2.18292e-13	1959	15	65	11	22.1015	Eef1a1;Eef1b2;Eef1d;Eef1g;Rplp0;Rplp1;Rplp2;Rps17;Rps21;Rps24;Rps8
+Cluster705	rRNA metabolic process	2.31988e-13	1.61027e-12	1959	33	65	14	12.786	Rpl11;Rpl14;Rpl5;Rpl7;Rps15;Rps16;Rps17;Rps19;Rps21;Rps24;Rps28;Rps7;Rps8;Rpsa
+Cluster705	rRNA processing	2.31988e-13	1.61027e-12	1959	33	65	14	12.786	Rpl11;Rpl14;Rpl5;Rpl7;Rps15;Rps16;Rps17;Rps19;Rps21;Rps24;Rps28;Rps7;Rps8;Rpsa
+Cluster705	ncRNA processing	3.67903e-12	2.41181e-11	1959	39	65	14	10.8189	Rpl11;Rpl14;Rpl5;Rpl7;Rps15;Rps16;Rps17;Rps19;Rps21;Rps24;Rps28;Rps7;Rps8;Rpsa
+Cluster705	primary metabolic process	5.98714e-12	3.71833e-11	1959	1051	65	60	1.72056	Atp5o;Eef1a1;Eef1b2;Eef1d;Eef1g;Eif3f;Eif3h;Eif3i;Eif3k;Naca;Nme2;Rpl10;Rpl11;Rpl13;Rpl14;Rpl18;Rpl18a;Rpl19;Rpl22;Rpl22l1;Rpl23;Rpl24;Rpl27a;Rpl28;Rpl3;Rpl32;Rpl37a;Rpl38;Rpl39;Rpl4;Rpl5;Rpl6;Rpl7;Rpl8;Rpl9;Rplp0;Rplp1;Rplp2;Rps11;Rps14;Rps15;Rps15a;Rps16;Rps17;Rps18;Rps19;Rps2;Rps20;Rps21;Rps23;Rps24;Rps28;Rps29;Rps3;Rps4x;Rps5;Rps7;Rps8;Rps9;Rpsa
+Cluster705	cellular metabolic process	1.13171e-11	6.67709e-11	1959	1063	65	60	1.70114	Atp5o;Eef1a1;Eef1b2;Eef1d;Eef1g;Eif3f;Eif3h;Eif3i;Eif3k;Naca;Nme2;Rpl10;Rpl11;Rpl13;Rpl14;Rpl18;Rpl18a;Rpl19;Rpl22;Rpl22l1;Rpl23;Rpl24;Rpl27a;Rpl28;Rpl3;Rpl32;Rpl37a;Rpl38;Rpl39;Rpl4;Rpl5;Rpl6;Rpl7;Rpl8;Rpl9;Rplp0;Rplp1;Rplp2;Rps11;Rps14;Rps15;Rps15a;Rps16;Rps17;Rps18;Rps19;Rps2;Rps20;Rps21;Rps23;Rps24;Rps28;Rps29;Rps3;Rps4x;Rps5;Rps7;Rps8;Rps9;Rpsa
+Cluster705	ncRNA metabolic process	6.81991e-11	3.83214e-10	1959	47	65	14	8.97741	Rpl11;Rpl14;Rpl5;Rpl7;Rps15;Rps16;Rps17;Rps19;Rps21;Rps24;Rps28;Rps7;Rps8;Rpsa
+Cluster705	ribosomal small subunit assembly	1.0603e-09	5.61246e-09	1959	6	65	6	30.1385	Rps14;Rps15;Rps17;Rps2;Rps25;Rpsa
+Cluster705	ribosome assembly	1.09395e-09	5.61246e-09	1959	9	65	7	23.441	Rpl24;Rps14;Rps15;Rps17;Rps2;Rps25;Rpsa
+Cluster705	metabolic process	1.88172e-09	9.25177e-09	1959	1166	65	60	1.55086	Atp5o;Eef1a1;Eef1b2;Eef1d;Eef1g;Eif3f;Eif3h;Eif3i;Eif3k;Naca;Nme2;Rpl10;Rpl11;Rpl13;Rpl14;Rpl18;Rpl18a;Rpl19;Rpl22;Rpl22l1;Rpl23;Rpl24;Rpl27a;Rpl28;Rpl3;Rpl32;Rpl37a;Rpl38;Rpl39;Rpl4;Rpl5;Rpl6;Rpl7;Rpl8;Rpl9;Rplp0;Rplp1;Rplp2;Rps11;Rps14;Rps15;Rps15a;Rps16;Rps17;Rps18;Rps19;Rps2;Rps20;Rps21;Rps23;Rps24;Rps28;Rps29;Rps3;Rps4x;Rps5;Rps7;Rps8;Rps9;Rpsa
+Cluster705	ribosomal large subunit biogenesis	1.78907e-06	8.44442e-06	1959	8	65	5	18.8365	Rpl11;Rpl14;Rpl24;Rpl5;Rpl7
+Cluster705	ribonucleoprotein complex assembly	3.67945e-06	1.60806e-05	1959	22	65	7	9.58951	Rpl24;Rps14;Rps15;Rps17;Rps2;Rps25;Rpsa
+Cluster705	ribonucleoprotein complex subunit organization	3.67945e-06	1.60806e-05	1959	22	65	7	9.58951	Rpl24;Rps14;Rps15;Rps17;Rps2;Rps25;Rpsa
+Cluster705	RNA processing	5.94245e-06	2.50432e-05	1959	108	65	14	3.90684	Rpl11;Rpl14;Rpl5;Rpl7;Rps15;Rps16;Rps17;Rps19;Rps21;Rps24;Rps28;Rps7;Rps8;Rpsa
+Cluster705	organelle assembly	2.80023e-05	0.00011394	1959	29	65	7	7.2748	Rpl24;Rps14;Rps15;Rps17;Rps2;Rps25;Rpsa
+Cluster705	cellular component biogenesis	5.32749e-05	0.000209548	1959	263	65	21	2.40649	Nme2;Rpl11;Rpl14;Rpl24;Rpl5;Rpl7;Rplp0;Rps14;Rps15;Rps16;Rps17;Rps18;Rps19;Rps2;Rps21;Rps24;Rps25;Rps28;Rps7;Rps8;Rpsa
+Cluster705	translational initiation	0.000156643	0.000596253	1959	17	65	5	8.86425	Eif3f;Eif3h;Eif3i;Eif3k;Rps2
+Cluster705	cellular process	0.00109783	0.00404826	1959	1602	65	62	1.16641	Atp5o;Eef1a1;Eef1b2;Eef1d;Eef1g;Eif3f;Eif3h;Eif3i;Eif3k;Gnb2l1;Naca;Nme2;Rpl10;Rpl11;Rpl13;Rpl14;Rpl18;Rpl18a;Rpl19;Rpl22;Rpl22l1;Rpl23;Rpl24;Rpl27a;Rpl28;Rpl3;Rpl32;Rpl37a;Rpl38;Rpl39;Rpl4;Rpl5;Rpl6;Rpl7;Rpl8;Rpl9;Rplp0;Rplp1;Rplp2;Rps11;Rps14;Rps15;Rps15a;Rps16;Rps17;Rps18;Rps19;Rps2;Rps20;Rps21;Rps23;Rps24;Rps25;Rps28;Rps29;Rps3;Rps4x;Rps5;Rps7;Rps8;Rps9;Rpsa
+Cluster705	regulation of translation	0.00585457	0.0209345	1959	36	65	5	4.1859	Eif3k;Gnb2l1;Rps14;Rps4x;Rps5
+Cluster705	erythrocyte homeostasis	0.00826389	0.0286805	1959	25	65	4	4.82215	Rps14;Rps17;Rps19;Rps24
+Cluster705	cellular macromolecular complex assembly	0.00852941	0.0287563	1959	72	65	7	2.93013	Rpl24;Rps14;Rps15;Rps17;Rps2;Rps25;Rpsa
