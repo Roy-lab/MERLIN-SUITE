@@ -328,15 +328,15 @@ The file is formatted as a two-column table: the first column contains target ge
       ```
 
 7. **Consensus network generation**
-    * Filtering consensus network with confidence score threshold ≥0.8
+    * _**Filtering consensus network with confidence score threshold ≥0.8**_
       <br><br>Since **MERLIN-P** was run on 20 subsamples, we generated consensus networks across all subsamples and filtered edges using an **80% confidence threshold**, retaining only those edges that appeared in at least 16 out of 20 subsamples.
       For this [estimateedgeconf package from merlin-auxillary tool](https://github.com/Roy-lab/merlin-auxillary) was used, which is as follows:
       ```text
       ## Syntax: estimateEdgeConf <filenamelist> <confidence> <outputfile> <filterededges|alledges>
-      e.g., for λ = 0.100, estimateEdgeConf results/Merlinp/Lambda_0100/network_files.txt 0 n20_subsamples_lambda_0100_ alledges
+      e.g., for λ = 0.100,
+      estimateEdgeConf results/Merlinp/Lambda_0100/network_files.txt 0 n20_subsamples_lambda_0100_ alledges
       ```
-      **Output file:**
-      <br>**λ = 0.100:** [n20_subsamples_lambda_0100_alledge.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/n20_subsamples_lambda_0100_alledge.txt)
+      **Output file for consensus networks at λ = 0.100:** [n20_subsamples_lambda_0100_alledge.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/n20_subsamples_lambda_0100_alledge.txt)
 
       Now, selecting the edges with confidence >= 0.8 from the consensus network
       ```text
@@ -347,28 +347,28 @@ The file is formatted as a two-column table: the first column contains target ge
       ## -r = reverse order i.e. desc (by default, asc).
       sort -gr -k3 n20_subsamples_lambda_0100_0_8.txt > n20_subsamples_lambda_0100_0_8_sorted.txt
       ```
+      **Output file for consensus networks at λ = 0.100 with confidence score threshold ≥0.8:** [n20_subsamples_lambda_0100_0_8_sorted.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/n20_subsamples_lambda_0100_0_8_sorted.txt)
+      
 
-      **Output file for consensus networks with confidence score threshold ≥0.8:**
-      <br>**λ = 0.100:** [n20_subsamples_lambda_0100_0_8_sorted.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/n20_subsamples_lambda_0100_0_8_sorted.txt)
-
-    * Co-clustering matrix generation to detect biologically meaningful modules
+    * _**Co-clustering matrix generation to detect biologically meaningful modules**_
     <br><br>We used the module assignment files from the 20 subsamples to generate a co-clustering matrix for each `λ` setting, which is a (#target genes x #target genes) matrix. The (i,j)-th entry represents the frequency with which genes _i_ and _j_ were assigned to the same module across the 20 subsamples, for example, a frequency of 0.5 indicates that the two genes were clustered together in a module in 10 out of 20 subsamples. The resulting co-clustering matrix is symmetric with diagonal entries equal to 1. For this [assessClusterStab package from merlin-auxillary tool](https://github.com/Roy-lab/merlin-auxillary) was used, which is as follows:
       ```text
       ## Syntax: assessClusterStab <module_filename_list> <output_file>
-      e.g., for λ = 0.100, assessClusterStab results/Merlinp/Lambda_0100/module_files.txt coclustering_matrix.txt
+      e.g., for λ = 0.100,
+      assessClusterStab results/Merlinp/Lambda_0100/module_files.txt coclustering_matrix.txt
       ```
       **Output file:**
       <br>**λ = 0.100:** [coclustering_matrix.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/coclustering_matrix.txt)
+      
 
-    * Getting consensus modules from Co-clustering matrix
+    * _**Getting consensus modules from Co-clustering matrix**_
     <br><br>Consensus module assignments were derived using co-clustering score cutoffs ranging from  `0.1` to `0.4` for each `λ (lambda) value`. For this [optimalleaforder package from merlin-auxillary tool](https://github.com/Roy-lab/merlin-auxillary) was used, which is as follows:
       ```text
       ## Syntax: Syntax: reorder <co_clustering_matrix> <list|pair|matrix> <out_file_prefix> <threshold>
-      e.g., for λ = 0.100 and co-clustering score cut-off: 0.1, reorder results/Merlinp/Lambda_0100/coclustering_matrix.txt matrix consensus_module_0_1 0.1
+      e.g., for λ = 0.100 and co-clustering score cut-off: 0.1,
+      reorder results/Merlinp/Lambda_0100/coclustering_matrix.txt matrix consensus_module_0_1 0.1
       ```
-
-      **Output files for coclustering matrix for λ = 0.100:**
-      <br>**co-clustering score cut-off = 0.1:** [consensus_module_0_1_assign.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/consensus_module_0_1_assign.txt)
+      **Output file for coclustering matrix at λ = 0.100 with co-clustering score cut-off = 0.1:** [consensus_module_0_1_assign.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/consensus_module_0_1_assign.txt)
 
 
     * AUPR and F-score comparison with Gold standard networks
