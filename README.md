@@ -368,8 +368,7 @@ The file is formatted as a two-column table: the first column contains target ge
       reorder results/Merlinp/Lambda_0100/coclustering_matrix.txt matrix consensus_module_0_1 0.1
       ```
       **Outputs (λ = 0.100, threshold = 0.1):**
-      [consensus_module_0_1_assign.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/consensus_module_0_1_assign.txt)
-      [consensus_module_0_1_geneset.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/consensus_module_0_1_geneset.txt) <br><br>
+      [consensus_module_0_1_assign.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/consensus_module_0_1_assign.txt); [consensus_module_0_1_geneset.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/consensus_module_0_1_geneset.txt) <br><br>
 
 
     * _**GO functional enrichment analysis**_
