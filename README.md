@@ -335,7 +335,7 @@ The file is formatted as a two-column table: the first column contains target ge
       ## Syntax: estimateEdgeConf <filenamelist> <confidence> <outputfile> <filterededges|alledges>
       e.g., for λ = 0.100, estimateEdgeConf results/Merlinp/Lambda_0100/network_files.txt 0 n20_subsamples_lambda_0100_ alledges
       ```
-      **Output files:**
+      **Output file:**
       <br>**λ = 0.100:** [n20_subsamples_lambda_0100_alledge.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/n20_subsamples_lambda_0100_alledge.txt)
 
       Now, selecting the edges with confidence >= 0.8 from the consensus network
@@ -348,21 +348,25 @@ The file is formatted as a two-column table: the first column contains target ge
       sort -gr -k3 n20_subsamples_lambda_0100_0_8.txt > n20_subsamples_lambda_0100_0_8_sorted.txt
       ```
 
-      **Output files for consensus networks with confidence score threshold ≥0.8:**
+      **Output file for consensus networks with confidence score threshold ≥0.8:**
       <br>**λ = 0.100:** [n20_subsamples_lambda_0100_0_8_sorted.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/n20_subsamples_lambda_0100_0_8_sorted.txt)
 
     * Co-clustering matrix generation to detect biologically meaningful modules
-    <br><br>We used the module assignment files from the 20 subsamples to generate a co-clustering matrix for each `λ` setting, which is a (#target genes x #target genes) matrix. The (i,j)-th entry represents the frequency with which genes _i_ and _j_ were assigned to the same module across the 20 subsamples, for example, a frequency of 0.5 indicates that the two genes were clustered together in a module in 10 out of 20 subsamples. The resulting co-clustering matrix is symmetric with diagonal entries equal to 1. Consensus module assignments were derived using co-clustering score cutoffs ranging from  `0.1` to `0.4` for each `λ (lambda) value`. For this [assessClusterStab package from merlin-auxillary tool](https://github.com/Roy-lab/merlin-auxillary) was used, which is as follows:
+    <br><br>We used the module assignment files from the 20 subsamples to generate a co-clustering matrix for each `λ` setting, which is a (#target genes x #target genes) matrix. The (i,j)-th entry represents the frequency with which genes _i_ and _j_ were assigned to the same module across the 20 subsamples, for example, a frequency of 0.5 indicates that the two genes were clustered together in a module in 10 out of 20 subsamples. The resulting co-clustering matrix is symmetric with diagonal entries equal to 1. For this [assessClusterStab package from merlin-auxillary tool](https://github.com/Roy-lab/merlin-auxillary) was used, which is as follows:
       ```text
       ## Syntax: assessClusterStab <module_filename_list> <output_file>
       e.g., for λ = 0.100, assessClusterStab results/Merlinp/Lambda_0100/module_files.txt coclustering_matrix.txt
       ```
-    <br><br>Next, making the consensus module assignment with different co-clustering score cut-offs e.g, `0.1-0.4`. For this [optimalleaforder package from merlin-auxillary tool](https://github.com/Roy-lab/merlin-auxillary) was used, which is as follows:
+      **Output file:**
+      <br>**λ = 0.100:** [coclustering_matrix.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/coclustering_matrix.txt)
+
+    * Getting consensus modules from Co-clustering matrix
+    <br><br>Consensus module assignments were derived using co-clustering score cutoffs ranging from  `0.1` to `0.4` for each `λ (lambda) value`. For this [optimalleaforder package from merlin-auxillary tool](https://github.com/Roy-lab/merlin-auxillary) was used, which is as follows:
       ```text
       ## Syntax: Syntax: reorder <co_clustering_matrix> <list|pair|matrix> <out_file_prefix> <threshold>
       e.g., for λ = 0.100 and co-clustering score cut-off: 0.1, reorder results/Merlinp/Lambda_0100/coclustering_matrix.txt matrix consensus_module_0_1 0.1
       ```
- 
+
       **Output files for coclustering matrix for λ = 0.100:**
       <br>**co-clustering score cut-off = 0.1:** [consensus_module_0_1_assign.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/consensus_module_0_1_assign.txt)
 
