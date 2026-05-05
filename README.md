@@ -351,23 +351,35 @@ The file is formatted as a two-column table: the first column contains target ge
       
 
     * _**Co-clustering matrix generation to detect biologically meaningful modules**_
-    <br><br>We used the module assignment files from the 20 subsamples to generate a co-clustering matrix for each `λ` setting, which is a (#target genes x #target genes) matrix. The (i,j)-th entry represents the frequency with which genes _i_ and _j_ were assigned to the same module across the 20 subsamples, for example, a frequency of 0.5 indicates that the two genes were clustered together in a module in 10 out of 20 subsamples. The resulting co-clustering matrix is symmetric with diagonal entries equal to 1. For this [assessClusterStab package from merlin-auxillary tool](https://github.com/Roy-lab/merlin-auxillary) was used, which is as follows:
+    <br><br>We used module assignment files from 20 subsamples to generate a co-clustering matrix for each `λ` setting. This matrix has dimensions (#target genes × #target genes), where the (_i_, _j_)-th entry represents the frequency with which genes _i_ and _j_ were assigned to the same module across subsamples. For example, a value of 0.5 indicates that the two genes were co-clustered in 10 out of 20 subsamples. The matrix is symmetric, with diagonal entries equal to 1. We used the [assessClusterStab package (merlin-auxillary)](https://github.com/Roy-lab/merlin-auxillary):
       ```text
       ## Syntax: assessClusterStab <module_filename_list> <output_file>
-      e.g., for λ = 0.100,
+      ## e.g., for λ = 0.100,
       assessClusterStab results/Merlinp/Lambda_0100/module_files.txt coclustering_matrix.txt
       ```
-      **Output Co-clustering matrix file at λ = 0.100:** [coclustering_matrix.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/coclustering_matrix.txt) <br><br>
+      **Output (λ = 0.100):** [coclustering_matrix.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/coclustering_matrix.txt) <br><br>
       
 
-    * _**Getting consensus modules from Co-clustering matrix**_
-    <br><br>Consensus module assignments were derived using co-clustering score cutoffs ranging from  `0.1` to `0.4` for each `λ (lambda) value`. For this [optimalleaforder package from merlin-auxillary tool](https://github.com/Roy-lab/merlin-auxillary) was used, which is as follows:
+    * _**Deriving consensus modules from the co-clustering matrix**_
+    <br><br>Consensus modules were obtained by applying co-clustering score thresholds ranging from `0.1` to `0.4` for each `λ`. We used the [optimalleaforder package (merlin-auxillary)](https://github.com/Roy-lab/merlin-auxillary):
+      ```text
+      ## Syntax: Syntax: reorder <co_clustering_matrix> <list|pair|matrix> <out_file_prefix> <threshold>
+      ## e.g., for λ = 0.100 and co-clustering score cut-off: 0.1,
+      reorder results/Merlinp/Lambda_0100/coclustering_matrix.txt matrix consensus_module_0_1 0.1
+      ```
+      **Outputs (λ = 0.100, threshold = 0.1):**
+      [consensus_module_0_1_assign.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/consensus_module_0_1_assign.txt)
+      [consensus_module_0_1_geneset.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/consensus_module_0_1_geneset.txt) <br><br>
+
+
+    * _**GO functional enrichment analysis**_
+    <br><br>Modules containing at least five genes were evaluated for Gene Ontology (GO) enrichment. For each co-clustering threshold, we computed the proportion of enriched modules as: (Number of enriched modules with ≥5 genes) / (Total number of modules with ≥5 genes). The threshold yielding the highest proportion of enriched modules was selected as optimal for each `λ`. We used the [optimalleaforder package (merlin-auxillary)](https://github.com/Roy-lab/merlin-auxillary):
       ```text
       ## Syntax: Syntax: reorder <co_clustering_matrix> <list|pair|matrix> <out_file_prefix> <threshold>
       e.g., for λ = 0.100 and co-clustering score cut-off: 0.1,
       reorder results/Merlinp/Lambda_0100/coclustering_matrix.txt matrix consensus_module_0_1 0.1
       ```
-      **Output files (matrix and module) for coclustering matrix at λ = 0.100 with co-clustering score cut-off = 0.1:** [consensus_module_0_1_assign.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/consensus_module_0_1_assign.txt); [consensus_module_0_1_geneset.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/consensus_module_0_1_geneset.txt) <br><br>
+      **Output files (matrix and module) for coclustering matrix at λ = 0.100 with co-clustering score cut-off = 0.1:** [consensus_module_0_1_assign.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/consensus_module_0_1_assign.txt); [consensus_module_0_1_geneset.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/consensus_module_0_1_geneset.txt) <br><br>      
 
 
     * AUPR and F-score comparison with Gold standard networks
