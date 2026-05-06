@@ -462,7 +462,14 @@ The file is formatted as a two-column table: the first column contains target ge
     * _**MERLIN-VIZ-based cell-cluster-specific module network visualiztion and regulator inference**_
       
     * Cytoscape-based condition-specific module network visualization and regulator inference
-    * Pseudobulk-based cell-cluster-specific module network visualization and functional and regulator inference
+      
+    * _**Pseudobulk-based cell-cluster-specific module network visualization and functional and regulator inference**_
+      In addition to zero-mean expression, MERLIN-inferred modules can be visualized using cell-cluster-specific pseudobulk expression profiles. This approach aggregates gene expression across cells within each cluster to provide a more robust, cluster-level view of module activity. Pseudobulk profiles are generated using the script [psb_ClusterID.py](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Pseudobulk_expression_profile/psb_ClusterID.py), which requires the following inputs: **Expression matrix** ([**net1_expression_with_header_gene_by_cell.txt**](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/net1_expression_with_header_gene_by_cell.txt.gz)) and **Cell cluster assignments** ([**cell_clusters.txt**](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/cell_clusters.txt)). The script aggregates expression values for all cells within each cluster and generates cell-cluster-specific pseudobulk expression profiles.
+      ```text
+      python psb_ClusterID.py
+      ```
+      **Main Output** [pseudobulk_expr.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Pseudobulk_expression_profile/pseudobulk_expr.txt) — Aggregated pseudobulk expression across 15 cell clusters for 2,100 genes and 131 TFAs. Gene expression values are expected to be non-negative. However, since transcription factor activities (TFAs) are inferred quantities, their aggregated pseudobulk values may be negative. These values should be interpreted as relative activity levels rather than absolute expression.
+
   
 
 
