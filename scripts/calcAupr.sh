@@ -18,7 +18,7 @@ agg_outfile=${outdir}/agg_aupr.txt
 ## Use all edges of the inferred networks
 n_edges=all_edges
 
-aupr_wrapper=/mnt/dv/wid/projects2/Roy-regnet-inference/NCA_project/from_royfs_write/new_yeast_aupr/aupr_wrapper.sh
+aupr_wrapper=scripts/aupr_wrapper.sh
 
 for gs in mESC_bothko_array.txt mESC_chip_array.txt mESC_chip.bothko_array.txt mESC_bothko_rnaseq.txt mESC_chip_rnaseq.txt mESC_chip.bothko_rnaseq.txt
 do
