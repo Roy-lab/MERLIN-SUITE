@@ -8,7 +8,7 @@ gs_dir=data/mesc_gold
 net_dir=results/Merlinp
 
 ## Output result directory
-outdir=/mnt/dv/wid/projects7/Roy-singlecell2/bookchapter_MERLIN_2026/suvo_work/AUPR/aupr_results
+outdir=results/aupr_results
 mkdir -p ${outdir}
 
 ## Output file for saving aggregated AUPR scores
@@ -35,7 +35,7 @@ do
 
 	for param in 0000 0005 0020 0100
 	do
-		inferred=${net_dir}/Lambda_${param}/consensus/n20_subsamples_lambda_${param}_0_8_sorted.txt
+		inferred=${net_dir}/Lambda_${param}/n20_subsamples_lambda_${param}_0_8_sorted.txt
 			
 		outfile_prefix=mESC.${param}
 		outprefix=${outsubdir}/${outfile_prefix}
