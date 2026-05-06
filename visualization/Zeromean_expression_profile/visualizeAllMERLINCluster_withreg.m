@@ -13,12 +13,12 @@ gnames=alldata.textdata(2:end,1);
 alldata=alldata.data;
 figure;
 
-CASSIGN=sprintf('results/Merlinp/Lambda_0100/consensus/consensus_module_0_2_geneset.txt');
+CASSIGN=sprintf('results/Merlinp/Lambda_0100/consensus_module_0_2_geneset.txt');
 
 cid=importdata(CASSIGN);
 markers=cid.textdata;
 
-CASSIGN_reg=sprintf('results/Merlinp/Lambda_0100/consensus/List_of_terms/list.0_8.0_2.txt');
+CASSIGN_reg=sprintf('results/Merlinp/Lambda_0100/list.0_8.0_2.txt');
 
 cid_reg=importdata(CASSIGN_reg);
 idx = find(cid_reg.data == 2);
