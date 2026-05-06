@@ -432,7 +432,23 @@ The file is formatted as a two-column table: the first column contains target ge
       
 10. **Downstream visualization analysis for regulator prioritization**
     * _**Zeromean expression-based module visualization and regulator inference**_
-      <br><br>**Zero-mean expression–based module visualization** is a primary technique for interpreting MERLIN-inferred module networks. This approach uses a normalized expression matrix [expression_with_reordered_cellmetadata.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/expression_with_reordered_cellmetadata.txt.gz) (2,231 rows: 2,100 genes + 131 transcription factor activities (TFAs); 4,633 cells as columns), along with cell metadata (sorted as per the cell cluster order) provided in the header. Visualization is performed using the MATLAB script [visualizeAllMERLINCluster_withreg.m](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Zeromean_expression_profile/visualizeAllMERLINCluster_withreg.m), which internally calls the wrapper scripts [showClusterWithReg_All.m](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Zeromean_expression_profile/showClusterWithReg_All.m) and [getGeneIDs.m](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Zeromean_expression_profile/getGeneIDs.m). This workflow generates: to generate cell cluster-module heatmap comprises:
+      <br><br>**Zero-mean expression–based module visualization** is a primary technique for interpreting MERLIN-inferred module networks. This approach uses a normalized expression matrix [expression_with_reordered_cellmetadata.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/expression_with_reordered_cellmetadata.txt.gz) (2,231 rows: 2,100 genes + 131 transcription factor activities (TFAs); 4,633 cells as columns), along with cell metadata (sorted as per the cell cluster order) provided in the header. Visualization is performed using the MATLAB script [visualizeAllMERLINCluster_withreg.m](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Zeromean_expression_profile/visualizeAllMERLINCluster_withreg.m), which internally calls the wrapper scripts [showClusterWithReg_All.m](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Zeromean_expression_profile/showClusterWithReg_All.m) and [getGeneIDs.m](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Zeromean_expression_profile/getGeneIDs.m). With the expression file, visualizeAllMERLINCluster_withreg.m also requires two more input files: consensus module (e.g., [consensus_module_0_2_geneset.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/consensus_module_0_2_geneset.txt)) and a list file that contains both the GO functional and regulator enrichment summary (e.g., [list.0_8.0_2.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/list.0_8.0_2.txt)). We prepared the list file, using the following bash commands:
+      ```text
+      Extract the list of GO and regulator/TF terms from the enrichAnalyzer output files.
+      ## pwd=results/Merlinp/Lambda_0100/
+      ## Create the output dir
+      ## Print enriched term (GO or TF) first, cluster ID second, index third (1 for GO, 2 for expression regulators). Also, replace space with "_" for the GO terms.
+      cut -f1,2 go_enrichAnalysis_0_1_details.txt | sed 's/\ /_/g' | awk '{ printf("%s\t%s\t%s\n", $2, $1, 1) }' > list.0_8.0_1.txt
+      cut -f1,2 regulator_enrichAnalysis_0_1_details.txt | sed 's/\ /_/g' | awk '{ printf("%s\t%s\t%s\n", $2, $1, 2)}' >> list.0_8.0_1.txt
+      cut -f1,2 go_enrichAnalysis_0_2_details.txt | sed 's/\ /_/g' | awk '{ printf("%s\t%s\t%s\n", $2, $1, 1) }' > list.0_8.0_2.txt
+      cut -f1,2 regulator_enrichAnalysis_0_2_details.txt | sed 's/\ /_/g' | awk '{ printf("%s\t%s\t%s\n", $2, $1, 2)}' >> list.0_8.0_2.txt
+      cut -f1,2 go_enrichAnalysis_0_3_details.txt | sed 's/\ /_/g' | awk '{ printf("%s\t%s\t%s\n", $2, $1, 1) }' > list.0_8.0_3.txt
+      cut -f1,2 regulator_enrichAnalysis_0_3_details.txt | sed 's/\ /_/g' | awk '{ printf("%s\t%s\t%s\n", $2, $1, 2)}' >> list.0_8.0_3.txt
+      cut -f1,2 go_enrichAnalysis_0_4_details.txt | sed 's/\ /_/g' | awk '{ printf("%s\t%s\t%s\n", $2, $1, 1) }' > list.0_8.0_4.txt
+      cut -f1,2 regulator_enrichAnalysis_0_4_details.txt | sed 's/\ /_/g' | awk '{ printf("%s\t%s\t%s\n", $2, $1, 2)}' >> list.0_8.0_4.txt
+      ```
+      
+      This workflow generates:
       (1) A global heatmap showing zero-mean expression of module genes across all cells
       (2) Module-specific heatmaps, where: target genes are shown in the top rows, regulators are shown in the bottom rows, the two are separated by a red boundary line. The execution is as follows:
       ```text
