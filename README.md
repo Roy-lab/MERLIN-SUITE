@@ -404,7 +404,11 @@ The file is formatted as a two-column table: the first column contains target ge
       The threshold that maximized the proportion of GO-enriched modules was selected as optimal for each `λ`.   
 
 
-    * AUPR and F-score comparison with Gold standard networks
+    * _**AUPR and F-score comparison with Gold standard networks**_
+      <br><br>To evaluate the accuracy of inferred gene regulatory networks, we compared predicted edges against experimentally derived mouse embryonic stem cells (mESCs) gold standard networks using Area Under the **Precision–Recall Curve (AUPR)** and **F-score** metrics. For **AUPR**, Precision and recall were computed incrementally, and the area under the resulting curve was computed. AUPR provides a global assessment of network quality by considering the full ranked list of predicted interactions and is particularly suitable for sparse biological networks. We used the [six mESC gold standard networks](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/data/mesc_gold) three of each from RNAseq and array for knockdown (KD), ChIP-seq (ChIP) and both (KD+ChIP) using the script: [calcAupr.sh](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/scripts/calcAupr.sh). Note that the script requires a wrapper script, [aupr_wrapper.sh](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/scripts/aupr_wrapper.sh), that depends on the executable and jar files from the [Roylab AUPR GitHub repository](https://github.com/Roy-lab/scRNAseq_NetInference/tree/master/scripts/wrapper_metrics/AUPR).
+      
+
+      In contrast, the **F-score** was computed using the network edges, reflecting the balance between precision and recall. This metric (harmonic mean of precision and recall) emphasises the accuracy of MERLIN predictions relative to the gold standard and complements AUPR.
       
 10. **Downstream visualization analysis for regulator prioritization**
     * Zeromean expression based module visualization and regulator inference
