@@ -1,0 +1,14 @@
+Hey1_nca
+Hsp90b1
+Xbp1_nca
+Klf13_nca
+E2f1_nca
+Mbd2_nca
+Mlx_nca
+Pbx1_nca
+Mitf_nca
+Gmeb2_nca
+Npas1_nca
+Stat3_nca
+Tcfl5_nca
+Arnt_nca
