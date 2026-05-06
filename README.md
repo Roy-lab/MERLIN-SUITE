@@ -414,7 +414,21 @@ The file is formatted as a two-column table: the first column contains target ge
       **Main Output**
       [agg_aupr.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/aupr_results/agg_aupr.txt) — summarizes AUPR scores across all gold standard networks. <br><br>
 
-      In contrast, the **F-score** was computed using the network edges, reflecting the balance between precision and recall. This metric (harmonic mean of precision and recall) emphasises the accuracy of MERLIN predictions relative to the gold standard and complements AUPR.
+      In contrast, the **F-score** was computed using the network edges, reflecting the balance between precision and recall. As the harmonic mean of precision and recall, this metric emphasizes the accuracy of MERLIN predictions relative to the gold standard and complements AUPR. F-score was computed using the script: [Fscore.sh](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/scripts/Fscore.sh), which requires the [validate](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/scripts/validate) tool.
+      ```text
+      chmod 775 Fscore.sh
+      bash Fscore.sh
+      ```
+      **Main Outputs**<br>  
+      [edge_validation.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/fscore/edge_validation.txt) — F-score, Precision, Recall of network edges.<br>
+      [regulator_validation.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/fscore/regulator_validation.txt) — F-score, Precision, Recall of regulators.<br>
+      [target_validation.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/fscore/target_validation.txt) — F-score, Precision, Recall of targets. <br><br>
+      Both AUPR and F-score values were visualized using the [Heatmap.awk](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/scripts/Heatmap.awk) tool with a combined input file [plot_input.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/aupr_results/plot_input.txt), executed via the script [AUPR_Fscore_plotting.sh](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/scripts/AUPR_Fscore_plotting.sh)
+      ```text
+      chmod 775 AUPR_Fscore_plotting.sh
+      bash AUPR_Fscore_plotting.sh
+      ```
+      **Main Output** [AUPR_Fscore.svg](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/aupr_results/AUPR_Fscore.svg) — AUPR and F-score sumamry figure file.
       
 10. **Downstream visualization analysis for regulator prioritization**
     * Zeromean expression based module visualization and regulator inference
