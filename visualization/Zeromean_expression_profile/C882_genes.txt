@@ -1,0 +1,5 @@
+Hsp90ab1
+Hsp90aa1
+Ncl
+Npm1
+Trim28

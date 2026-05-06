@@ -1,0 +1,6 @@
+Ctcf_nca
+Igfbp3
+Egr1_nca
+Sp1_nca
+Gata1_nca
+Nkx2-3_nca
