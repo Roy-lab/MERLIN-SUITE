@@ -431,7 +431,18 @@ The file is formatted as a two-column table: the first column contains target ge
       **Main Output** [AUPR_Fscore.svg](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/aupr_results/AUPR_Fscore.svg) — AUPR and F-score sumamry figure file.
       
 10. **Downstream visualization analysis for regulator prioritization**
-    * Zeromean expression based module visualization and regulator inference
+    * _**Zeromean expression-based module visualization and regulator inference**_
+      <br><br>**Zero-mean expression–based module visualization** is a primary technique for interpreting MERLIN-inferred module networks. This approach uses a normalized expression matrix [expression_with_reordered_cellmetadata.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/expression_with_reordered_cellmetadata.txt.gz) (2,231 rows: 2,100 genes + 131 transcription factor activities (TFAs); 4,633 cells as columns), along with cell metadata (sorted as per the cell cluster order) provided in the header. Visualization is performed using the MATLAB script [visualizeAllMERLINCluster_withreg.m](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Zeromean_expression_profile/visualizeAllMERLINCluster_withreg.m), which internally calls the wrapper scripts [showClusterWithReg_All.m](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Zeromean_expression_profile/showClusterWithReg_All.m) and [getGeneIDs.m](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Zeromean_expression_profile/getGeneIDs.m). This workflow generates: to generate cell cluster-module heatmap comprises:
+      (1) A global heatmap showing zero-mean expression of module genes across all cells
+      (2) Module-specific heatmaps, where: target genes are shown in the top rows, regulators are shown in the bottom rows, the two are separated by a red boundary line. The execution is as follows:
+      ```text
+      module load matlab-2022b
+      matlab -nodisplay -r visualizeAllMERLINCluster_withreg
+      ```
+      **Main Outputs**
+      <br>[allcids_min5.svg](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Zeromean_expression_profile/allcids_min5.svg) — global zero-mean expression heatmap of module genes across all cells <br>
+      [C856.svg](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Zeromean_expression_profile/C856.svg) to [C1088.svg](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Zeromean_expression_profile/C1088.svg) — module-specific heatmaps showing: target genes (top rows), regulators (bottom rows), separated by a red boundary line.<br><br>
+      
     * MERLIN-VIZ-based cell-cluster-specific module network visualiztion and regulator inference
     * Cytoscape-based condition-specific module network visualization and regulator inference
     * Pseudobulk-based cell-cluster-specific module network visualization and functional and regulator inference
