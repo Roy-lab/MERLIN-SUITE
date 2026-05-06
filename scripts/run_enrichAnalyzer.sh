@@ -34,6 +34,6 @@ for lambda in 0100; do
         ${script} ${consensus_module_assign} ${bg_genelist} ${go_prefix} ${fdr} ${outdir}/go_enrichAnalysis_0_${i} ${test_type} >/dev/null;
 
         ## Identify enriched regulators for each module. These are the regulators whose target genes are overrepresented in a module.
-        # ${script} ${consensus_module_assign} ${bg_genelist} ${consensus_net} ${fdr} ${outdir}/regulator_enrichAnalysis_0_${i} ${test_type} >/dev/null;
+        ${script} ${consensus_module_assign} ${bg_genelist} ${consensus_net} ${fdr} ${outdir}/regulator_enrichAnalysis_0_${i} ${test_type} >/dev/null;
     done
 done
