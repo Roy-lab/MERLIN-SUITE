@@ -506,7 +506,7 @@ The file is formatted as a two-column table: the first column contains target ge
       bash generate_condition_expr.sh
       ```
       **Main Output folder**
-      <br>[expression_matrices](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/visualization/Cytoscape_based_condition_specific_visualization/expression_matrices)<br><br><br>
+      <br>[expression_matrices](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/visualization/Cytoscape_based_condition_specific_visualization/expression_matrices)<br>
 
       Next, based on these condition-specific expression files, module-specific condition-specific expression files are created for each module. In this study, we only used Module 921 for demonstration. For multiple-module visualisation, the respective moduleIDs must be updated on a per-line basis in the [modules.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/modules.txt) file. For this step, we used the script file [generate_module_condition_expression_files.sh](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/generate_module_condition_expression_files.sh) that considers the transposed condition-specific expression matrices (i.e., `<CONDITION>_t.txt`) from [expression_matrices](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/visualization/Cytoscape_based_condition_specific_visualization/expression_matrices) folder and generates the module-specific expression profile and network edges for each condition.
       ```text
@@ -544,7 +544,6 @@ The file is formatted as a two-column table: the first column contains target ge
       <br>`reg. prefix (e.g. reg.FBSDay3_t.txt)` - filtered network edges with regression coefficient scores.
       <br>`cc. prefix (e.g. cc.FBSDay3_t.txt)` - filtered network edges with correlation coefficient scores.<br><br><br>
 
-      
       **Step-7: Getting pseudobulk expression of mdoule genes**
       <br><br>Module genes pseudobulk expression per condition is used as node attributes to compare cross-conditions. The pseudobulk expression is measured using the expression data ([net1_expression_with_header_gene_by_cell_t.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/net1_expression_with_header_gene_by_cell_t.txt.gz)) and the MATLAB script file [wrapper_makeBubblePlotIn.m](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/wrapper_makeBubblePlotIn.m) that internally uses two more MATLAB script files: makeBubblePlotIn.m and pseudoBulk.m.
       ```text
@@ -552,10 +551,10 @@ The file is formatted as a two-column table: the first column contains target ge
       matlab -nodisplay -r wrapper_makeBubblePlotIn
       ```
       **Main Output**
-      <br>[module_921/genes_in_mod921.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/module_921/genes_in_mod921.txt)<br><br><br><br>
+      <br>[module_921/genes_in_mod921.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/module_921/genes_in_mod921.txt)<br><br><br>
 
       **Step-8: Cytoscape application**
-      Now the edge file ([merged with both regression and correlation coefficient data](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/visualization/Cytoscape_based_condition_specific_visualization/module_921/merged_networks)) per edge is loaded in Cytoscape, with node attributes as pseudobulk expression for each condition in a [network style file](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/last_styles6_3shapes.xml).
+      Now the edge file ([merged with both regression and correlation coefficient data](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/visualization/Cytoscape_based_condition_specific_visualization/module_921/merged_networks)) per edge is loaded in Cytoscape, with node attributes as pseudobulk expression for each condition in a [network style file](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/last_styles6_3shapes.xml).<br><br><br><br>
       
     * _**Pseudobulk-based cell-cluster-specific module network visualization and functional and regulator inference**_
       In addition to zero-mean expression, MERLIN-inferred modules can be visualized using cell-cluster-specific pseudobulk expression profiles. This approach aggregates gene expression across cells within each cluster to provide a more robust, cluster-level view of module activity. Pseudobulk profiles are generated using the Python script [psb_ClusterID.py](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Pseudobulk_expression_profile/psb_ClusterID.py), which requires the following inputs: **Expression matrix** ([**net1_expression_with_header_gene_by_cell.txt**](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/net1_expression_with_header_gene_by_cell.txt.gz)) and **Cell cluster assignments** ([**cell_clusters.txt**](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/cell_clusters.txt)). The script aggregates expression values for all cells within each cluster and generates cell-cluster-specific pseudobulk expression profiles.
