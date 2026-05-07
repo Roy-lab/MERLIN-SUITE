@@ -464,12 +464,57 @@ The file is formatted as a two-column table: the first column contains target ge
     * Cytoscape-based condition-specific module network visualization and regulator inference
       
     * _**Pseudobulk-based cell-cluster-specific module network visualization and functional and regulator inference**_
-      In addition to zero-mean expression, MERLIN-inferred modules can be visualized using cell-cluster-specific pseudobulk expression profiles. This approach aggregates gene expression across cells within each cluster to provide a more robust, cluster-level view of module activity. Pseudobulk profiles are generated using the script [psb_ClusterID.py](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Pseudobulk_expression_profile/psb_ClusterID.py), which requires the following inputs: **Expression matrix** ([**net1_expression_with_header_gene_by_cell.txt**](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/net1_expression_with_header_gene_by_cell.txt.gz)) and **Cell cluster assignments** ([**cell_clusters.txt**](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/cell_clusters.txt)). The script aggregates expression values for all cells within each cluster and generates cell-cluster-specific pseudobulk expression profiles.
+      In addition to zero-mean expression, MERLIN-inferred modules can be visualized using cell-cluster-specific pseudobulk expression profiles. This approach aggregates gene expression across cells within each cluster to provide a more robust, cluster-level view of module activity. Pseudobulk profiles are generated using the Python script [psb_ClusterID.py](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Pseudobulk_expression_profile/psb_ClusterID.py), which requires the following inputs: **Expression matrix** ([**net1_expression_with_header_gene_by_cell.txt**](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/net1_expression_with_header_gene_by_cell.txt.gz)) and **Cell cluster assignments** ([**cell_clusters.txt**](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/cell_clusters.txt)). The script aggregates expression values for all cells within each cluster and generates cell-cluster-specific pseudobulk expression profiles.
       ```text
       python psb_ClusterID.py
       ```
       **Main Output** [pseudobulk_expr.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Pseudobulk_expression_profile/pseudobulk_expr.txt) — Aggregated pseudobulk expression across 15 cell clusters for 2,100 genes and 131 TFAs. Gene expression values are expected to be non-negative. However, since transcription factor activities (TFAs) are inferred quantities, their aggregated pseudobulk values may be negative. These values should be interpreted as relative activity levels rather than absolute expression.
 
+      Next, the module assignment file is reordered according to the gene order in the pseudobulk expression matrix using the Python script [reorderModuleGenes.py](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Pseudobulk_expression_profile/reorderModuleGenes.py).
+      ```text
+      tail -n +2  pseudobulk_expr.txt > pseudobulk_expr_noheader.txt
+      python reorderModuleGenes.py pseudobulk_expr_noheader.txt results/Merlinp/Lambda_0100/consensus_module_0_2_geneset.txt reordered_consensus_module_0_2_geneset.txt
+      ```
+      **Main Output**
+      <br>[pseudobulk_expr_noheader.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Pseudobulk_expression_profile/pseudobulk_expr_noheader.txt)
+      <br>[reordered_consensus_module_0_2_geneset.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Pseudobulk_expression_profile/reordered_consensus_module_0_2_geneset.txt) — Reordered module assignment file.
+
+      <br><br>The pseudobulk expression heatmap input files for both global and module-specific visualizations are then generated using the [genClusterAttrib](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/scripts/genClusterAttrib) tool. This program requires:
+      <br>[list file](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/list.0_8.0_2.txt)
+      <br>[regulator enrichment file](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/regulator_enrichAnalysis_0_2_details.txt)
+      <br>[reordered module assignment file](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Pseudobulk_expression_profile/reordered_consensus_module_0_2_geneset.txt)
+      <br>[GO functional enrichment file](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/go_enrichAnalysis_0_2_details.txt)
+      <br>[ordered cell cluster information file](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/Cluster_ID.txt)
+      <br>[pseudobulk expression file without header](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Pseudobulk_expression_profile/pseudobulk_expr_noheader.txt)
+      <br>[output directory](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/visualization/Pseudobulk_expression_profile/heatmap_in)
+      <br>minimum module size threshold
+   
+      ```text
+      visualization/Pseudobulk_expression_profile/genClusterAttrib \
+      -l results/Merlinp/Lambda_0100/list.0_8.0_2.txt \
+      -r results/Merlinp/Lambda_0100/regulator_enrichAnalysis_0_2_details.txt \
+      -m reordered_consensus_module_0_2_geneset.txt \
+      -g results/Merlinp/Lambda_0100/go_enrichAnalysis_0_2_details.txt \
+      -h data/Cluster_ID.txt
+      -e visualization/Pseudobulk_expression_profile/pseudobulk_expr_noheader.txt
+      -o visualization/Pseudobulk_expression_profile/heatmap_in/
+      -t 5 # includes modules containing >=5 genes
+      ```
+      **Main Output folder** [heatmap_in](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/visualization/Pseudobulk_expression_profile/heatmap_in)
+
+      Finally, heatmaps for both global module-average expression and individual module-specific expression profiles, along with GO functional and regulator enrichment annotations, are generated from the attribute and regulator information files in [heatmap_in](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/visualization/Pseudobulk_expression_profile/heatmap_in). Visualization is performed using the bash script [makeHeatmap.sh](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Pseudobulk_expression_profile/makeHeatmap.sh), which internally uses the [Heatmap.awk](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/scripts/Heatmap.awk) tool.
+      
+      ```text
+      chmod 775 makeHeatmap.sh
+      bash makeHeatmap.sh
+      ```
+      **Main Output folder** [heatmap_out](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/visualization/Pseudobulk_expression_profile/heatmap_out)
+      **Main Output files**
+      <br>[ModuleAvg.svg](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Pseudobulk_expression_profile/heatmap_out/ModuleAvg.svg) — average pseudobulk expression heatmap of all modules across all cell clusters. <br>
+      [Cluster856.svg](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Pseudobulk_expression_profile/heatmap_out/Cluster856.svg) to [Cluster1088.svg](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Pseudobulk_expression_profile/heatmap_out/Cluster1088.svg) — module-specific regulator–target pseudobulk expression heatmaps across cell clusters, including GO functional and regulator enrichment annotations.<br><br>
+      
+
+      
   
 
 
