@@ -12,7 +12,7 @@ Ortholog_1_to_1_file <- NULL
 Ortholog_file <- NULL
 
 ################### MERLIN_VIZ DEFAULTS FOR SCALES #############################
-title <- "MERLIN-SUITE Bookchapter: Mouse Reprogramming FBS+A2S dataset"
+title <- "MERLIN Bookchapter: Mouse Reprogramming FBS+A2S dataset"
 
 default_edge_color_pallette <- "RdBu"
 default_gene <- "Sept11"
