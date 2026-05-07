@@ -471,6 +471,36 @@ The file is formatted as a two-column table: the first column contains target ge
       Using the application, users can interactively visualize and download high-quality global and cell-cluster-specific module regulatory networks. Example output networks for [Module921](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/visualization/MERLIN-VIZ_cellcluster_specific_module_network_visualization/Module921) are provided.
       
     * _**Cytoscape-based condition-specific module network visualization and regulator inference**_
+      This visualization provides the condition-specific module network information and network rewiring in a per-module-based way. This requires Cytoscape software for the visualization. The steps are as following:<br>
+      **Step-1: Creating module gene file**
+      <br>In parity with the previous heading, looking at the network rewiring for the module of interest: Module921. For that, first the module gene file is created using the script file [get_module_genes.sh](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/get_module_genes.sh) based on the input of a text file that declares the modules of interest (i.e., [modules.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/modules.txt)), and second is the consensus module assignment file (i.e. [consensus_module_0_2_geneset.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/consensus_module_0_2_geneset.txt)).
+      ```text
+      chmod 775 get_module_genes.sh
+      bash get_module_genes.sh
+      ```
+      **Main Output**
+      <br>[module_921/genes_in_mod921.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/module_921/genes_in_mod921.txt)<br>
+
+      **Step-2: Creating module subnetwork file**
+      Next, from the MERLIN-inferred modules, the module-specific subnetwork is trimmed based on the constituent genes present in the module using the script [get_module_subnet.sh](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/get_module_subnet.sh) that uses an input MERLIN-inferred network file (e.g., [n20_subsamples_lambda_0100_0_8.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/get_module_subnet.sh)).
+      ```text
+      chmod 775 get_module_subnet.sh
+      bash get_module_subnet.sh
+      ```
+      **Main Output**
+      <br>[module_921/subnet_glut_mod_921.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/module_921/subnet_glut_mod_921.txt)<br>
+
+      **Step-3: Creating transpose of the expression matrix**
+      Now, the script [transpose_expression.sh](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/transpose_expression.sh) uses [expression_with_reordered_cellmetadata.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/expression_with_reordered_cellmetadata.txt.gz) (gene x cell) as input to generate [expression_with_reordered_cellmetadata_transpose.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/expression_with_reordered_cellmetadata_transpose.txt.gz) (Cell x gene) matrix for further usage.
+      ```text
+      chmod 775 transpose_expression.sh
+      bash transpose_expression.sh
+      ```
+      **Main Output**
+      <br>[expression_with_reordered_cellmetadata_transpose.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/expression_with_reordered_cellmetadata_transpose.txt.gz)<br>
+
+      **Step-3: Creating an individual condition-specific expression matrix for a module**
+      
       
     * _**Pseudobulk-based cell-cluster-specific module network visualization and functional and regulator inference**_
       In addition to zero-mean expression, MERLIN-inferred modules can be visualized using cell-cluster-specific pseudobulk expression profiles. This approach aggregates gene expression across cells within each cluster to provide a more robust, cluster-level view of module activity. Pseudobulk profiles are generated using the Python script [psb_ClusterID.py](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Pseudobulk_expression_profile/psb_ClusterID.py), which requires the following inputs: **Expression matrix** ([**net1_expression_with_header_gene_by_cell.txt**](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/net1_expression_with_header_gene_by_cell.txt.gz)) and **Cell cluster assignments** ([**cell_clusters.txt**](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/cell_clusters.txt)). The script aggregates expression values for all cells within each cluster and generates cell-cluster-specific pseudobulk expression profiles.
