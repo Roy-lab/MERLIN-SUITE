@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the list of expression matrix identifiers
-expression_matrices=("MEFDay0_expr" "FBSDay3_expr" "FBSDay6_expr" "FBSDay9_expr" "FBSDay12_expr" "A2SDay2_expr" "A2SDay4_expr" "A2SDay6_expr" "FBSmESCs_expr")
+expression_matrices=("MEFDay0_t" "FBSDay3_t" "FBSDay6_t" "FBSDay9_t" "FBSDay12_t" "A2SDay2_t" "A2SDay4_t" "A2SDay6_t" "FBSmESCs_t")
 
 # Read the module IDs from values.txt
 while read j; do
