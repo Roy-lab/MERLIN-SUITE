@@ -430,7 +430,7 @@ The file is formatted as a two-column table: the first column contains target ge
       ```
       **Main Output** [AUPR_Fscore.svg](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/aupr_results/AUPR_Fscore.svg) — AUPR and F-score sumamry figure file.
       
-10. **Downstream visualization analysis for regulator prioritization**
+10. **Downstream visualization analysis for regulator prioritization**<br><br>
     * _**Zeromean expression-based module visualization and regulator inference**_
       <br><br>**Zero-mean expression–based module visualization** is a primary technique for interpreting MERLIN-inferred module networks. This approach uses a normalized expression matrix [expression_with_reordered_cellmetadata.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/expression_with_reordered_cellmetadata.txt.gz) (2,231 rows: 2,100 genes + 131 transcription factor activities (TFAs); 4,633 cells as columns), along with cell metadata (sorted as per the cell cluster order) provided in the header. Visualization is performed using the MATLAB script [visualizeAllMERLINCluster_withreg.m](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Zeromean_expression_profile/visualizeAllMERLINCluster_withreg.m), which internally calls the wrapper scripts [showClusterWithReg_All.m](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Zeromean_expression_profile/showClusterWithReg_All.m) and [getGeneIDs.m](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Zeromean_expression_profile/getGeneIDs.m). In addition to the expression file, [visualizeAllMERLINCluster_withreg.m](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Zeromean_expression_profile/visualizeAllMERLINCluster_withreg.m) requires two additional inputs: a consensus module file (e.g., [consensus_module_0_2_geneset.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/consensus_module_0_2_geneset.txt)) and a list file containing both GO functional and regulator enrichment summaries (e.g., [list.0_8.0_2.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/list.0_8.0_2.txt)). We prepared the list file, using the following bash commands:
       ```text
@@ -468,10 +468,10 @@ The file is formatted as a two-column table: the first column contains target ge
       > q()
       Rscript app.R // or Alternatively, app.R can be launched directly from an interactive R session.
       ```
-      Using the application, users can interactively visualize and download high-quality global and cell-cluster-specific module regulatory networks. Example output networks for [Module921](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/visualization/MERLIN-VIZ_cellcluster_specific_module_network_visualization/Module921) are provided.
+      Using the application, users can interactively visualize and download high-quality global and cell-cluster-specific module regulatory networks. Example output networks for [Module921](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/visualization/MERLIN-VIZ_cellcluster_specific_module_network_visualization/Module921) are provided.<br><br>
       
     * _**Cytoscape-based condition-specific module network visualization and regulator inference**_
-      <br><br>This visualization provides the condition-specific module network information and network rewiring in a per-module-based way. This requires Cytoscape software for the visualization. The steps are as following:<br>
+      <br><br>This visualization provides the condition-specific module network information and network rewiring in a per-module-based way. This requires Cytoscape software for the visualization. The steps are as following:<br><br><br>
       **Step-1: Creating module gene file**
       <br>In parity with the previous heading, looking at the network rewiring for the module of interest: Module921. For that, first the module gene file is created using the script file [get_module_genes.sh](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/get_module_genes.sh) based on the input of a text file that declares the modules of interest (i.e., [modules.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/modules.txt)), and second is the consensus module assignment file (i.e. [consensus_module_0_2_geneset.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/consensus_module_0_2_geneset.txt)).
       ```text
@@ -499,7 +499,7 @@ The file is formatted as a two-column table: the first column contains target ge
       **Main Output**
       <br>[expression_with_reordered_cellmetadata_transpose.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/expression_with_reordered_cellmetadata_transpose.txt.gz)<br>
 
-      **Step-3: Creating an individual condition-specific expression matrix and its transpose matrix for a module**
+      **Step-4: Creating an individual condition-specific expression matrix and its transpose matrix for a module**
       As we have eight different conditions of mouse cellular reprogramming (see the figure above), we will extract the expression of constituent genes for a module (e.g., Module921) on a per-condition basis and transpose them for further usage using the script file [generate_condition_expr.sh](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/generate_condition_expr.sh) that takes the input expression data ([expression_with_reordered_cellmetadata_transpose.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/expression_with_reordered_cellmetadata_transpose.txt.gz)).
       ```text
       chmod 775 generate_condition_expr.sh
@@ -519,8 +519,8 @@ The file is formatted as a two-column table: the first column contains target ge
       <br>`<CONDITION>_t.txt (e.g. FBSDay3_t.txt)` - expression data per module per condition.
       <br>`adj.<CONDITION>_t.txt (e.g. adj.FBSDay3_t.txt)` - adjacency matrix data of network edges per module per condition.<br>
       
-      **Step-4: Creating a condition-specific network per module based on the expression matrix data**
-      Next, we relearn the condition-specific networks by measuring the edge weights using both regression coefficients (`reg. prefix`) and correlation coefficients (`cc. prefix`) using the expression data of conditions per modules. MATLAB scripts used: [runcc.m](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/runcc.m) (for correlation coefficients) and [runls.m](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/runls.m) (for regression coefficients).
+      **Step-5: Creating a condition-specific network per module based on the expression matrix data**
+      Next, we relearn the condition-specific networks by measuring edge weights using both regression coefficients (`reg. prefix`) and correlation coefficients (`cc. prefix`), based on the expression data for conditions per module. MATLAB scripts used: [runcc.m](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/runcc.m) (for correlation coefficients) and [runls.m](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/runls.m) (for regression coefficients).
       ```text
       module load matlab-r2022
       matlab -nodisplay -r runls
@@ -529,8 +529,8 @@ The file is formatted as a two-column table: the first column contains target ge
       **Main Output folder**
       <br>[module_921/module_outputs](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/visualization/Cytoscape_based_condition_specific_visualization/module_921/module_outputs)<br>
       This contains two types of files:
-      <br>`reg. prefix` (e.g. reg.FBSDay3_t.txt)` - network edges with regression coefficient scores.
-      <br>`cc. prefix` (e.g. cc.FBSDay3_t.txt)` - network edges with correlation coefficient scores.<br>
+      <br>`reg. prefix (e.g. reg.FBSDay3_t.txt)` - network edges with regression coefficient scores.
+      <br>`cc. prefix (e.g. cc.FBSDay3_t.txt)` - network edges with correlation coefficient scores.<br>
       
       
     * _**Pseudobulk-based cell-cluster-specific module network visualization and functional and regulator inference**_
