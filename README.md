@@ -479,7 +479,7 @@ The file is formatted as a two-column table: the first column contains target ge
       <br>[pseudobulk_expr_noheader.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Pseudobulk_expression_profile/pseudobulk_expr_noheader.txt)
       <br>[reordered_consensus_module_0_2_geneset.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Pseudobulk_expression_profile/reordered_consensus_module_0_2_geneset.txt) — Reordered module assignment file.
 
-      <br><br>The pseudobulk expression heatmap input files for both global and module-specific visualizations are then generated using the [genClusterAttrib](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/scripts/genClusterAttrib) tool. This program requires:
+      <br>The pseudobulk expression heatmap input files for both global and module-specific visualizations are then generated using the [genClusterAttrib](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/scripts/genClusterAttrib) tool. This program requires:
       <br>[list file](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/list.0_8.0_2.txt)
       <br>[regulator enrichment file](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/regulator_enrichAnalysis_0_2_details.txt)
       <br>[reordered module assignment file](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Pseudobulk_expression_profile/reordered_consensus_module_0_2_geneset.txt)
@@ -508,7 +508,7 @@ The file is formatted as a two-column table: the first column contains target ge
       chmod 775 makeHeatmap.sh
       bash makeHeatmap.sh
       ```
-      **Main Output folder** [heatmap_out](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/visualization/Pseudobulk_expression_profile/heatmap_out)
+      **Main Output folder** [heatmap_out](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/visualization/Pseudobulk_expression_profile/heatmap_out)<br>
       **Main Output files**
       <br>[ModuleAvg.svg](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Pseudobulk_expression_profile/heatmap_out/ModuleAvg.svg) — average pseudobulk expression heatmap of all modules across all cell clusters. <br>
       [Cluster856.svg](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Pseudobulk_expression_profile/heatmap_out/Cluster856.svg) to [Cluster1088.svg](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Pseudobulk_expression_profile/heatmap_out/Cluster1088.svg) — module-specific regulator–target pseudobulk expression heatmaps across cell clusters, including GO functional and regulator enrichment annotations.<br><br>
