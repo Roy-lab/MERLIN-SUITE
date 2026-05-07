@@ -471,7 +471,7 @@ The file is formatted as a two-column table: the first column contains target ge
       Using the application, users can interactively visualize and download high-quality global and cell-cluster-specific module regulatory networks. Example output networks for [Module921](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/visualization/MERLIN-VIZ_cellcluster_specific_module_network_visualization/Module921) are provided.<br><br>
       
     * _**Cytoscape-based condition-specific module network visualization and regulator inference**_
-      <br><br>This visualization provides the condition-specific module network information and network rewiring in a per-module-based way. This requires Cytoscape software for the visualization. The steps are as following:<br><br><br>
+      <br><br>This workflow generates condition-specific module networks and supports visualization in Cytoscape to study network rewiring at a per-module level. Cytoscape software is required for visualization. The steps are as following:<br><br><br>
       **Step-1: Creating module gene file**
       <br>In parity with the previous heading, looking at the network rewiring for the module of interest: Module921. For that, first the module gene file is created using the script file [get_module_genes.sh](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/get_module_genes.sh) based on the input of a text file that declares the modules of interest (i.e., [modules.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/modules.txt)), and second is the consensus module assignment file (i.e. [consensus_module_0_2_geneset.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/consensus_module_0_2_geneset.txt)).
       ```text
@@ -530,8 +530,32 @@ The file is formatted as a two-column table: the first column contains target ge
       <br>[module_921/module_outputs](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/visualization/Cytoscape_based_condition_specific_visualization/module_921/module_outputs)<br>
       This contains two types of files:
       <br>`reg. prefix (e.g. reg.FBSDay3_t.txt)` - network edges with regression coefficient scores.
-      <br>`cc. prefix (e.g. cc.FBSDay3_t.txt)` - network edges with correlation coefficient scores.<br>
+      <br>`cc. prefix (e.g. cc.FBSDay3_t.txt)` - network edges with correlation coefficient scores.<br><br><br>
+
+      **Step-6: Filtering the correlation or regression networks**
+      <br><br>As some node connections appeared as extra due to considering any of the nodes present in the module, we fixed it by checking if the relearned networks have both nodes from the module genes using the script [filter_module921.sh](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/filter_module921.sh).
+      ```text
+      chmod 775 filter_module921.sh
+      bash filter_module921.sh
+      ```
+      **Main Output folder**
+      <br>[module_921/filtered_networks](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/visualization/Cytoscape_based_condition_specific_visualization/module_921/filtered_networks)<br>
+      This contains two types of files:
+      <br>`reg. prefix (e.g. reg.FBSDay3_t.txt)` - filtered network edges with regression coefficient scores.
+      <br>`cc. prefix (e.g. cc.FBSDay3_t.txt)` - filtered network edges with correlation coefficient scores.<br><br><br>
+
       
+      **Step-7: Getting pseudobulk expression of mdoule genes**
+      <br><br>Module genes pseudobulk expression per condition is used as node attributes to compare cross-conditions. The pseudobulk expression is measured using the expression data ([net1_expression_with_header_gene_by_cell_t.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/net1_expression_with_header_gene_by_cell_t.txt.gz)) and the MATLAB script file [wrapper_makeBubblePlotIn.m](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/wrapper_makeBubblePlotIn.m) that internally uses two more MATLAB script files: makeBubblePlotIn.m and pseudoBulk.m.
+      ```text
+      module load matlab-r2022
+      matlab -nodisplay -r wrapper_makeBubblePlotIn
+      ```
+      **Main Output**
+      <br>[module_921/genes_in_mod921.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/module_921/genes_in_mod921.txt)<br><br><br><br>
+
+      **Step-8: Cytoscape application**
+      Now the edge file ([merged with both regression and correlation coefficient data](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/visualization/Cytoscape_based_condition_specific_visualization/module_921/merged_networks)) per edge is loaded in Cytoscape, with node attributes as pseudobulk expression for each condition in a [network style file](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/last_styles6_3shapes.xml).
       
     * _**Pseudobulk-based cell-cluster-specific module network visualization and functional and regulator inference**_
       In addition to zero-mean expression, MERLIN-inferred modules can be visualized using cell-cluster-specific pseudobulk expression profiles. This approach aggregates gene expression across cells within each cluster to provide a more robust, cluster-level view of module activity. Pseudobulk profiles are generated using the Python script [psb_ClusterID.py](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Pseudobulk_expression_profile/psb_ClusterID.py), which requires the following inputs: **Expression matrix** ([**net1_expression_with_header_gene_by_cell.txt**](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/net1_expression_with_header_gene_by_cell.txt.gz)) and **Cell cluster assignments** ([**cell_clusters.txt**](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/cell_clusters.txt)). The script aggregates expression values for all cells within each cluster and generates cell-cluster-specific pseudobulk expression profiles.
