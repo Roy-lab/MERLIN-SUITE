@@ -479,7 +479,7 @@ The file is formatted as a two-column table: the first column contains target ge
       bash get_module_genes.sh
       ```
       **Main Output**
-      <br>[module_921/genes_in_mod921.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/module_921/genes_in_mod921.txt)<br>
+      <br>[module_921/genes_in_mod921.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/module_921/genes_in_mod921.txt)<br><br><br>
 
       **Step-2: Creating module subnetwork file**
       <br><br>Next, from the MERLIN-inferred modules, the module-specific subnetwork is trimmed based on the constituent genes present in the module using the script [get_module_subnet.sh](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/get_module_subnet.sh) that uses an input MERLIN-inferred network file (e.g., [n20_subsamples_lambda_0100_0_8.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/get_module_subnet.sh)).
@@ -488,25 +488,25 @@ The file is formatted as a two-column table: the first column contains target ge
       bash get_module_subnet.sh
       ```
       **Main Output**
-      <br>[module_921/subnet_mod_921.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/module_921/subnet_mod_921.txt)<br>
+      <br>[module_921/subnet_mod_921.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/module_921/subnet_mod_921.txt)<br><br><br>
 
       **Step-3: Creating transpose of the expression matrix**
-      Now, the script [transpose_expression.sh](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/transpose_expression.sh) uses [expression_with_reordered_cellmetadata.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/expression_with_reordered_cellmetadata.txt.gz) (gene x cell) as input to generate [expression_with_reordered_cellmetadata_transpose.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/expression_with_reordered_cellmetadata_transpose.txt.gz) (Cell x gene) matrix for further usage.
+      <br><br>Now, the script [transpose_expression.sh](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/transpose_expression.sh) uses [expression_with_reordered_cellmetadata.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/expression_with_reordered_cellmetadata.txt.gz) (gene x cell) as input to generate [expression_with_reordered_cellmetadata_transpose.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/expression_with_reordered_cellmetadata_transpose.txt.gz) (Cell x gene) matrix for further usage.
       ```text
       chmod 775 transpose_expression.sh
       bash transpose_expression.sh
       ```
       **Main Output**
-      <br>[expression_with_reordered_cellmetadata_transpose.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/expression_with_reordered_cellmetadata_transpose.txt.gz)<br>
+      <br>[expression_with_reordered_cellmetadata_transpose.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/expression_with_reordered_cellmetadata_transpose.txt.gz)<br><br><br>
 
       **Step-4: Creating an individual condition-specific expression matrix and its transpose matrix for a module**
-      As we have eight different conditions of mouse cellular reprogramming (see the figure above), we will extract the expression of constituent genes for a module (e.g., Module921) on a per-condition basis and transpose them for further usage using the script file [generate_condition_expr.sh](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/generate_condition_expr.sh) that takes the input expression data ([expression_with_reordered_cellmetadata_transpose.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/expression_with_reordered_cellmetadata_transpose.txt.gz)).
+      <br><br>As we have eight different conditions of mouse cellular reprogramming (see the figure above), we will extract the expression of constituent genes for a module (e.g., Module921) on a per-condition basis and transpose them for further usage using the script file [generate_condition_expr.sh](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/generate_condition_expr.sh) that takes the input expression data ([expression_with_reordered_cellmetadata_transpose.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/expression_with_reordered_cellmetadata_transpose.txt.gz)).
       ```text
       chmod 775 generate_condition_expr.sh
       bash generate_condition_expr.sh
       ```
       **Main Output folder**
-      <br>[expression_matrices](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/visualization/Cytoscape_based_condition_specific_visualization/expression_matrices)<br>
+      <br>[expression_matrices](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/visualization/Cytoscape_based_condition_specific_visualization/expression_matrices)<br><br><br>
 
       Next, based on these condition-specific expression files, module-specific condition-specific expression files are created for each module. In this study, we only used Module 921 for demonstration. For multiple-module visualisation, the respective moduleIDs must be updated on a per-line basis in the [modules.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/modules.txt) file. For this step, we used the script file [generate_module_condition_expression_files.sh](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/generate_module_condition_expression_files.sh) that considers the transposed condition-specific expression matrices (i.e., `<CONDITION>_t.txt`) from [expression_matrices](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/visualization/Cytoscape_based_condition_specific_visualization/expression_matrices) folder and generates the module-specific expression profile and network edges for each condition.
       ```text
@@ -517,10 +517,10 @@ The file is formatted as a two-column table: the first column contains target ge
       <br>[module_921/module_inputs](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/visualization/Cytoscape_based_condition_specific_visualization/module_921/module_inputs)<br>
       This contains two types of files:
       <br>`<CONDITION>_t.txt (e.g. FBSDay3_t.txt)` - expression data per module per condition.
-      <br>`adj.<CONDITION>_t.txt (e.g. adj.FBSDay3_t.txt)` - adjacency matrix data of network edges per module per condition.<br>
+      <br>`adj.<CONDITION>_t.txt (e.g. adj.FBSDay3_t.txt)` - adjacency matrix data of network edges per module per condition.<br><br><br>
       
       **Step-5: Creating a condition-specific network per module based on the expression matrix data**
-      Next, we relearn the condition-specific networks by measuring edge weights using both regression coefficients (`reg. prefix`) and correlation coefficients (`cc. prefix`), based on the expression data for conditions per module. MATLAB scripts used: [runcc.m](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/runcc.m) (for correlation coefficients) and [runls.m](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/runls.m) (for regression coefficients).
+      <br><br>Next, we relearn the condition-specific networks by measuring edge weights using both regression coefficients (`reg. prefix`) and correlation coefficients (`cc. prefix`), based on the expression data for conditions per module. MATLAB scripts used: [runcc.m](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/runcc.m) (for correlation coefficients) and [runls.m](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/visualization/Cytoscape_based_condition_specific_visualization/runls.m) (for regression coefficients).
       ```text
       module load matlab-r2022
       matlab -nodisplay -r runls
