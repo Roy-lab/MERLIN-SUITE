@@ -2,7 +2,7 @@
 
 network="results/Merlinp/Lambda_0100/n20_subsamples_lambda_0100_0_8.txt"
 
-while read i; do
+while IFS= read -r i; do
 
     outdir="visualization/Cytoscape_based_condition_specific_visualization/module_${i}"
     genes="${outdir}/genes_in_mod${i}.txt"
@@ -10,17 +10,22 @@ while read i; do
 
     mkdir -p "$outdir"
 
-    # Extract subnetwork:
-    # keep edges where BOTH regulator and target
-    # are present in module gene list
+    # Keep edges where:
+    # regulator (col1) and target (col2)
+    # are both present in module gene list
+    # Output:
+    # regulator target score
 
     awk '
         NR==FNR {
-            genes[$1]=1
+            if ($1 != "")
+                genes[$1]=1
             next
         }
 
-        genes[$1] && genes[$2]
-    ' "$genes" "$network" > "$outfile"
+        ($1 in genes) && ($2 in genes) {
+            print $1 "\t" $2 "\t" $3
+        }
+    ' "$genes" "$network" | sort -u > "$outfile"
 
 done < modules.txt
