@@ -1,0 +1,12 @@
+cut -f1 mESC_bothko_array.txt | sort -u > mESC_bothko_array_regs.txt
+cut -f2 mESC_bothko_array.txt | sort -u > mESC_bothko_array_tgts.txt
+cut -f1 mESC_bothko_rnaseq.txt | sort -u > mESC_bothko_rnaseq_regs.txt
+cut -f2 mESC_bothko_rnaseq.txt | sort -u > mESC_bothko_rnaseq_tgts.txt
+cut -f1 mESC_chip_array.txt | sort -u > mESC_chip_array_regs.txt
+cut -f2 mESC_chip_array.txt | sort -u > mESC_chip_array_tgts.txt
+cut -f1 mESC_chip_rnaseq.txt | sort -u > mESC_chip_rnaseq_regs.txt
+cut -f2 mESC_chip_rnaseq.txt | sort -u > mESC_chip_rnaseq_tgts.txt
+cut -f1 mESC_chip.bothko_array.txt | sort -u > mESC_chip.bothko_array_regs.txt
+cut -f2 mESC_chip.bothko_array.txt | sort -u > mESC_chip.bothko_array_tgts.txt
+cut -f1 mESC_chip.bothko_rnaseq.txt | sort -u > mESC_chip.bothko_rnaseq_regs.txt
+cut -f2 mESC_chip.bothko_rnaseq.txt | sort -u > mESC_chip.bothko_rnaseq_tgts.txt
