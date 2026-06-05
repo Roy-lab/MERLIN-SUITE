@@ -21,6 +21,7 @@ y=`cut -f2 $1 | sort -u | wc -l`
 let a=x*y
 let c=a-e
 
-/mnt/dv/wid/projects2/Roy-common/programs/thirdparty/aupr/getPR_cpp/getPR $1 $2 0 1 $3.txt
-java -jar /mnt/dv/wid/projects2/Roy-common/programs/thirdparty/aupr/auc.jar $3.txt PR $e $c > $3.out.txt
+#location: https://github.com/Roy-lab/scRNAseq_NetInference/tree/master/scripts/wrapper_metrics/AUPR
+scripts/wrapper_metrics/AUPR/getPR_cpp/getPR $1 $2 0 1 $3.txt
+java -jar scripts/wrapper_metrics/AUPR/auc.jar $3.txt PR $e $c > $3.out.txt
 
