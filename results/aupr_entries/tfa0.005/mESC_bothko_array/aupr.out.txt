@@ -1,0 +1,5 @@
+--- Writing PR file /mnt/dv/wid/projects7/Roy-singlecell2/bookchapter_MERLIN_2026/suvo_work/AUPR_filtered/aupr_entries/tfa0.005/mESC_bothko_array/aupr.txt.pr ---
+--- Writing standardized PR file /mnt/dv/wid/projects7/Roy-singlecell2/bookchapter_MERLIN_2026/suvo_work/AUPR_filtered/aupr_entries/tfa0.005/mESC_bothko_array/aupr.txt.spr ---
+--- Writing ROC file /mnt/dv/wid/projects7/Roy-singlecell2/bookchapter_MERLIN_2026/suvo_work/AUPR_filtered/aupr_entries/tfa0.005/mESC_bothko_array/aupr.txt.roc ---
+Area Under the Curve for Precision - Recall is 0.13063699162940626
+Area Under the Curve for ROC is 0.5034544691169447
