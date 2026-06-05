@@ -1,0 +1,6 @@
+mESC_bothko_array	tfa0.020	0.13343662217308228
+mESC_chip_array	tfa0.020	0.23266453728713823
+mESC_chip.bothko_array	tfa0.020	0.1634749191041867
+mESC_bothko_rnaseq	tfa0.020	0.12286909845876401
+mESC_chip_rnaseq	tfa0.020	0.22579416257708396
+mESC_chip.bothko_rnaseq	tfa0.020	0.16425556057258284
