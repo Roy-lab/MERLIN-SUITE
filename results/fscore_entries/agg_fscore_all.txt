@@ -1,1 +1,1 @@
-
+algo	param	tfa	n_edges	GS_src	precision	recall	fscore	network_filter
