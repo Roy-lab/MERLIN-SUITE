@@ -406,29 +406,27 @@ The file is formatted as a two-column table: the first column contains target ge
 
     * _**AUPR and F-score comparison with Gold standard networks**_
       <br><br>To evaluate the accuracy of inferred gene regulatory networks, we compared predicted edges against experimentally derived mouse embryonic stem cell (mESC) gold standard networks using **Area Under the Precision–Recall Curve (AUPR)** and **F-score** metrics.
-      For AUPR, predicted edges were ranked by confidence, and precision and recall were computed incrementally as edges were added. The area under the resulting precision–recall curve was then calculated. AUPR provides a global assessment of network quality by considering the full ranked list of predicted interactions and is particularly well-suited for sparse biological networks. We used [six mESC gold standard networks](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/data/mesc_gold)—three each derived from RNA-seq and microarray data—for knockdown (KD), ChIP-seq (ChIP), and combined (KD+ChIP) conditions. AUPR was computed using the script [calcAupr.sh](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/scripts/calcAupr.sh), which requires the wrapper script, [aupr_wrapper.sh](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/scripts/aupr_wrapper.sh)and associated executable and JAR files from the [Roylab AUPR GitHub repository](https://github.com/Roy-lab/scRNAseq_NetInference/tree/master/scripts/wrapper_metrics/AUPR).
+      For AUPR, predicted edges were ranked by confidence, and precision and recall were computed incrementally as edges were added. The area under the resulting precision–recall curve was then calculated. AUPR provides a global assessment of network quality by considering the full ranked list of predicted interactions and is particularly well-suited for sparse biological networks. We used [six mESC gold standard networks](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/data/mesc_gold)—three each derived from RNA-seq and microarray data—for knockdown (KD), ChIP-seq (ChIP), and combined (KD+ChIP) conditions. AUPR was computed using the script [run_get_aupr_all.sh](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/scripts/run_get_aupr_all.sh), which requires the wrapper script, [get_aupr_one_dataset.sh](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/scripts/get_aupr_one_dataset.sh) and associated executable and JAR files from the [Roylab AUPR GitHub repository](https://github.com/Roy-lab/scRNAseq_NetInference/tree/master/scripts/wrapper_metrics/AUPR).
       ```text
-      chmod 775 calcAupr.sh
-      bash calcAupr.sh
+      chmod 775 run_get_aupr_all.sh
+      bash run_get_aupr_all.sh
       ```      
       **Main Output**
-      [agg_aupr.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/aupr_results/agg_aupr.txt) — summarizes AUPR scores across all gold standard networks. <br><br>
+      [agg_aupr_all.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/aupr_entries/agg_aupr_all.txt) — summarizes AUPR scores across all gold standard networks. <br><br>
 
-      In contrast, the **F-score** was computed using the network edges, reflecting the balance between precision and recall. As the harmonic mean of precision and recall, this metric emphasizes the accuracy of MERLIN predictions relative to the gold standard and complements AUPR. F-score was computed using the script: [Fscore.sh](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/scripts/Fscore.sh), which requires the [validate](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/scripts/validate) tool.
+      In contrast, the **F-score** was computed using the network edges, reflecting the balance between precision and recall. As the harmonic mean of precision and recall, this metric emphasizes the accuracy of MERLIN predictions relative to the gold standard and complements AUPR. F-score was computed using the script: [run_get_fscore_all.sh](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/scripts/run_get_fscore_all.sh), which requires the wrapper script, [get_fscore_one_dataset.sh](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/scripts/get_fscore_one_dataset.sh) tool.
       ```text
-      chmod 775 Fscore.sh
-      bash Fscore.sh
+      chmod 775 run_get_fscore_all.sh
+      bash run_get_fscore_all.sh
       ```
       **Main Outputs**<br>  
-      [edge_validation.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/fscore/edge_validation.txt) — F-score, Precision, Recall of network edges.<br>
-      [regulator_validation.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/fscore/regulator_validation.txt) — F-score, Precision, Recall of regulators.<br>
-      [target_validation.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/fscore/target_validation.txt) — F-score, Precision, Recall of targets. <br><br>
-      Both AUPR and F-score values were visualized using the [Heatmap.awk](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/scripts/Heatmap.awk) tool with a combined input file [plot_input.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/aupr_results/plot_input.txt), executed via the script [AUPR_Fscore_plotting.sh](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/scripts/AUPR_Fscore_plotting.sh)
+      [agg_fscore_all.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/fscore_entries/agg_fscore_all.txt) — F-score, Precision, Recall of network edges (Top 5000). <br><br>
+      Both AUPR and F-score values were visualized using the [Heatmap.awk](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/scripts/Heatmap.awk) tool with a combined input file [plot_input.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/aupr_entries/plot_input.txt), executed via the script [AUPR_Fscore_plotting.sh](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/scripts/AUPR_Fscore_plotting.sh)
       ```text
       chmod 775 AUPR_Fscore_plotting.sh
       bash AUPR_Fscore_plotting.sh
       ```
-      **Main Output** [AUPR_Fscore.svg](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/aupr_results/AUPR_Fscore.svg) — AUPR and F-score sumamry figure file.
+      **Main Output** [AUPR_Fscore.svg](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/aupr_entries/AUPR_Fscore.svg) — AUPR and F-score sumamry figure file.
       
 10. **Downstream visualization analysis for regulator prioritization**<br><br>
     * _**Zeromean expression-based module visualization and regulator inference**_
