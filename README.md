@@ -254,7 +254,7 @@ The **MERLIN-SUITE** pipeline consists of:
    awk 'BEGIN{OFS="\t"} {print $1,$2,$3; print $1"_nca",$2,$3}' prior.txt > net1_net.txt
    ```
 
-<br><br>This expansion resulted in a final prior network file (`net1_net.txt`) containing 8,870,126 edges, which was used as input for the **MERLIN-P** run.
+   This expansion resulted in a final prior network file (`net1_net.txt`) containing 8,870,126 edges, which was used as input for the **MERLIN-P** run.
    ```text
    9430076C15Rik	1110020A21Rik	0.945914
    9430076C15Rik_nca	1110020A21Rik	0.945914
@@ -266,11 +266,6 @@ The **MERLIN-SUITE** pipeline consists of:
    Zscan4f	Cgn	0.00269542
    Zscan4f_nca	Cgn	0.00269542
    ```
-
-
-
-
-
 
 5. **Initial cluster assignment file**
 <br><br>**MERLIN-P** requires an initial cluster (module) assignment file ([clusterassign.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/clusterassign.txt)) corresponding to the genes in the original expression matrix (`expression.txt`; 2,100 target genes). This file provides the starting point for iterative reassignment and refinement of gene module memberships until convergence.
