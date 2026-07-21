@@ -248,7 +248,13 @@ The **MERLIN-SUITE** pipeline consists of:
    
    
 3. **Duplication of Prior networks with TFA regulator**
-<br><br>Because TFA profiles were incorporated into both the input expression matrix and the regulator list, a corresponding update was also applied to the prior network file. To incorporate TFA regulators, each regulatory interaction was duplicated by appending the suffix `_nca` to the corresponding TF regulator names in the original prior network file ([prior.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/prior.txt.gz); containing 4,435,063 edges), used for the **EstimateNCA** application. This expansion resulted in a final prior network file (`net1_net.txt`) containing 8,870,126 edges, which was used as input for the **MERLIN-P** run.
+<br><br>Because TFA profiles were incorporated into both the input expression matrix and the regulator list, a corresponding update was also applied to the prior network file. To incorporate TFA regulators, each regulatory interaction was duplicated by appending the suffix `_nca` to the corresponding TF regulator names in the original prior network file ([prior.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/prior.txt.gz); containing 4,435,063 edges), used for the **EstimateNCA** application.
+
+   ```text
+   awk 'BEGIN{OFS="\t"} {print $1,$2,$3; print $1"_nca",$2,$3}' prior.txt > net1_net.txt
+   ```
+
+This expansion resulted in a final prior network file (`net1_net.txt`) containing 8,870,126 edges, which was used as input for the **MERLIN-P** run.
    ```text
    9430076C15Rik	1110020A21Rik	0.945914
    9430076C15Rik_nca	1110020A21Rik	0.945914
@@ -260,7 +266,7 @@ The **MERLIN-SUITE** pipeline consists of:
    Zscan4f	Cgn	0.00269542
    Zscan4f_nca	Cgn	0.00269542
    ```
-4. **Initial cluster assignment file**
+5. **Initial cluster assignment file**
 <br><br>**MERLIN-P** requires an initial cluster (module) assignment file ([clusterassign.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/clusterassign.txt)) corresponding to the genes in the original expression matrix (`expression.txt`; 2,100 target genes). This file provides the starting point for iterative reassignment and refinement of gene module memberships until convergence.
 The file is formatted as a two-column table: the first column contains target gene names, and the second column contains their corresponding initial module IDs. The input cluster assignment file is shown below.
    ```text
@@ -277,9 +283,9 @@ The file is formatted as a two-column table: the first column contains target ge
    Zyx	2100
    ```
 
-5. **MERLIN-P configuration file**
+6. **MERLIN-P configuration file**
 <br><br>**MERLIN-P** requires a configuration file ([net1_config.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/net1_config.txt)) which is a three-column, tab-delimited file in which each row corresponds to a prior network. The first column specifies the network name, the second column provides the file path to the prior network, and the third column indicates the network confidence, where higher values confer greater influence of the prior during model inference.
-6. **GRN inference (MERLIN-P)**
+7. **GRN inference (MERLIN-P)**
    * _**Subsampling**_
    <br><br>To reduce computational burden and enable consensus confidence-based GRN inference, we subsampled the expression matrix ([net1_expression.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/net1_expression.txt.gz)) by randomly partitioning the full dataset (4,633 cells) into half-sized (50%) subsets of 2,317 cells. This subsampling procedure was repeated 50 times using independent random partitions. Each subsample directory ([Subsamples_n2317](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/data/Subsamples_n2317)) contains 50 index files ([dataindices0.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/Subsamples_n2317/dataindices0.txt)–dataindices49.txt) specifying the selected cells, along with the corresponding subsampled expression matrices of 2,231 genes and TFAs ([dataset0.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/Subsamples_n2317/dataset0.txt.gz)–dataset49.txt). A summary of all subsampled datasets is provided in [subsample_n2317_list.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/data/subsample_n2317_list.txt).
 
@@ -327,7 +333,7 @@ The file is formatted as a two-column table: the first column contains target ge
       Vasp	1133
       ```
 
-7. **Consensus network generation**
+8. **Consensus network generation**
     * _**Filtering consensus network with confidence score threshold ≥0.8**_
       <br><br>Since **MERLIN-P** was run on 20 subsamples, we generated consensus networks across all subsamples and filtered edges using an **80% confidence threshold**, retaining only those edges that appeared in at least 16 out of 20 subsamples.
       For this [estimateedgeconf package from merlin-auxillary tool](https://github.com/Roy-lab/merlin-auxillary) was used, which is as follows:
