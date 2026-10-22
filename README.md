@@ -25,7 +25,7 @@ Traditional GRN inference relies on mRNA levels, which often poorly reflect TF a
 * Prior biological knowledge
 * Activity-based regulation (TFA)
 
-This page is associated with a bookchapter that describes the whole MERLIN-SUITE thorugh the analysis of a publicly available [single-cell multi-omics dataset (Tran _et al_. 2019)](https://www.sciencedirect.com/science/article/pii/S2211124719305297?via%3Dihub) of mouse cellular reprogramming.
+This page is associated with a bookchapter that describes the whole MERLIN-SUITE through the analysis of a publicly available [single-cell multi-omics dataset (Tran _et al_. 2019)](https://www.sciencedirect.com/science/article/pii/S2211124719305297?via%3Dihub) of mouse cellular reprogramming.
 
 ## Installation of MERLIN-P-TFA
 
@@ -308,9 +308,9 @@ The file is formatted as a two-column table: the first column contains target ge
       ```
 
    * _**Output Inferred GRN**_
-   <br><br>**MERLIN-P** outputs regulatory edges between regulators and target genes, which are available in the [result folder](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/results/Merlinp/Lambda_0100/out.0). The output result folder includes a subfolder named [fold0](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/results/Merlinp/Lambda_0100/out.0/fold0) subfolder, there are five files: [iter.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/out.0/fold0/iter.txt) (number of iteration performed), [last.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/out.0/fold0/last.txt), **[modules.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/out.0/fold0/modules.txt)** (final module assignment of genes), [pll.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/out.0/fold0/pll.txt), and the most important file is **[prediction_k300.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/out.0/fold0/prediction_k300.txt)**, which contains the inferred regulatory network. The format of the regulatory network file is similar to the input prior network, with the first column specifying the regulator, the second column the target gene, and the third column represents the regression coefficient.
+   <br><br>The output of this **MERLIN-P** run can be found in the [result folder](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/results/Merlinp/Lambda_0100/out.0), nested within the subdirectory [fold0](https://github.com/Roy-lab/MERLIN-SUITE/tree/main/results/Merlinp/Lambda_0100/out.0/fold0). This output consists of three key files: **[modules.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/out.0/fold0/modules.txt)** (final module assignment of genes), [pll.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/out.0/fold0/pll.txt) (the pseudo-log likelihood for each gene in the final inferred network), and the most important file **[prediction_k300.txt](https://github.com/Roy-lab/MERLIN-SUITE/blob/main/results/Merlinp/Lambda_0100/out.0/fold0/prediction_k300.txt)**, which contains the inferred regulatory network. The output directory may also include additional files containing metadata MERLIN-P uses for checkpointing.
 
-      Example lines from the inferred regulatory network file `prediction_k300.txt` are as follows:
+      The format of the regulatory network file is similar to the input prior network, with the first column specifying the regulator, the second column the target gene, and the third column represents the regression coefficient. Example lines from the inferred regulatory network file `prediction_k300.txt` are as follows:
       ```text
       Atf2_nca	1110038B12Rik	0.123109
       Id3	1110038B12Rik	0.0377104
